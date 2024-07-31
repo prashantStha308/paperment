@@ -1,11 +1,18 @@
-/* Style here will effect all the existing html files */
+/* Organize the fonts and colors inside the root directory */
+
+:root{
+    --bodyColor: rgb(233, 234, 216);
+    --companyNameColor: rgb(25, 72, 96);
+    --textColorLight: rgb(90, 89, 95);
+    --textColorDark: rgb(7, 52, 89);
+}
 
 body{
     width: 100svw;
     height: 100svh;
     padding: 0;
     margin: 0;
-    background-color: rgb(233, 234, 216);
+    background-color: var(--bodyColor);
 }
 
 /* Start of heading sections */
@@ -23,7 +30,7 @@ a{
     margin: 0 0 0 30px;
     padding: 0;
     font-size: 1.75rem;
-    color: rgb(25, 72, 96);
+    color: var(--companyNameColor);
     cursor: default;
 }
 
@@ -40,7 +47,7 @@ a{
     padding: 0;
     margin: 0;
     font-size: 1.25rem;
-    color: rgb(7, 52, 89);
+    color: var(--textColorLightGray);
 
     transition: all 0.3s ease;
 }
@@ -117,10 +124,11 @@ a{
 
 #searchedItems{
     width: 100%;
-    padding: 7px 10px;
+    padding: 7px 20px;
     border-radius: 40px;
     border: 1px solid black;
     outline: none;
     font-size: 1.15rem;
     color: rgb(90, 89, 95);
+    background-color: rgba(255, 255, 255, 0.286);
 }
