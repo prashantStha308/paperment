@@ -4,11 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Home | Webbers </title>
+     <!-- The globalStyle file contains/will contain scripts used by all the pages of this website -->
     <link rel="stylesheet" href="./globalStyle.css">
     <link rel="stylesheet" href="./indexStyle.css">
 </head>
 <body>
-    
+    <header>
+        <p id="companyName">Harilal Book Store</p>
+        <nav>
+            <ul id="headerListContainer">
+                <a href="#Home"><li class="headerList"> Home </li></a>
+                <a href=""><li class="headerList"> Arts and Crafts </li></a>
+                <a href=""><li class="headerList"> Sports </li></a>
+                <a href=""><li class="headerList"> Literature </li></a>
+                <a href=""><li class="headerList"> Children </li></a>
+                <a href=""><li class="headerList"> About Us </li></a>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="heroSection">
+        <div id="imageContainer">
+            <img src="./assets/image/heroImage.jpg" alt="heroImage" id="heroImage">
+        </div>
+        <div id="heroNumbers">
+            <p class="heroNumberBig"> 100K+ <br> <span class="heroNumberSmall"> Companys Availabe </span></p>
+            <p class="heroNumberBig"> 300K+ <br> <span class="heroNumberSmall"> Products Sold Today </span></p>
+            <p class="heroNumberBig"> 500K+ <br> <span class="heroNumberSmall"> Happy Customers  </span></p>
+            <p class="heroNumberBig"> 100% <br> <span class="heroNumberSmall"> Free shipping Discount </span></p>
+        </div>
+    </section>
+
+    <section id="searchBarSection">
+        <div class="searchBarElements" id="searchButtonContainer">
+            <button id="searchButton">
+                Explore Pages
+            </button>
+        </div>
+        <div class="searchBarElements" id="searchBarContainer">
+            <input type="text" id="searchedItems" placeholder="Search Items">
+        </div>
+    </section>
 
 
     <!-- The globalScript.js file contains/will contain scripts used by all the pages of this website -->

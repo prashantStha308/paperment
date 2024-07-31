@@ -1,0 +1,125 @@
+/* Style here will effect all the existing html files */
+
+body{
+    width: 100svw;
+    height: 100svh;
+    padding: 0;
+    margin: 0;
+}
+
+/* Start of heading sections */
+header{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#companyName{
+    position: absolute;
+    margin: 0 0 0 30px;
+    padding: 0;
+    font-size: 1.75rem;
+    color: rgb(25, 72, 96);
+    cursor: default;
+}
+
+#headerListContainer{
+    display: flex;
+    width: 50%;
+    margin-left: 45%;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.headerList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    color: rgb(7, 52, 89);
+
+    transition: all 0.3s ease;
+}
+
+.headerList:hover{
+    color: rgb(29, 124, 171);
+}
+
+/* End of header section */
+/* -------------------------- */
+/* Start of Hero Section */
+
+#heroNumbers{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-position: center;
+    padding: 5px 10px;
+    color: rgb(90, 89, 95);
+}
+
+#heroImage{
+    width: 100vw;
+    height: 78vh;
+    object-fit: cover;
+    margin: 10px 0 5px 0;
+}
+
+.heroNumberBig{
+    font-size: 2rem;
+}
+
+.heroNumberSmall{
+    font-size: 1.05rem;
+}
+/* End of Hero Section */
+
+/* Start of search section */
+
+#searchBarSection{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+#searchButtonContainer{
+    width: 30%;
+}
+
+#searchButton{
+    width: 100%;
+    padding: 7px 10px;
+    font-size: 1.15rem;
+    border-radius: 15px;
+    border: 1.5px solid rgb(90, 89, 95);
+    background-color: rgb(191, 199, 201);
+    color: rgb(45, 63, 79);
+    transition: all 0.3s ease-out;
+}
+
+#searchButton:hover{
+    border: 1px solid rgb(45, 42, 59);;
+    background-color: rgb(45, 63, 79);
+    color: rgb(191, 199, 201);
+}
+
+#searchBarContainer{
+    width: 40%;
+}
+
+#searchedItems{
+    width: 100%;
+    padding: 7px 10px;
+    border-radius: 40px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1.15rem;
+    color: rgb(90, 89, 95);
+}
