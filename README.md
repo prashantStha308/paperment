@@ -16,51 +16,48 @@ The ```icons``` files must contain the icons used in that page.<br><br>
 ## File naming rules:
     
 We're trying to imitating what it possily would be when working a real job, hence oranizing every asset is very crutial.<br>
-For this projet, **we'll be using a mix of camelCase and snake_case naming convention to name files**.
+For this projet, **we'll be using camelCase naming convention to name everything.**
 
 ## How to use the style?
 
 cameCase is basically, converting: <br>
 first word ---> firstWord.<br>
 <br>
-And, snake_case is basically<br>
-first word ---> first_word.<br>
-<br>
  
 ## How to use this for naming files?
 
 Naming files are crutial for knowing which files is being used by which files.<br>
-Using the style mentioned above, we can name file in the following format.<br>
+Using camelCase, we can name file in the following format.<br>
 
-```htmlFileName_style.css/script.js```<br>
+```htmlFileNameStyle.css/Script.js```<br>
 ```htmlFileName``` being the html page's name that is currently being created or worked on.<br>
-```_style.css``` representing that this file is a css file<br>
-```_script.js``` representing that this file is a javascript file.
+```Style.css``` representing that this file is a css file. The final file name will be: ```htmlFileNameStyle.css```<br>
+```Script.js``` representing that this file is a javascript file.The final file name will be: ```htmlFileNameScript.js```<br>
 
 ### Example:
 **artSection.html:**
 ```
 <html>
 <head>
-<link type = "stylesheet" href = "artSection_style.css" >
+<link type = "stylesheet" href = "artSectionStyle.css" >
 </head>
 <body>
 
-<script src = "artSection_script.js"></script>
+<script src = "artSectionScript.js"></script>
 
 </body>
 </html>
 ```
-Notice that the **artSection.html** file is using **artSection_style.css** css file and **artSection_script.js** javaScript file.
+Notice that the **artSection.html** file is using **artSectionStyle.css** css file and **artSectionScript.js** javaScript file.
 
-**Use just camelCase while naming folders with more that one word in it**
+**Use camelCase while naming folders with more that one word in it**
 
 # For Coders
 
 The ```globalScript.js``` and the ```globalStyle.css``` files will contain the codes that are being used by all the pages. For this to work, the class names for all the elements being effected **MUST be same** throughout all the html files.
 
 ## How to name variables,classes and Ids:
-Just use the **camelCase convention** for naming any classes, Ids, variables and functions.
+The **camelCase convention** must be used for naming any classes, ids, variables and functions.
 
 ## Example:
 
@@ -71,7 +68,7 @@ Just use the **camelCase convention** for naming any classes, Ids, variables and
 <title> Example Page </title>
 </head>
 <body>
-    <!-- Notice the way classes and Ids are being names -->
+    <!-- Notice the way classes and Ids are being named -->
     
       <div id="mainContainer">
 
