@@ -46,7 +46,7 @@ Using the style mentioned above, we can name file in the following format.<br>
 </head>
 <body>
 
-<script src = "artSection_Script.js"></script>
+<script src = "artSection_script.js"></script>
 
 </body>
 </html>
