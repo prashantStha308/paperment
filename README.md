@@ -42,7 +42,7 @@ Using the style mentioned above, we can name file in the following format.<br>
 ```
 <html>
 <head>
-<link type = "stylesheet" href = "artSection_Style.css" >
+<link type = "stylesheet" href = "artSection_style.css" >
 </head>
 <body>
 
