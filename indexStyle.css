@@ -1,11 +1,5 @@
 /* Organize the fonts and colors inside the root directory */
 
-:root{
-    --bodyColor: rgb(233, 234, 216);
-    --companyNameColor: rgb(25, 72, 96);
-    --textColorLight: rgb(90, 89, 95);
-    --textColorDark: rgb(7, 52, 89);
-}
 
 body{
     width: 100svw;
@@ -16,45 +10,8 @@ body{
 }
 
 /* Start of heading sections */
-header{
-    width: 100%;
-}
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-#companyName{
-    position: absolute;
-    margin: 0 0 0 30px;
-    padding: 0;
-    font-size: 1.75rem;
-    color: var(--companyNameColor);
-    cursor: default;
-}
-
-#headerListContainer{
-    display: flex;
-    width: 50%;
-    margin-left: 45%;
-    justify-content: space-evenly;
-    cursor: pointer;
-}
-
-.headerList{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.25rem;
-    color: var(--textColorLightGray);
-
-    transition: all 0.3s ease;
-}
-
-.headerList:hover{
-    color: rgb(29, 124, 171);
-}
+/* Header styles are on globalStyle.css */
 
 /* End of header section */
 /* -------------------------- */
@@ -69,6 +26,7 @@ a{
     background-position: center;
     padding: 5px 10px;
     color: rgb(90, 89, 95);
+    cursor: default;
 }
 
 #heroImage{
@@ -84,6 +42,10 @@ a{
 
 .heroNumberSmall{
     font-size: 1.05rem;
+}
+
+.heroNumberBig:hover{
+    cursor: text;
 }
 /* End of Hero Section */
 
@@ -106,16 +68,16 @@ a{
     padding: 7px 10px;
     font-size: 1.15rem;
     border-radius: 15px;
-    border: 1.5px solid rgb(90, 89, 95);
-    background-color: rgb(191, 199, 201);
-    color: rgb(45, 63, 79);
+    border: 1.5px solid var(--textColorLight);
+    background-color: var(--buttonBackground);
+    color: var(--buttonText);
     transition: all 0.3s ease-out;
 }
 
 #searchButton:hover{
     border: 1px solid rgb(45, 42, 59);;
     background-color: rgb(45, 63, 79);
-    color: rgb(191, 199, 201);
+    color: var(--buttonBackground);
 }
 
 #searchBarContainer{
