@@ -4,7 +4,7 @@
 
 /* Using the root pseudo class to organize the fonts and colors inside the root directory */
 :root{
-    --bodyColor: rgb(233, 234, 216);
+    --bodyColor: rgb(255, 255, 255);
     --companyNameColor: #130101;
     --textColorLight: rgb(90, 89, 95);
     --textColorDark: rgb(7, 52, 89);
