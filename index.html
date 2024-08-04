@@ -10,42 +10,71 @@
 </head>
 <body>
     <header>
-        <p id="companyName">Harilal Book Store</p>
+        <p id="companyName"> Paperment </p>
         <nav>
             <ul id="headerListContainer">
                 <a href="#Home"><li class="headerList"> Home </li></a>
-                <a href=""><li class="headerList"> Arts and Crafts </li></a>
-                <a href=""><li class="headerList"> Sports </li></a>
-                <a href=""><li class="headerList"> Literature </li></a>
-                <a href=""><li class="headerList"> Children </li></a>
+                <a href=""><li class="headerList"> Arts Supplies </li></a>
+                <a href=""><li class="headerList"> Academics </li></a>
+                <a href=""><li class="headerList"> Children's Books </li></a>
+                <a href=""><li class="headerList"> Sports <sup style="font-size: 0.76rem;color: rgb(218, 14, 14);">New</sup> </li></a>
                 <a href=""><li class="headerList"> About Us </li></a>
             </ul>
         </nav>
+        <div id="iconContainer">
+            <img src="./assets/icons/heartIcon.svg" alt="heartIcon" class="icon">
+            <img src="./assets/icons/shoppingCart.svg" alt="" class="icon">
+            <div id="userProfilePicture" class="icon"></div>
+        </div>
     </header>
 
+
     <section id="heroSection">
+        <!-- ImageContainer contains the big imae -->
         <div id="imageContainer">
-            <img src="./assets/image/heroImage.jpg" alt="heroImage" id="heroImage">
+            <!-- I made loading lazy. Make sure to check how things work next commit ma -->
+            <img loading="lazy" src="./assets/image/heroImage2Upscaled.png" alt="heroImage" id="heroImage">
         </div>
+        <!-- heroNumbers contains the numbers and text right below the big image -->
         <div id="heroNumbers">
-            <p class="heroNumberBig"> 100K+ <br> <span class="heroNumberSmall"> Companys Availabe </span></p>
-            <p class="heroNumberBig"> 300K+ <br> <span class="heroNumberSmall"> Products Sold Today </span></p>
-            <p class="heroNumberBig"> 500K+ <br> <span class="heroNumberSmall"> Happy Customers  </span></p>
-            <p class="heroNumberBig"> 100% <br> <span class="heroNumberSmall"> Free shipping Discount </span></p>
+            <p class="heroNumberBig"> 30+ <br> <span class="heroNumberSmall"> Branches </span></p>
+            <p class="heroNumberBig"> 200+ <br> <span class="heroNumberSmall"> Items </span></p>
+            <p class="heroNumberBig"> 10K+ <br> <span class="heroNumberSmall"> Buyers  </span></p>
+            <p class="heroNumberBig"> 100% <br> <span class="heroNumberSmall"> Free shipping </span></p>
         </div>
     </section>
+
 
     <section id="searchBarSection">
+        <!-- The explore page button -->
         <div class="searchBarElements" id="searchButtonContainer">
             <button id="searchButton">
-                Explore Pages
+                Explore sales and offers
             </button>
         </div>
+        <!-- The search text field -->
         <div class="searchBarElements" id="searchBarContainer">
             <input type="text" id="searchedItems" placeholder="Search Items">
+            <!-- <button>
+                <img src="./assets/icons/searchIcon.svg" alt="" class="icon">
+            </button> -->
         </div>
     </section>
 
+
+
+
+
+
+
+
+
+
+    <!-- The footer section is supposed to be at the end. Don't build anything below this section -->
+     <footer>
+
+     </footer>
+    
 
     <!-- The globalScript.js file contains/will contain scripts used by all the pages of this website -->
     <script src="./globalScript.js"></script>
