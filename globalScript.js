@@ -2,11 +2,11 @@
 'use strict'
 
 //Start of Header Scroll animation section
-var didScroll;
-var lastScrollTop = 0;
+var didScroll; //boolean to determine if the user has scrolled or not
+var lastScrollTop = 0; //last time where the scroll ended
 var delta = 10; // to prevent 'accidental' trigger
-var navbarHeight = 85; // probably in css
-var navbarElem = document.getElementById("header");
+var navbarHeight = 85; // height of the element. 85 is a guessed number
+var navbarElem = document.getElementById("header"); //getting the whole header
 
 window.addEventListener('scroll', ()=> {
     didScroll = true;
