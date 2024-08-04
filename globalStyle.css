@@ -23,11 +23,24 @@
 }
 
 /* Start of heading sections */
+#headerContainer{
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.beActive{
+    background-color: var(--bodyColor);
+}
+
 header{
     display: flex;
     width: 100%;
     position: fixed;
-    background-color: var(--bodyColor);
+    background-color: transparent;
 }
 
 a{
@@ -86,11 +99,15 @@ nav{
     padding: 5px;
     margin: 5px;
     stroke: var(--borderLight);
+    fill: none;
+}
+.icon:hover path{
+    fill: #130101;
 }
 
 #userProfilePicture{
-    min-width: 30px;
-    min-height: 30px;
+    min-width: 25px;
+    min-height: 25px;
     border: 1px solid var(--borderLight);
     border-radius: 100%;
 }
