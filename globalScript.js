@@ -4,7 +4,7 @@
 //Start of Header Scroll animation section
 var didScroll;
 var lastScrollTop = 0;
-var delta = 4; // to prevent 'accidental' trigger
+var delta = 10; // to prevent 'accidental' trigger
 var navbarHeight = 85; // probably in css
 var navbarElem = document.getElementById("header");
 
