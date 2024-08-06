@@ -4,22 +4,23 @@
 
 /* Using the root pseudo class to organize the fonts and colors inside the root directory */
 :root{
-    --highlightText: rgb(208, 175, 90);
-    --highlightBackground: rgb(7, 52, 89);
+    --highlightText: #d0af5a;
+    --highlightBackground: #073459;
 
-    --bodyColor: rgb(255, 255, 255);
+    --bodyColor: #ffffff;
+    --searchBarBackground: #F5F2E9;
     --companyNameColor: #130101;
-    --textColorLight: rgb(90, 89, 95);
-    --textColorDark: rgb(7, 52, 89);
+    --textColorLight: #5a595f;
+    --textColorDark: #073459;
 
-    --buttonBackground: rgb(208, 175, 90);
-    --buttonText: rgb(45, 63, 79);
+    --buttonBackground: #d0af5a;
+    --buttonText: #2d3f4f;
 
-    --borderLight: rgb(90, 89, 95);
-    --borderDark: rgb(45, 42, 59);
+    --borderLight: #5a595f;
+    --borderDark: #2d2a3b;
 
-    --shopBackgroundLight: rgb(239, 231, 185);
-    --shopElementBackgroundLight: rgb(217, 217, 217);
+    --shopBackgroundLight: #efe7b9;
+    --shopElementBackgroundLight: #d9d9d9;
 }
 
 
@@ -44,8 +45,8 @@ header{
     padding: 10px;
     width: 100%;
     position: fixed;
-    background-color: transparent;
-    /* border: 1px solid red; */
+    background-color: var(--bodyColor);
+    z-index: 100000;
 }
 
 ul{
@@ -59,25 +60,50 @@ a{
 
 nav{
     width: 70%;
-    margin-left: 40%;
     height: 10%;
 }
 
 #headerLogo{
-    width: 50px;
+    height: 45px;
+    margin-left: 20px;
 }
 
 #headerLeft{
     display: flex;
-    width: 60%;
+    width: 70%;
     height: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
+}
+
+#searchBarContainer{
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    padding: 7px 10px;
+    border: 1px solid var(--borderDark);
+    background-color: var(--searchBarBackground);
+    border-radius: 10px;
+}
+
+.searchIcon{
+    width: 20px;
+    margin-right: 5px;
 }
 
 #searchBar{
-    height: 60%;
-    width: 100%;
+    width: 90%;
+    height: 100%;
+    border-radius: 7px;
+    border: 1px solid var(--buttonText);
+    background-color: var(--searchBarBackground);
+    outline: none;
+    border: none;
+    font-size: 1.15rem;
+    font-family: 'Merge One', sans-serif;
+    color: var(--textColorLight);
 }
 
 #headerListContainer{
@@ -85,6 +111,15 @@ nav{
     width: 100%;
     padding: 0;
     justify-content: space-evenly;
+}
+
+.headerList{
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: Itim,Arial, Helvetica, sans-serif;
+    color: var(--textColorLightGray);
+    transition: all 0.3s ease;
 }
 
 #iconContainer{
@@ -111,8 +146,14 @@ nav{
     background-color: rgba(255, 255, 255, 0.419);
 }
 
-
 /* End of header section */
+
+
+
+
+
+
+
 
 
 /* Start of footer sections */

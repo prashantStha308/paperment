@@ -168,7 +168,7 @@ nav{
     color: var(--buttonBackground);
 }
 
-#searchBarContainer{
+#searchBarContainerHome{
     width: 60%;
     height: 65%;
 }
@@ -182,6 +182,7 @@ nav{
     outline: none;
     font-size: 1.15rem;
     font-family: 'Merge One', sans-serif;
+    background-color: var(--searchBarBackground);
     color: var(--textColorLight);
 }
 
