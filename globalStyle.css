@@ -89,7 +89,7 @@ nav{
 }
 
 .headerList:hover{
-    color: rgb(29, 124, 171);
+    color: var(--highlightText)
 }
 
 #iconContainer{
