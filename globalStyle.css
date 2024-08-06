@@ -4,6 +4,9 @@
 
 /* Using the root pseudo class to organize the fonts and colors inside the root directory */
 :root{
+    --highlightText: rgb(208, 175, 90);
+    --highlightBackground: rgb(7, 52, 89);
+
     --bodyColor: rgb(255, 255, 255);
     --companyNameColor: #130101;
     --textColorLight: rgb(90, 89, 95);
@@ -21,8 +24,8 @@
 
 
 *::selection{
-    background-color: var(--textColorDark);
-    color: var(--buttonBackground);
+    background-color: var(--highlightBackground);
+    color: var(--highlightText);
 }
 
 /* Start of heading sections */
@@ -33,6 +36,7 @@
     width: 100%;
     background-color: transparent;
     transition: all 0.3s ease;
+    z-index: 1000;
 }
 
 .beActive{
@@ -101,11 +105,7 @@ nav{
     width: 23px;
     padding: 5px;
     margin: 5px;
-    stroke: var(--borderLight);
-    fill: none;
-}
-.icon:hover path{
-    fill: #130101;
+    stroke: var(--highlightBackground);
 }
 
 #userProfilePicture{

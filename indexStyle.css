@@ -9,6 +9,10 @@ body{
     background-color: var(--bodyColor);
     scroll-behavior: smooth;
 }
+p{
+    margin: 0;
+    padding: 0;
+}
 /* Start of heading sections */
 
 /* Header styles are on globalStyle.css */
@@ -111,32 +115,62 @@ body{
     margin: 80px 0 0 0;
     display: grid;
     width: 100%;
-    height: calc(100vh - 80px); /* Adjust height to account for the margin */
-    grid-template-rows: auto auto;
+    height:auto;
+    grid-template-rows: auto auto auto auto auto;
     align-items: start; /* Aligns the items to the start of the grid container */
     justify-items: center;
-    gap: 20px; /* Adds space between the sections */
+    gap: 30px; /* Adds space between the sections */
 }
 
 .shopSectionContainer {
     width: 87%;
-    height: 60%; /* Explicit height to ensure sections are spaced correctly */
+    height: auto; /* Explicit height to ensure sections are spaced correctly */
+    margin: 20px 0 20px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     align-items: center;
     align-content: center;
     background-color: var(--shopBackgroundLight);
-    padding: 40px;
+    padding: 30px;
     border-radius: 20px;
     /* border: 1px solid red; */
 }
 
 .shopElements {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 20px;
-    /* padding: 60px; */
     background-color: var(--shopElementBackgroundLight);
+    filter: brightness(0.9);
+
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.fade{
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.638) , transparent );
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.shopElements:hover .fade{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sectionHeading{
+    font-size: 1.25rem;
+    font-family: 'Merge One', sans-serif;
 }
 
 #shopSection1 {
@@ -151,7 +185,7 @@ body{
 #shopSection2 {
 
     grid-template-areas: 
-    "shopHeading2 shopHeading2 shopHeading2"
+        "shopHeading2 shopHeading2 shopHeading2"
         "sectionElement5 sectionElement6 sectionElement8"
         "sectionElement5 sectionElement6 sectionElement8"
         "sectionElement5 sectionElement7 sectionElement8";
@@ -168,5 +202,93 @@ body{
         "sectionElement9 sectionElement11 sectionElement12";
 }
 
+/* Adding images to the divs */
+#section1Element1{
+    background-image: url(./assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.webp);
+    background-position: top;
+    height: 14rem;
+
+}
+
+#section1Element2{
+    background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms.jpg);
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+#section1Element3{
+    background-image: url(./assets/image/Art_Supplies/Doms/domsWatercolorSet.jpg);
+    background-position: 50% 65%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+#section1Element4{
+    background-image: url(./assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg);
+    background-position: 50% 50%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+/* For section 2 */
+
+#section2Element1{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 14rem;
+}
+
+#section2Element2{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+#section2Element3{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+#section2Element4{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 14rem;
+}
+
+/* For Section 3 */
+
+#section3Element1{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 14rem;
+}
+
+#section3Element2{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+#section3Element3{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 7rem;
+}
+
+#section3Element4{
+    background-image: url();
+    background-position: 50% 70%;
+    background-size: 97%;
+    height: 14rem;
+}
 
 /* End of Shop section */
