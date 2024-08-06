@@ -1,28 +1,97 @@
 @import url('https://fonts.cdnfonts.com/css/merge-one'); /* merge one font */
 
-body::-webkit-scrollbar{
-    display: none;
-}
-
-body{
-    width: 100svw;
-    height: 100svh;
-    padding: 0;
-    margin: 0;
-    background-color: var(--bodyColor);
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-
 p{
     margin: 0;
     padding: 0;
 }
+
 /* Start of heading sections */
+#headerContainer{
+    position: absolute;
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
 
-/* Header styles are on globalStyle.css */
+.beActive{
+    background-color: var(--bodyColor);
+}
 
+header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: transparent; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.companyName{
+    position: absolute;
+    margin: 10px 0 0 30px;
+    padding: 0;
+    font-family: Rochester,Arial, Helvetica, sans-serif;
+    font-size: 1.95rem;
+    color: var(--companyNameColor);
+    cursor: default;
+}
+
+nav{
+    width: 70%;
+    margin-left: 40%;
+    height: 10%;
+}
+
+#headerListContainer{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.headerList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: Itim,Arial, Helvetica, sans-serif;
+    color: var(--textColorLightGray);
+    transition: all 0.3s ease;
+}
+
+.headerList:hover{
+    color: var(--highlightText)
+}
+
+#iconContainer{
+    display: flex;
+    width: 12%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+
+.icon{
+    width: 23px;
+    padding: 5px;
+    margin: 5px;
+    stroke: var(--highlightBackground);
+}
+
+#userProfilePicture{
+    min-width: 25px;
+    min-height: 25px;
+    border: 1px solid var(--borderLight);
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.419);
+}
 /* End of header section */
 /* -------------------------- */
 /* Start of Hero Section */
