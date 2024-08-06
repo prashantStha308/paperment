@@ -7,6 +7,7 @@ body{
     padding: 0;
     margin: 0;
     background-color: var(--bodyColor);
+    scroll-behavior: smooth;
 }
 /* Start of heading sections */
 
@@ -103,3 +104,58 @@ body{
 }
 
 /* End of search section */
+
+/* Start of Shop Section */
+
+#shop {
+    margin: 80px 0 0 0;
+    display: grid;
+    width: 100%;
+    height: calc(100vh - 80px); /* Adjust height to account for the margin */
+    grid-template-rows: auto auto;
+    align-items: start; /* Aligns the items to the start of the grid container */
+    justify-items: center;
+    gap: 20px; /* Adds space between the sections */
+}
+
+.shopSectionContainer {
+    width: 87%;
+    height: 70%; /* Explicit height to ensure sections are spaced correctly */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+    background-color: var(--shopBackgroundLight);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.shopElements {
+    border: none;
+    border-radius: 20px;
+    /* padding: 60px; */
+    background-color: var(--shopElementBackgroundLight);
+}
+
+#shopSection1 {
+    grid-template-areas: 
+        "shopHeading1 shopHeading1 shopHeading1"
+        "sectionElement1 sectionElement2 sectionElement4"
+        "sectionElement1 sectionElement2 sectionElement4"
+        "sectionElement1 sectionElement3 sectionElement3"
+        "sectionElement1 sectionElement3 sectionElement3";
+}
+
+#shopSection2 {
+
+    grid-template-areas: 
+    "shopHeading2 shopHeading2 shopHeading2"
+        "sectionElement5 sectionElement6 sectionElement8"
+        "sectionElement5 sectionElement6 sectionElement8"
+        "sectionElement5 sectionElement7 sectionElement8"
+        "sectionElement5 sectionElement7 sectionElement8";
+}
+
+
+/* End of Shop section */

@@ -6,7 +6,7 @@ var didScroll; //boolean to determine if the user has scrolled or not
 var lastScrollTop = 0; //last time where the scroll ended
 var delta = 10; // to prevent 'accidental' trigger
 var navbarHeight = 85; // height of the element. 85 is a guessed number
-var navbarElem = document.getElementById("header"); //getting the whole header
+var navbarElem = document.getElementById("header"); //getting the header element
 
 window.addEventListener('scroll', ()=> {
     didScroll = true;
@@ -20,12 +20,12 @@ setInterval(function() {
 }, 300); // debounce
 
 function hasScrolled() {
-    var st = window.scrollY;
+    var st = window.scrollY; //captures how much the user has scrolled
 
-    if (Math.abs(lastScrollTop  -  st) <= delta)
+    if (Math.abs(lastScrollTop - st) <= delta)
         return;
 
-      if (st > lastScrollTop && st > navbarHeight) {
+    if ( st > navbarHeight) {
         navbarElem.classList.add('beActive');
         navbarElem.style.transition = "all 0.3s ease-out";
     } else {
