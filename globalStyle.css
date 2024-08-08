@@ -1,166 +1,194 @@
 /* Style here will effect all the existing html files */
 
-@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rochester&display=swap'); /* Rochester and Itim fonts */
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Rochester&display=swap"); /* Rochester and Itim fonts */
 
 /* Using the root pseudo class to organize the fonts and colors inside the root directory */
-:root{
-    --highlightText: #d0af5a;
-    --highlightBackground: #073459;
+:root {
+  --highlightText: #d0af5a;
+  --highlightBackground: #073459;
 
-    --bodyColor: #ffffff;
-    --searchBarBackground: #F5F2E9;
-    --companyNameColor: #130101;
-    --textColorLight: #5a595f;
-    --textColorDark: #073459;
+  --bodyColor: #ffffff;
+  --searchBarBackground: #f5f2e9;
+  --companyNameColor: #130101;
+  --textColorLight: #5a595f;
+  --textColorDark: #073459;
 
-    --buttonBackground: #d0af5a;
-    --buttonText: #2d3f4f;
+  --buttonBackground: #d0af5a;
+  --buttonText: #2d3f4f;
 
-    --borderLight: #5a595f;
-    --borderDark: #2d2a3b;
+  --borderLight: #5a595f;
+  --borderDark: #2d2a3b;
 
-    --shopBackgroundLight: #efe7b9;
-    --shopElementBackgroundLight: #d9d9d9;
+  --shopBackgroundLight: #efe7b9;
+  --shopElementBackgroundLight: #d9d9d9;
 }
 
-
-*::selection{
-    background-color: var(--highlightBackground);
-    color: var(--highlightText);
+*::selection {
+  background-color: var(--highlightBackground);
+  color: var(--highlightText);
 }
 
-body{
-    width: 100svw;
-    height: 100svh;
-    padding: 0;
-    margin: 0;
-    background-color: var(--bodyColor);
-    scroll-behavior: smooth;
+body {
+  width: 100svw;
+  height: 100svh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--bodyColor);
+  scroll-behavior: smooth;
+
 }
 
 /* Start of header section */
-header{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    background-color: var(--bodyColor);
-    z-index: 100000;
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  background-color: var(--bodyColor);
+  z-index: 100000;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-nav{
-    width: 70%;
-    height: 10%;
+nav {
+  width: 70%;
+  height: 10%;
 }
 
-#headerLogo{
-    height: 45px;
-    margin-left: 20px;
+#headerLogo {
+  height: 45px;
+  margin-left: 20px;
 }
 
-#headerLeft{
-    display: flex;
-    width: 70%;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 10px;
+#headerLeft {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
 }
 
-#searchBarContainer{
-    text-align: center;
-    width: 80%;
-    height: 60%;
-    display: flex;
-    padding: 7px 10px;
-    border: 1px solid var(--borderDark);
-    background-color: var(--searchBarBackground);
-    border-radius: 10px;
+#searchBarContainer {
+  text-align: center;
+  width: 80%;
+  height: 60%;
+  display: flex;
+  padding: 7px 10px;
+  border: 1px solid var(--borderDark);
+  background-color: var(--searchBarBackground);
+  border-radius: 10px;
 }
 
-.searchIcon{
-    width: 20px;
-    margin-right: 5px;
+.searchIcon {
+  width: 20px;
+  margin-right: 5px;
 }
 
-#searchBar{
-    width: 90%;
-    height: 100%;
-    border-radius: 7px;
-    border: 1px solid var(--buttonText);
-    background-color: var(--searchBarBackground);
-    outline: none;
-    border: none;
-    font-size: 1.15rem;
-    font-family: 'Merge One', sans-serif;
-    color: var(--textColorLight);
+#searchBar {
+  width: 90%;
+  height: 100%;
+  border-radius: 7px;
+  border: 1px solid var(--buttonText);
+  background-color: var(--searchBarBackground);
+  outline: none;
+  border: none;
+  font-size: 1.15rem;
+  font-family: "Merge One", sans-serif;
+  color: var(--textColorLight);
 }
 
-#headerListContainer{
-    display: flex;
-    width: 100%;
-    padding: 0;
-    justify-content: space-evenly;
+#headerListContainer {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
-.headerList{
-    padding: 0;
-    margin: 0;
-    font-size: 1.2rem;
-    font-family: Itim,Arial, Helvetica, sans-serif;
-    color: var(--textColorLightGray);
-    transition: all 0.3s ease;
+.headerList {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: Itim, Arial, Helvetica, sans-serif;
+  color: var(--textColorLightGray);
+  transition: all 0.3s ease;
 }
 
-#iconContainer{
-    display: flex;
-    width: 12%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0 10px 0 0;
+#iconContainer {
+  display: flex;
+  width: 12%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 10px 0 0;
 }
 
-.icon{
-    width: 23px;
-    padding: 5px;
-    margin: 5px;
-    stroke: var(--highlightBackground);
+.icon {
+  width: 23px;
+  padding: 5px;
+  margin: 5px;
+  stroke: var(--highlightBackground);
 }
 
-#userProfilePicture{
-    min-width: 25px;
-    min-height: 25px;
-    border: 1px solid var(--borderLight);
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.419);
+#userProfilePicture {
+  min-width: 25px;
+  min-height: 25px;
+  border: 1px solid var(--borderLight);
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.419);
 }
 
 /* End of header section */
 
-
-
-
-
-
-
-
-
 /* Start of footer sections */
 
-#footer{
-    font-family: Itim, Arial, Helvetica, sans-serif;
-    display: grid;
-    width: 100%;
-    height: 40%;
+#footer {
+  font-family: Itim, Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+    padding: 3rem;
+  /* height: 40%; */
+}
+.policies-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.policies-section ul li a{
+    color: var(--textColorLight);
+}
+.logo-section{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+
+}
+.logo-section img{
+width: 50px;
+height: 50px;
+}
+.footerCompanyName{
+    font-family: Rochester,Arial, Helvetica, sans-serif;
+    font-size: 1.95rem;
+    color: var(--companyNameColor);
+    margin-left: 1rem;
+}
+.icon-section ul{
+    margin-top: 2rem;
+    display: flex;
+    gap: 10px;
+}
+.icon-section img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
 }
