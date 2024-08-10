@@ -2,13 +2,29 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    display: grid;
+    height: 100svh;
+    width: 100svw;
+}
 /* Image Slider Section */
+
+#imageSlider{
+    margin: 100px 0 0 0;
+    display: grid;
+    gap: 30px;
+    height: 380px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
 
 #slidingSection{
     position: relative;
-    height: 60%;
-    width: 100vw;
-    border: 1px solid red;
+    height: 20rem;
+    width: 100%;
 }
 
 .sliderElements{
@@ -16,7 +32,27 @@
 }
 
 .sliderImg{
-    width: 60%;
-    height: 40%;
+    width: 450px;
+    height: 300px;
+    object-position: top;
     object-fit: cover;
+    border-radius: 20px;
+}
+
+#dotsContainer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+    height: 10%;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid red; */
+    z-index: 10000;
+    /* display: none; */
+}
+.dots{
+    background-color: var(--buttonBackground);
+    padding: 10px;
+    border-radius: 100%;
+    border: none;
 }
