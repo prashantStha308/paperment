@@ -55,4 +55,9 @@ body{
     padding: 10px;
     border-radius: 100%;
     border: none;
+    transition: all 0.3s ease;
+}
+
+.dots:hover{
+    background-color: var(--buttonText);
 }
