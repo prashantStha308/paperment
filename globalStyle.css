@@ -21,6 +21,9 @@
 
   --shopBackgroundLight: #efe7b9;
   --shopElementBackgroundLight: #d9d9d9;
+
+  --dot: #D9D9D9;
+  --darkerDot: #9D9C9C;
 }
 
 *::selection {
@@ -147,6 +150,72 @@ nav {
 }
 
 /* End of header section */
+
+
+/* Image Slider Section */
+
+#imageSlider{
+  margin: 100px 0 0 0;
+  display: grid;
+  gap: 30px;
+  height: 380px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+#slidingSection{
+  position: relative;
+  height: 20rem;
+  width: 100%;
+}
+
+.sliderElements{
+  position: absolute;
+  display: none;
+}
+
+.sliderActive{
+  display: block;
+}
+
+.sliderImg{
+  width: 450px;
+  height: 300px;
+  object-position: top;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#dotsContainer{
+  display: flex;
+  justify-content: space-between;
+  min-width: 100px;
+  height: 10%;
+  align-items: center;
+  justify-items: center;
+  /* border: 1px solid red; */
+  z-index: 10000;
+  /* display: none; */
+}
+.dots{
+  background-color: var(--dot);
+  padding: 10px;
+  border-radius: 100%;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.dotActive{
+  background-color: var(--darkerDot);
+}
+
+.dots:hover{
+  background-color: var(--darkerDot);
+}
+/* End of image Slider */
+
 
 /* Start of footer sections */
 
