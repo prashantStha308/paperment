@@ -8,5 +8,5 @@ body{
     justify-items: center; */
     height: 100svh;
     width: 100svw;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }

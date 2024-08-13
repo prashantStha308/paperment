@@ -251,6 +251,7 @@ main{
   justify-content: space-around;
 }
 
+
 .elementContainer{
   background-color: var(--shopElementBackgroundLight);
   height: 450px;

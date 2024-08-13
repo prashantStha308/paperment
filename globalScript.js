@@ -3,6 +3,7 @@
 // For image slider
 const dotsContainer = document.getElementById("dotsContainer");
 const sliderElements = document.getElementsByClassName("sliderElements");
+let currentSlideIndex = 0;
 
 function showSlides( n ) {
     const dot = document.getElementsByClassName( "dots" );
@@ -26,9 +27,20 @@ function addDots(){
     } );
 }
 
-addDots(); //Dynamically adds required amount of dots in the image slider
-showSlides(0); // Shows the first slide by default
 
+function startSlideShow() {
+    setInterval(() => {
+        currentSlideIndex++;
+        if (currentSlideIndex >= sliderElements.length) {
+            currentSlideIndex = 0;
+        }
+        showSlides(currentSlideIndex);
+    }, 2000);
+}
+
+addDots(); // Dynamically adds required amount of dots in the image slider
+showSlides(currentSlideIndex); // Shows the first slide by default
+startSlideShow(); // Start the automatic slideshow
 // End of image Slider
 
 // Start of tile generator
