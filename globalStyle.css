@@ -1,6 +1,7 @@
 /* Style here will effect all the existing html files */
 
 @import url("https://fonts.googleapis.com/css2?family=Itim&family=Rochester&display=swap"); /* Rochester and Itim fonts */
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
 /* Using the root pseudo class to organize the fonts and colors inside the root directory */
 :root {
@@ -121,7 +122,7 @@ nav {
   margin: 0;
   font-size: 1.2rem;
   font-family: Itim, Arial, Helvetica, sans-serif;
-  color: var(--textColorLightGray);
+  color: var(--textColorLight);
   transition: all 0.3s ease;
 }
 
@@ -155,7 +156,7 @@ nav {
 /* Image Slider Section */
 
 #imageSlider{
-  margin: 100px 0 0 0;
+  /* margin: 100px 0 0 0; */
   display: grid;
   gap: 30px;
   height: 380px;
@@ -171,6 +172,10 @@ nav {
   width: 100%;
 }
 
+.slide{
+  display: flex;
+}
+
 .sliderElements{
   position: absolute;
   display: none;
@@ -178,6 +183,12 @@ nav {
 
 .sliderActive{
   display: block;
+}
+
+.sliderTextContainer{
+  background-color: #563d3d;
+  height: auto;
+  width: 50%;
 }
 
 .sliderImg{
@@ -191,17 +202,14 @@ nav {
 #dotsContainer{
   display: flex;
   justify-content: space-between;
-  min-width: 100px;
+  min-width: 80px;
   height: 10%;
   align-items: center;
   justify-items: center;
-  /* border: 1px solid red; */
-  z-index: 10000;
-  /* display: none; */
 }
 .dots{
   background-color: var(--dot);
-  padding: 10px;
+  padding: 7px;
   border-radius: 100%;
   border: none;
   transition: all 0.3s ease;
@@ -216,6 +224,77 @@ nav {
 }
 /* End of image Slider */
 
+/* Start of main section */
+
+main{
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+
+}
+
+#shop{
+  padding: 20px 20px;
+  margin: 20px 0;
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+}
+
+.tileContainer{
+  width: 100%;
+  padding: 0 10px;
+  height: 30%;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.elementContainer{
+  background-color: var(--shopElementBackgroundLight);
+  height: 450px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px 10px;
+  display: grid;
+  justify-content: center;
+}
+
+.sectionHeader{
+  font-size: 2rem;
+  font-family: "Istok Web", sans-serif;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.elementImg{
+  border-radius: 5px;
+  background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg);
+  filter: brightness(0.95);
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.elementText{
+  margin-top: -40px;
+  font-family: itim,sans-serif;
+  padding: 5px;
+  line-height: 40px;
+}
+
+.elementName{
+  font-size: 1.8rem;
+}
+
+.elemntPrice{
+  font-size: 1.2rem;
+}
+
+/* End of main section */
 
 /* Start of footer sections */
 
