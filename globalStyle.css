@@ -326,8 +326,7 @@ main{
 
 
 .elementContainer{
-  /* background-color: var(--shopElementBackgroundLight); */
-  border: 1px solid var(--shopElementBackgroundLight);
+  /* border: 1px solid var(--shopElementBackgroundLight); */
   height: 450px;
   width: 300px;
   border-radius: 5px;
@@ -354,8 +353,16 @@ main{
   object-fit: cover;
 }
 
-.elementText{
+.elementTextContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   margin-top: -40px;
+  padding: 0 5px;
+}
+
+.elementText{
+  
   font-family: itim,sans-serif;
   padding: 5px;
   line-height: 40px;
@@ -367,6 +374,36 @@ main{
 
 .elemntPrice{
   font-size: 1.2rem;
+}
+
+.heartButton{
+  position: relative;
+  width: 23px;
+  height: 23px;
+  background-color: transparent;
+  background-image: url(./assets/icons/heartIcon.svg);
+  background-size: 23px 23px;
+  object-fit: cover;
+  border: none;
+}
+
+.hoverHeart{
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url(./assets/icons/heartIconFilled.svg);
+  background-size: 23px 23px;
+  object-fit: cover;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.heartButton:hover .hoverHeart{
+  opacity: 1;
 }
 
 /* End of main section */
