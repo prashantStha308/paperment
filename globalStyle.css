@@ -326,7 +326,6 @@ main{
 
 
 .elementContainer{
-  /* border: 1px solid var(--shopElementBackgroundLight); */
   height: 450px;
   width: 300px;
   border-radius: 5px;
@@ -344,10 +343,11 @@ main{
 
 .elementImg{
   border-radius: 2px;
-  background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg);
+  /* background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg); */
   filter: brightness(0.95);
   background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-size: 300px;
+  background-position: center;
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -357,7 +357,7 @@ main{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: -40px;
+  margin-top: 0px;
   padding: 0 5px;
 }
 
@@ -378,7 +378,8 @@ main{
 
 .heartButton{
   position: relative;
-  width: 23px;
+  margin-left: -10px;
+  min-width: 23px;
   height: 23px;
   background-color: transparent;
   background-image: url(./assets/icons/heartIcon.svg);

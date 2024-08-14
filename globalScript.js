@@ -102,7 +102,7 @@ function tileGenerator(){
     } )
 }
 
-tileGenerator();
+// tileGenerator();
 
 // Go To Top Section
 
