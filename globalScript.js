@@ -17,7 +17,6 @@ function showSlides( n ) {
 
 function addDots(){
     let i = 0;
-    dotsContainer.innerHTML = "";
     Array.from(sliderElements).forEach( ()=>{
         const dots = document.createElement("div");
         dots.classList.add("dots");
@@ -74,3 +73,11 @@ Array.from(tilecontainer).forEach( container=>{
         container.appendChild(tile)
     }
 } )
+
+
+// Go To Top Section
+
+function goToTop(){
+    let scrollDiv = document.getElementById("header").offsetTop;
+    window.scrollTo({ top: scrollDiv, behavior: 'smooth'});
+}

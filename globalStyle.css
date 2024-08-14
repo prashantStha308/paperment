@@ -43,9 +43,15 @@ body {
 }
 
 #getToTop{
-  padding: 40px;
-  background-color: #130101;
+  background-image: url(./assets/icons/backToTop.svg);
+  background-color: transparent;
+  border: none;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  background-size: 75px 75px;
   border-radius: 100%;
+  opacity: 0.8;
   position: fixed;
   bottom: 40px;
   right: 30px;
