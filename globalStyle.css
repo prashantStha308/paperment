@@ -126,6 +126,7 @@ nav {
 #searchBar {
   width: 90%;
   height: 100%;
+  padding: 3px;
   border-radius: 7px;
   border: 1px solid var(--buttonText);
   background-color: var(--searchBarBackground);
