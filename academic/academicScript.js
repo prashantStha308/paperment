@@ -1,9 +1,9 @@
 
-// Fetching the data from ./artProduction.json
+// Fetching the data from ./academicProduction.json
 function fetchArtProduct(callback) {
-    fetch('./artProduct.json').then(response => {
+    fetch('./academicProduct.json').then(response => {
         if (!response.ok) {
-            throw Error('Network response was not ok ' + response.statusText);
+            throw new Error('Network response was not ok ' + response.statusText);
         }
         return response.json();
     }).then(data => {
@@ -88,7 +88,6 @@ function createTile( product , container ){
         tile.appendChild( tileImage );
         tile.appendChild( tileTextContainer );
 
-        // appending the child to the container
         container.appendChild(tile);
 
 }
@@ -96,7 +95,6 @@ function createTile( product , container ){
 function generateFeatured( product ){
 
     const featuredContainer = document.getElementById("featured");
-    // creating tiles that are to be inserted in the featured section
     for( let i = 0 ; i < 8 ; i++ ){
         createTile(product[i] ,featuredContainer );
     }
@@ -105,7 +103,6 @@ function generateFeatured( product ){
 
 function generateTop( product ){
     const topPurchasedContainer = document.getElementById("topPurchases");
-    // creating tiles that are to be inserted in the Top Purchased section
     for( let i = 0 ; i < 8 ; i++ ){
         createTile(product[i] ,topPurchasedContainer );
     }
@@ -115,7 +112,6 @@ function generateTop( product ){
 function generateTrending( product ){
 
     const trendingContainer = document.getElementById("trending");
-    // creating tiles that are to be inserted in the Trending section
     for( let i = 0 ; i < 4 ; i++ ){
         createTile(product[i] ,trendingContainer );
     }
