@@ -169,16 +169,26 @@ nav{
 }
 
 #searchBarContainerHome{
-    width: 60%;
-    height: 65%;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--searchBarBackground);
+    border: 1px solid var(--borderDark);
+}
+
+#searchIconHome{
+    width: 30px;
 }
 
 #searchedItems{
-    width: 100%;
-    height: 100%;
-    padding: 7px 20px;
-    border-radius: 10px;
-    border: 1px solid var(--buttonText);
+    width: 90%;
+    height: 60%;
+    /* padding: 7px 10px; */
+    border: none;
     outline: none;
     font-size: 1.15rem;
     font-family: 'Merge One', sans-serif;
