@@ -5,6 +5,7 @@
             "name": "brushPen",
             "company": "Doms",
             "price": 450,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -21,6 +22,7 @@
             "name": "watercolorSet",
             "company": "Camlin",
             "price": 350,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 4,
@@ -37,6 +39,7 @@
             "name": "canvasPad",
             "company": "Faber-Castell",
             "price": 500,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -53,6 +56,7 @@
             "name": "acrylicPaint",
             "company": "Brustro",
             "price": 700,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -69,6 +73,7 @@
             "name": "charcoalPencils",
             "company": "Staedtler",
             "price": 300,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 4,
@@ -85,6 +90,7 @@
             "name": "oilPastels",
             "company": "Pentel",
             "price": 200,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -101,6 +107,7 @@
             "name": "sketchPad",
             "company": "Strathmore",
             "price": 250,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -117,6 +124,7 @@
             "name": "markerSet",
             "company": "Copic",
             "price": 1200,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -133,6 +141,7 @@
             "name": "calligraphyPen",
             "company": "Pilot",
             "price": 400,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
@@ -149,6 +158,7 @@
             "name": "coloredPencils",
             "company": "Prismacolor",
             "price": 650,
+            "imgSrc": "../assets/images/Art_Supplies/",
             "reviews": [
                 {
                     "star": 5,
