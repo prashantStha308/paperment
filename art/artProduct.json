@@ -1,0 +1,164 @@
+{
+    "artProduct": [
+        {
+            "id": 1,
+            "name": "brushPen",
+            "company": "Doms",
+            "price": 450,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Excellent quality and smooth application."
+                },
+                {
+                    "star": 4,
+                    "comment": "Good but a bit pricey."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "watercolorSet",
+            "company": "Camlin",
+            "price": 350,
+            "reviews": [
+                {
+                    "star": 4,
+                    "comment": "Vibrant colors, but the brushes could be better."
+                },
+                {
+                    "star": 5,
+                    "comment": "Amazing set for beginners and pros alike!"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "canvasPad",
+            "company": "Faber-Castell",
+            "price": 500,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "High-quality canvas paper, great for acrylics."
+                },
+                {
+                    "star": 4,
+                    "comment": "A bit expensive but worth the money."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "acrylicPaint",
+            "company": "Brustro",
+            "price": 700,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Rich pigments and easy to blend."
+                },
+                {
+                    "star": 3,
+                    "comment": "Good but dries too quickly."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "charcoalPencils",
+            "company": "Staedtler",
+            "price": 300,
+            "reviews": [
+                {
+                    "star": 4,
+                    "comment": "Great for sketching, smooth texture."
+                },
+                {
+                    "star": 5,
+                    "comment": "Best charcoal pencils I've used!"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "oilPastels",
+            "company": "Pentel",
+            "price": 200,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Lovely colors, easy to blend."
+                },
+                {
+                    "star": 4,
+                    "comment": "Good quality but could be softer."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "sketchPad",
+            "company": "Strathmore",
+            "price": 250,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Perfect texture for sketching."
+                },
+                {
+                    "star": 4,
+                    "comment": "A little pricey but great quality."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "markerSet",
+            "company": "Copic",
+            "price": 1200,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Top-notch markers, worth every penny."
+                },
+                {
+                    "star": 4,
+                    "comment": "Great for professional work, but expensive."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "calligraphyPen",
+            "company": "Pilot",
+            "price": 400,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Smooth writing, beautiful ink flow."
+                },
+                {
+                    "star": 4,
+                    "comment": "Great pen, but the ink runs out fast."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "coloredPencils",
+            "company": "Prismacolor",
+            "price": 650,
+            "reviews": [
+                {
+                    "star": 5,
+                    "comment": "Best colored pencils, vibrant and smooth."
+                },
+                {
+                    "star": 4,
+                    "comment": "Excellent but breaks easily."
+                }
+            ]
+        }
+    ]
+}

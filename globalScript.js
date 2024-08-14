@@ -50,7 +50,6 @@ function tileGenerator(){
 
     Array.from(tilecontainer).forEach( container=>{
         for( let i = 0; i < 8 ; i++ ){
-
             // creating tile
             const tile = document.createElement("div");
             tile.classList.add("elementContainer");
