@@ -304,7 +304,7 @@ nav{
 
 #section1Element2{
     background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms.jpg);
-    background-position: 50% 70%;
+    background-position: top;
     background-size: 97%;
     height: 14rem;
 }
@@ -347,7 +347,7 @@ nav{
 }
 
 #section2Element4{
-    background-image: url(./assets/image/academics/CodingBook/The\ C++\ Programming\ Language.jpg);
+    background-image: url(./assets/image/academics/CodingBook/Learn\ Kotlin\ Programming.jpg);
     background-position: 50% 20%;
     background-size: 30rem;
     height: 28rem;
