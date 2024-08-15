@@ -21,7 +21,7 @@
   --buttonText: #2d3f4f;
 
   --borderLight: #5a595f;
-  --borderDark: #2d2a3b;
+  --borderDark: #2d2a3b; 
 
   --shopBackgroundLight: #ece0a1;
   --shopElementBackgroundLight: #d9d9d9;
@@ -44,7 +44,7 @@
 body {
   width: 100svw;
   height: 100svh;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   background-color: var(--bodyColor);
@@ -173,6 +173,7 @@ nav {
   margin: 5px;
   stroke: var(--highlightBackground);
 }
+
 
 #userProfilePicture {
   min-width: 25px;

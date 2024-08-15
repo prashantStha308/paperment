@@ -1,7 +1,10 @@
 
 main{
     margin-top: 5rem;
+    margin-bottom: 7rem;
     width: 100svw;
+    height: auto;
+
 }
 
 #aboutHeading{
@@ -9,7 +12,7 @@ main{
     width: 100%;
     font-weight: 400;
     font-size: 2.5rem;
-    margin: 60px 0 80px 0;
+    margin: 30px 0 50px 0;
 }
 
 #aboutHeading, .aboutParas{
@@ -18,7 +21,7 @@ main{
 
 .subHeading{
     width: 100%;
-    margin: 70px 0 30px 0;
+    margin: 70px 0 40px 0;
     font-weight: 600;
     font-size: 2rem;
     text-align: center;
@@ -26,7 +29,7 @@ main{
 }
 
 section{
-    margin: 20px 0 10px 0;
+    margin: 20px 0 30px 0;
     width: 100%;
     height: 25rem;
     display: flex;
@@ -36,6 +39,7 @@ section{
     justify-content: flex-end;
 }
 
+/* Production */
 .sectionImg{
     position: absolute;
     width: 380px;
@@ -43,9 +47,10 @@ section{
     background-color: red;
     border-radius: 100%;
     top: 0;
+    left: 0;
 }
 
-.textContainer{
+.prodictionTextContainer{
     width: 100svw;
     min-height: 300px;
     background-color: var(--shopElementBackgroundLight);
@@ -53,10 +58,93 @@ section{
     justify-content: flex-end;
 }
 
-.textContainer>p{
+.prodictionTextContainer>p{
     
     width: 700px;
     font-size: 2rem;
     margin: 30px 200px 0 30px ;
 }
 
+/* Founder */
+.founderImg{
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    background-color: red;
+    border-radius: 100%;
+    top: 0;
+    right: 30px;
+    background-image: url(../assets/image/aboutPage/Frame\ 7.png);
+    background-position: center;
+}
+
+.founderTextContainer{
+    width: 100svw;
+    min-height: 300px;
+    background-color: var(--shopElementBackgroundLight);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.founderTextContainer>p{
+    width: 700px;
+    font-size: 2rem;
+    margin: 30px 30px 0px 200px ;
+}
+
+/* Branches */
+
+#ourBranches{
+    margin-top: 40px;
+    height: 32rem;
+}
+
+#imgContainer{
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    top: 0;
+}
+
+.branchImg{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 100%;
+    background-position: center;
+}
+
+.branchImg:nth-child(1){
+    background-image: url(../assets/image/aboutPage/Ellipse\ 83.png);
+}
+
+.branchImg:nth-child(2){
+    background-image: url(../assets/image/aboutPage/Ellipse\ 84.png);
+}
+
+.branchImg:nth-child(3){
+    background-image: url(../assets/image/aboutPage/Ellipse\ 85.png);
+}
+
+.branchTextContainer{
+    width: 100svw;
+    height: 300px;
+    background-color: var(--shopElementBackgroundLight);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.branchText{
+    box-sizing: border-box;
+    margin-top:90px;
+    width: 100%;
+    min-height: 300px;
+}
+
+.branchText>p{
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 70px;
+}
