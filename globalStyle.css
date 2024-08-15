@@ -44,7 +44,7 @@
 body {
   width: 100svw;
   height: 100svh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   padding: 0;
   margin: 0;
   background-color: var(--bodyColor);
@@ -75,6 +75,7 @@ header {
   padding: 10px;
   width: 100%;
   position: fixed;
+  top: 0;
   background-color: var(--bodyColor);
   z-index: 100;
 }
@@ -417,8 +418,7 @@ main{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-    padding: 3rem;
-  /* height: 40%; */
+  padding: 3rem;
 }
 .policies-section{
     display: flex;
