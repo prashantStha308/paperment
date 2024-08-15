@@ -128,6 +128,7 @@ nav{
     font-size: 1.875rem;
     font-weight: 400;
     margin-right: 20px;
+    z-index: -1;
 }
 
 /* End of Hero Section */
@@ -159,6 +160,7 @@ nav{
     border: 1.5px solid var(--borderLight);
     background-color: var(--buttonBackground);
     color: var(--buttonText);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.271);
     transition: all 0.3s ease-out;
 }
 
@@ -178,6 +180,7 @@ nav{
     align-items: center;
     background-color: var(--searchBarBackground);
     border: 1px solid var(--borderDark);
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.271);
 }
 
 #searchIconHome{
@@ -213,7 +216,7 @@ nav{
 
 .shopSectionContainer {
     width: 87%;
-    height: auto; /* Explicit height to ensure sections are spaced correctly */
+    height: auto; 
     margin: 20px 0 20px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -295,7 +298,7 @@ nav{
 #section1Element1{
     background-image: url(./assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.png);
     background-position: top;
-    height: 14rem;
+    height: 28rem;
 
 }
 
@@ -303,81 +306,173 @@ nav{
     background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms.jpg);
     background-position: 50% 70%;
     background-size: 97%;
-    height: 7rem;
+    height: 14rem;
 }
 
 #section1Element3{
     background-image: url(./assets/image/Art_Supplies/Doms/domsWatercolorSet.jpg);
     background-position: 50% 65%;
     background-size: 97%;
-    height: 7rem;
+    height: 14rem;
 }
 
 #section1Element4{
     background-image: url(./assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg);
     background-position: 50% 50%;
     background-size: 97%;
-    height: 7rem;
+    height: 14rem;
 }
 
 /* For section 2 */
 
 #section2Element1{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 14rem;
+    background-image: url(./assets/image/academics/CodingBook/Eloquent\ JavaScript.jpg);
+    background-position: 50% 10%;
+    background-size: 30rem;
+    height: 28rem;
 }
 
 #section2Element2{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 7rem;
+    background-image: url(./assets/image/academics/SchoolBooks/Principles\ of\ Biology\ for\ Grade\ 11.jpg);
+    background-position: 50% 10%;
+    background-size: 35rem;
+    height: 14rem;
 }
 
 #section2Element3{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 7rem;
+    background-image: url(./assets/image/academics/CodingBook/JavaScript\ for\ Beginners.jpeg);
+    background-position: 50% 30%;
+    background-size: 30rem;
+    height: 14rem;
 }
 
 #section2Element4{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 14rem;
+    background-image: url(./assets/image/academics/CodingBook/The\ C++\ Programming\ Language.jpg);
+    background-position: 50% 20%;
+    background-size: 30rem;
+    height: 28rem;
 }
 
 /* For Section 3 */
 
 #section3Element1{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 14rem;
+    background-image: url(./assets/image/sports/Football/168ace6b4169.jpg);
+    background-position: 50% 40%;
+    background-size: 30rem;
+    height: 28rem;
 }
 
 #section3Element2{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 7rem;
+    background-image: url(./assets/image/sports/Cricket/SF-Synthetic-Cricket-Ball-768x768.jpg);
+    background-position: 50% 30%;
+    background-size: 30rem;
+    height: 14rem;
 }
 
 #section3Element3{
-    background-image: url();
-    background-position: 50% 70%;
-    background-size: 97%;
-    height: 7rem;
+    background-image: url(./assets/image/sports/Basketball/ni_bk_00036_large.jpg);
+    background-position: 50% 40%;
+    background-size: 30rem;
+    height: 14rem;
 }
 
 #section3Element4{
-    background-image: url();
-    background-position: 50% 70%;
+    background-image: url(./assets/image/sports/TableTennis/zoom_j-essential-duel.jpg);
+    background-position: 50% 20%;
     background-size: 97%;
-    height: 14rem;
+    height: 28rem;
 }
+
+/* For section 4 */
+
+#shopSection4{
+    display: grid;
+    align-items: start;
+    width: 87%;
+    height: auto; 
+    margin: 20px 0 20px 0;
+    background-color: var(--shopBackgroundLight);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: Istok Web,sans-serif;
+}
+
+#salesMainShop{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#salesHeading{
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+
+#section4Element1{
+    width: 65%;
+    height: 15rem;
+    display: flex;
+    padding: 15px;
+    justify-content: flex-start;
+    background-color: transparent;
+}
+
+#salesBigImg{
+    background-image: url(./assets/image/sports/Cricket/ew-bat-pellara-4-copy__09758.1656395161.600.600.jpg);
+    width: 25rem;
+    height: 14rem;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    filter: brightness(0.8);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#salesLeftTextArea{
+    padding: 0 20px;
+    width: 27rem;
+    height: 13.75rem;
+    font-size: 1.4rem;
+    line-height: 50px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#section4Element2{
+    width: 19rem;
+    height: 16.8rem;
+    display: grid;
+    align-content: center;
+    background-color: transparent;
+}
+
+#salesSmallImg{
+    background-image: url(./assets/image/sports/Badminton/yonexBatmintonBatSet.jpg);
+    height: 9rem;
+    width: 15rem;
+    background-position: center;
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    filter: brightness(0.8);
+}
+
+#salesRightTextArea{
+    box-sizing: border-box;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+    background-color: white;
+    padding: 0 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
 
 /* End of Shop section */
