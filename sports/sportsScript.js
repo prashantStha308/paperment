@@ -41,6 +41,10 @@ function createTile( product , container ){
         // creating tile
         const tile = document.createElement("div");
         tile.classList.add("elementContainer");
+        tile.setAttribute(
+            "onclick",
+            `displayProduct('${product.type}' , '${product.id}')`
+          ); //copy this line to every other script
 
         // creating tile image
         const tileImage = document.createElement("div");

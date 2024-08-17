@@ -126,85 +126,8 @@ function fetchSportsProduct(callback) {
     });
 }
 
-function sortArray(array, property) {
-  // Create a copy of the array to avoid mutating the original
-  const arr = array.slice();
-
-  for (let i = 1; i < arr.length; i++) {
-    let key = arr[i];
-    let j = i - 1;
-
-    while (j >= 0 && arr[j][property] < key[property]) {
-      arr[j + 1] = arr[j];
-      j = j - 1;
-    }
-    arr[j + 1] = key;
-  }
-
-  return arr;
-}
-
-function createTile(product) {
-  const container = document.getElementById("productContainer");
-
-  for (let i = 0; i < 4; i++) {
-    // creating tile
-    const tile = document.createElement("div");
-    tile.classList.add("elementContainer");
-    tile.setAttribute("onclick", `displayProduct('${product.type}')`); //copy this line to every other script
-
-    // creating tile image
-    const tileImage = document.createElement("div");
-    tileImage.classList.add("elementImg");
-    tileImage.style.backgroundImage = `url( ${product.imgSrc} )`;
-
-    // creating tile text Container
-    const tileTextContainer = document.createElement("div");
-    tileTextContainer.classList.add("elementTextContainer");
-
-    // creating the text section
-    const tileText = document.createElement("p");
-    tileText.classList.add("elementText");
-
-    // creating a span that will contain the name of the company
-    const tileName = document.createElement("span");
-    tileName.classList.add("elementName");
-    tileName.textContent = product.name;
-
-    // creating a span element that'll contain the price of the product
-    const tilePrice = document.createElement("span");
-    tilePrice.classList.add("elementPrice");
-    tilePrice.innerHTML = ` <br> Rs.${product.price}`;
-
-    // creating a heart button
-    const heartButton = document.createElement("button");
-    heartButton.classList.add("heartButton");
-
-    // creating a heart button that'll come in effect when the button is hovered
-    const hoveredHeart = document.createElement("div");
-    hoveredHeart.classList.add("hoverHeart");
-
-    // appending/inserting the name and price span to the text Section
-    tileText.appendChild(tileName);
-    tileText.appendChild(tilePrice);
-
-    // appending/inserting the hovered heart in the actual button
-    heartButton.appendChild(hoveredHeart);
-
-    // appending/inserting the text section and heart button into text section container
-    tileTextContainer.appendChild(tileText);
-    tileTextContainer.appendChild(heartButton);
-
-    // appending/inserting the tile image and tile text container into the tile
-    tile.appendChild(tileImage);
-    tile.appendChild(tileTextContainer);
-
-    // appending the child to the container
-    container.appendChild(tile);
-  }
-}
-
 function showArt(id) {
+  
   const productImage = document.getElementById("mainProductImg");
   fetchArtProduct((artProduct) => {
     for (let i = 0; i < artProduct.artProduct.length; i++) {
@@ -212,10 +135,42 @@ function showArt(id) {
         productImage.style.backgroundImage = `url( ${artProduct.artProduct[i].imgSrc} )`;
       }
     }
+  });
+}
 
-    let sortedArt = sortArray(artProduct.artProduct, "trendRating");
-    createTile(sortedArt);
-    console.log("sdgsdgkn");
+function showAcademics(id) {
+  
+  const productImage = document.getElementById("mainProductImg");
+  fetchArtProduct((academicProduct) => {
+    for (let i = 0; i < academicProduct.academicProduct.length; i++) {
+      if (academicProduct.academicProduct[i].id == id) {
+        productImage.style.backgroundImage = `url( ${academicProduct.academicProduct[i].imgSrc} )`;
+      }
+    }
+  });
+}
+
+function showChildren(id) {
+  
+  const productImage = document.getElementById("mainProductImg");
+  fetchArtProduct((childrenProduct) => {
+    for (let i = 0; i < childrenProduct.childrenProduct.length; i++) {
+      if (childrenProduct.childrenProduct[i].id == id) {
+        productImage.style.backgroundImage = `url( ${childrenProduct.childrenProduct[i].imgSrc} )`;
+      }
+    }
+  });
+}
+
+function showSports(id) {
+  
+  const productImage = document.getElementById("mainProductImg");
+  fetchArtProduct((sportsProduct) => {
+    for (let i = 0; i < sportsProduct.sportsProduct.length; i++) {
+      if (sportsProduct.sportsProduct[i].id == id) {
+        productImage.style.backgroundImage = `url( ${sportsProduct.sportsProduct[i].imgSrc} )`;
+      }
+    }
   });
 }
 
@@ -243,12 +198,14 @@ function displayProduct(type, id) {
   const imageSlide = document.getElementsByClassName("mainImageSlider")[0];
   const mainBody = document.getElementById("mainBody");
   const productBody = document.getElementById("productBody");
+  const footer = document.getElementsByTagName( "footer" )[1];
 
   clearInterval(slideShow);
 
   imageSlide.classList.add("revokeDisplay");
   mainBody.classList.add("revokeDisplay");
-  productBody.style.display = "block";
+  footer.classList.add("revokeDisplay");
+  productBody.classList.remove("revokeDisplay");
 
   console.log(type + " and " + id);
   showProduct(type, id);

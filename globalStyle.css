@@ -19,6 +19,7 @@
 
   --buttonBackground: #ece0a1;
   --addToCartButton: #d0af5a;
+  --addToCartDarkButton: #efb524;
   --buttonText: #2d3f4f;
 
   --borderLight: #5a595f;
@@ -42,7 +43,9 @@
 }
 
 .revokeDisplay {
-  display: none;
+  visibility: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -414,9 +417,8 @@ main {
 #productBody {
   margin-top: 5rem;
   margin-bottom: 7rem;
-  height: 100svh;
+  height: 100%;
   width: 100svw;
-  height: auto;
   font-family: Itim, sans-serif;
   position: absolute;
   top: 0;
@@ -445,10 +447,38 @@ main {
   margin: 0 0 30px 0;
 }
 
-.variations > h2 {
+#topHeaderContainer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#goBack{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 100%;
+  position: absolute;
+  background-image: url(./assets/icons/goBack.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  object-fit: cover;
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease-out;
+}
+
+#goBack:hover{
+  background-color: var(--shopElementBackgroundLight);
+}
+
+#topHeaderContainer>h2 {
+  width: 100%;
   font-size: 2rem;
   border-bottom: 1px solid var(--shopElementBackgroundLight);
-  padding: 10px 0 10px 50px;
+  padding: 10px 0 10px 80px;
 }
 
 .userOption {
@@ -507,12 +537,15 @@ main {
 }
 
 .star {
-  width: 15px;
-  height: 15px;
-  border: 1px solid red;
+  width: 20px;
+  height: 20px;
+  border: none;
   background-color: transparent;
   margin: 0;
   padding: 0;
+  background-image: url(./assets/icons/ratingStarNotFilled.svg);
+  background-position: center;
+  background-size: 20px 20px;
 }
 
 /* End of left container */
@@ -553,11 +586,41 @@ main {
   border-radius: 15px;
   font-family: Itim, sans-serif;
   font-size: 1rem;
+  opacity: 1;
+  transition: all 0.3s ease-out;
+}
+
+.addToCart:hover{
+  background-color: var(--addToCartDarkButton);
+}
+
+.addToCart:active{
+  opacity: 0.6;
+}
+
+#productDescriptionContainer{
+  padding: 10px;
+  width: 100%;
+  height: 20rem;
+  text-align: start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#productDescription{
+  text-align: start;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 1.3rem;
+  font-family: Itim, sans-serif;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
 }
 
 #bodyBottom {
   display: grid;
-  /* border: 1px solid red; */
 }
 
 #QNA > h2 {
@@ -570,16 +633,36 @@ main {
 .questions {
   border-bottom: 1px solid var(--shopElementBackgroundLight);
   border-top: 1px solid var(--shopElementBackgroundLight);
-  padding: 20px 50px;
+  padding: 10px 50px;
   display: flex;
   justify-content: space-between;
   margin: 0 0 35px 0;
+  align-items: center;
+}
+
+.nextArrow{
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 100%;
+  background-image: url(./assets/icons/next.svg);
+  object-fit: cover;
+  background-position: center;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-out;
+}
+
+.nextArrow:hover {
+  background-color: var(--shopElementBackgroundLight);
+
 }
 
 #productContainer {
   width: 100%;
   padding: 0 10px;
-  height: auto;
+  min-height: 15rem;
   margin: 10px 0 10px 0;
   display: flex;
   flex-wrap: wrap;

@@ -141,15 +141,16 @@ function generateTile(sortedArray, section) {
 
 // Use the function with a callback
 fetchArtProduct((artProduct) => {
+
+
   // sorting the datas on different biases and storing them as an array
   const sortedOnTrend = sortArray(artProduct.artProduct, "trendRating");
   const sortedOnfeatured = sortArray(artProduct.artProduct, "featuredIndex");
-  const sortedOnPurchased = sortArray(
-    artProduct.artProduct,
-    "numberOfPurchased"
-  );
+  const sortedOnPurchased = sortArray(artProduct.artProduct,"numberOfPurchased" );
 
   generateTile(sortedOnfeatured, "featured");
   generateTile(sortedOnPurchased, "topPurchased");
   generateTile(sortedOnTrend, "trending");
+
+
 });
