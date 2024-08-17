@@ -194,12 +194,12 @@ function showProduct(type, id) {
   }
 }
 
-function displayProduct(type, id) {
-  const imageSlide = document.getElementsByClassName("mainImageSlider")[0];
-  const mainBody = document.getElementById("mainBody");
-  const productBody = document.getElementById("productBody");
-  const footer = document.getElementsByTagName( "footer" )[1];
+const imageSlide = document.getElementsByClassName("mainImageSlider")[0];
+const mainBody = document.getElementById("mainBody");
+const productBody = document.getElementById("productBody");
+const footer = document.getElementsByTagName( "footer" )[1];
 
+function displayProduct(type, id) {
   clearInterval(slideShow);
 
   imageSlide.classList.add("revokeDisplay");
@@ -211,4 +211,12 @@ function displayProduct(type, id) {
   showProduct(type, id);
 }
 
+function goBack(){
+
+  imageSlide.classList.remove("revokeDisplay");
+  mainBody.classList.remove("revokeDisplay");
+  footer.classList.remove("revokeDisplay");
+  productBody.classList.add("revokeDisplay");
+
+}
 // for suggesting products
