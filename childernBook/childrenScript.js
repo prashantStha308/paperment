@@ -1,5 +1,8 @@
 let imageSource = [
-    
+    "../assets/image/children/coloringBooks/bobRossColoringBook.jpg",
+    "../assets/image/children/coloringBooks/loishColoringBook.png",
+    "../assets/image/children/crayons.jpg",
+    "../assets/image/children/accessories/waterBottels.png"
 ];
 
 function applyImage(){

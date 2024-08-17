@@ -1,0 +1,258 @@
+{
+    "childrenProduct": [
+      {
+        "id": "1children",
+        "type": "children",
+        "name": "Water Bottles",
+        "company": "Camel",
+        "price": 450,
+        "trendRating": 7.9,
+        "featuredIndex": 5,
+        "numberOfPurchased": 1234,
+        "imgSrc": "../assets/image/children/accessories/waterBottels.png",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Durable and leak-proof, perfect for everyday use.",
+            "userName": "Emily Smith"
+          },
+          {
+            "star": 4,
+            "comment": "Good quality but could use a larger capacity.",
+            "userName": "Michael Johnson"
+          }
+        ]
+      },
+      {
+        "id": "2children",
+        "type": "children",
+        "name": "Bob Ross Official Coloring Book",
+        "company": "Camel",
+        "price": 350,
+        "trendRating": 9.2,
+        "featuredIndex": 4,
+        "numberOfPurchased": 650,
+        "imgSrc": "../assets/image/children/coloringBooks/bobRossColoringBook.jpg",
+        "reviews": [
+          {
+            "star": 4,
+            "comment": "Great for relaxing; love the Bob Ross themes.",
+            "userName": "Sarah Lee"
+          },
+          {
+            "star": 5,
+            "comment": "Perfect for both kids and adults; high-quality pages.",
+            "userName": "David Brown"
+          }
+        ]
+      },
+      {
+        "id": "3children",
+        "type": "children",
+        "name": "Lois van Baarle's Coloring Book",
+        "company": "Doms",
+        "price": 550,
+        "trendRating": 9.1,
+        "featuredIndex": 7,
+        "numberOfPurchased": 1750,
+        "imgSrc": "../assets/image/children/coloringBooks/loishColoringBook.png",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Beautiful illustrations and high-quality paper.",
+            "userName": "Jessica Williams"
+          },
+          {
+            "star": 4,
+            "comment": "A bit pricey, but worth it for the art quality.",
+            "userName": "James Taylor"
+          }
+        ]
+      },
+      {
+        "id": "4children",
+        "type": "children",
+        "name": "Colored Pencils",
+        "company": "Doms",
+        "price": 620,
+        "trendRating": 6.6,
+        "featuredIndex": 3,
+        "numberOfPurchased": 400,
+        "imgSrc": "../assets/image/Art_Supplies/Doms/colorPencil24-Doms.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Vibrant colors and great for detailed drawings.",
+            "userName": "Laura Davis"
+          },
+          {
+            "star": 3,
+            "comment": "Good quality, but they break easily.",
+            "userName": "John Martinez"
+          }
+        ]
+      },
+      {
+        "id": "5children",
+        "type": "children",
+        "name": "Anime Stickers",
+        "company": "Doms",
+        "price": 280,
+        "trendRating": 8.0,
+        "featuredIndex": 6,
+        "numberOfPurchased": 700,
+        "imgSrc": "../assets/image/children/stickers/animeStickers.jpg",
+        "reviews": [
+          {
+            "star": 4,
+            "comment": "Cute designs and good adhesive.",
+            "userName": "Sophia Wilson"
+          },
+          {
+            "star": 5,
+            "comment": "Fantastic quality; perfect for decorating personal items.",
+            "userName": "Daniel Anderson"
+          }
+        ]
+      },
+      {
+        "id": "6children",
+        "type": "children",
+        "name": "Disney Princess Stickers",
+        "company": "Doms",
+        "price": 220,
+        "trendRating": 8.5,
+        "featuredIndex": 5,
+        "numberOfPurchased": 500,
+        "imgSrc": "../assets/image/children/stickers/disneyPrincessSticker.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Lovely designs with vibrant colors.",
+            "userName": "Emily Harris"
+          },
+          {
+            "star": 4,
+            "comment": "Good quality, though a bit on the expensive side.",
+            "userName": "Matthew Clark"
+          }
+        ]
+      },
+      {
+        "id": "7children",
+        "type": "children",
+        "name": "Jujutsu Kaisen Stickers",
+        "company": "Strathmore",
+        "price": 270,
+        "trendRating": 8.8,
+        "featuredIndex": 8,
+        "numberOfPurchased": 450,
+        "imgSrc": "../assets/image/children/stickers/jjkStickers.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Awesome designs for anime fans; high-quality stickers.",
+            "userName": "Anna Robinson"
+          },
+          {
+            "star": 4,
+            "comment": "Great quality, but the pack could include more designs.",
+            "userName": "Christopher Walker"
+          }
+        ]
+      },
+      {
+        "id": "8children",
+        "type": "children",
+        "name": "Colorful Crayons",
+        "company": "Copic",
+        "price": 1300,
+        "trendRating": 9.4,
+        "featuredIndex": 10,
+        "numberOfPurchased": 200,
+        "imgSrc": "../assets/image/children/crayons.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Fantastic range of colors; ideal for creative projects.",
+            "userName": "Victoria Hall"
+          },
+          {
+            "star": 4,
+            "comment": "Great quality, but a bit pricey for the amount.",
+            "userName": "Anthony King"
+          }
+        ]
+      },
+      {
+        "id": "9children",
+        "type": "children",
+        "name": "Flash Cards",
+        "company": "Unknown",
+        "price": 420,
+        "trendRating": 7.4,
+        "featuredIndex": 6,
+        "numberOfPurchased": 300,
+        "imgSrc": "../assets/image/children/flashCards.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Helpful for learning; well-organized and durable.",
+            "userName": "Patricia Wright"
+          },
+          {
+            "star": 4,
+            "comment": "Effective for educational purposes, though a bit bulky.",
+            "userName": "Joshua Lopez"
+          }
+        ]
+      },
+      {
+        "id": "10children",
+        "type": "children",
+        "name": "Note Books",
+        "company": "Prismacolor",
+        "price": 680,
+        "trendRating": 8.6,
+        "featuredIndex": 7,
+        "numberOfPurchased": 220,
+        "imgSrc": "../assets/image/children/noteBooks.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Perfect for sketching and note-taking; high-quality paper.",
+            "userName": "Samantha Green"
+          },
+          {
+            "star": 4,
+            "comment": "Great notebooks; a little expensive but worth it.",
+            "userName": "Alexander Scott"
+          }
+        ]
+      },
+      {
+        "id": "11children",
+        "type": "children",
+        "name": "Puzzle Book",
+        "company": "Unknown",
+        "price": 700,
+        "trendRating": 8.3,
+        "featuredIndex": 9,
+        "numberOfPurchased": 800,
+        "imgSrc": "../assets/image/children/puzzelBook.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Fun and engaging puzzles; great for keeping kids entertained.",
+            "userName": "Michelle Lewis"
+          },
+          {
+            "star": 4,
+            "comment": "Challenging puzzles, but some are a bit too difficult.",
+            "userName": "Benjamin Martinez"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -16,9 +16,6 @@ applyImage();
 
 
 
-
-
-
 // Fetching the data from ./sportsProduct.json
 function fetchSportsProduct(callback) {
     fetch('./sportsProduct.json').then(response => {

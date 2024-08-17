@@ -5,20 +5,20 @@
       "type": "art",
       "name": "Water Color Set (Small)",
       "company": "Camel",
-      "price": 450,
-      "trendRating": 7.9,
-      "featuredIndex": 4,
+      "price": 490,
+      "trendRating": 7.5,
+      "featuredIndex": 3,
       "numberOfPurchased": 2345,
       "imgSrc": "../assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg",
       "reviews": [
         {
           "star": 5,
-          "comment": "Excellent quality and smooth application, great for detailed work.",
+          "comment": "Excellent quality with smooth application; ideal for detailed work.",
           "userName": "Emily Smith"
         },
         {
           "star": 4,
-          "comment": "Good product but a bit pricey for beginners.",
+          "comment": "Good product, though a bit expensive for beginners.",
           "userName": "Michael Johnson"
         }
       ]
@@ -28,9 +28,9 @@
       "type": "art",
       "name": "Brush Set",
       "company": "Camel",
-      "price": 350,
-      "trendRating": 6.8,
-      "featuredIndex": 3,
+      "price": 420,
+      "trendRating": 6.9,
+      "featuredIndex": 4,
       "numberOfPurchased": 314,
       "imgSrc": "../assets/image/Art_Supplies/tools/brushSet.jpg",
       "reviews": [
@@ -51,20 +51,20 @@
       "type": "art",
       "name": "Brush Pen",
       "company": "Doms",
-      "price": 500,
-      "trendRating": 8.2,
-      "featuredIndex": 7,
+      "price": 550,
+      "trendRating": 8.4,
+      "featuredIndex": 8,
       "numberOfPurchased": 1920,
       "imgSrc": "../assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg",
       "reviews": [
         {
           "star": 5,
-          "comment": "High-quality pen with smooth ink flow, perfect for fine details.",
+          "comment": "High-quality pen with smooth ink flow; perfect for fine details.",
           "userName": "Jessica Williams"
         },
         {
           "star": 4,
-          "comment": "A bit expensive, but the quality justifies the price.",
+          "comment": "A bit pricey, but the quality justifies the price.",
           "userName": "James Taylor"
         }
       ]
@@ -74,15 +74,15 @@
       "type": "art",
       "name": "Colored Pencils",
       "company": "Doms",
-      "price": 700,
-      "trendRating": 6.5,
-      "featuredIndex": 2,
+      "price": 650,
+      "trendRating": 7.0,
+      "featuredIndex": 5,
       "numberOfPurchased": 298,
       "imgSrc": "../assets/image/Art_Supplies/Doms/colorPencil24-Doms.jpg",
       "reviews": [
         {
           "star": 5,
-          "comment": "Rich pigments and easy to blend, a must-have for any artist.",
+          "comment": "Rich pigments and easy to blend; a must-have for any artist.",
           "userName": "Laura Davis"
         },
         {
@@ -97,15 +97,15 @@
       "type": "art",
       "name": "Metallic Fluid",
       "company": "Doms",
-      "price": 300,
-      "trendRating": 7.8,
-      "featuredIndex": 6,
+      "price": 290,
+      "trendRating": 8.0,
+      "featuredIndex": 7,
       "numberOfPurchased": 850,
       "imgSrc": "../assets/image/Art_Supplies/Doms/metallicFluid-Doms.png",
       "reviews": [
         {
           "star": 4,
-          "comment": "Great metallic finish, perfect for adding highlights to sketches.",
+          "comment": "Great metallic finish; perfect for adding highlights to sketches.",
           "userName": "Sophia Wilson"
         },
         {
@@ -120,15 +120,15 @@
       "type": "art",
       "name": "Neon Fluid",
       "company": "Doms",
-      "price": 200,
-      "trendRating": 8.3,
-      "featuredIndex": 5,
+      "price": 210,
+      "trendRating": 8.6,
+      "featuredIndex": 8,
       "numberOfPurchased": 460,
       "imgSrc": "../assets/image/Art_Supplies/Doms/neonFluid-Doms.png",
       "reviews": [
         {
           "star": 5,
-          "comment": "Bright and vibrant colors, easy to blend for stunning effects.",
+          "comment": "Bright and vibrant colors; easy to blend for stunning effects.",
           "userName": "Emily Harris"
         },
         {
@@ -143,15 +143,15 @@
       "type": "art",
       "name": "Color Grip",
       "company": "Strathmore",
-      "price": 250,
-      "trendRating": 8.9,
-      "featuredIndex": 8,
+      "price": 270,
+      "trendRating": 9.0,
+      "featuredIndex": 9,
       "numberOfPurchased": 312,
       "imgSrc": "../assets/image/Art_Supplies/Faber-Castell/colorGrip-faberCastell.png",
       "reviews": [
         {
           "star": 5,
-          "comment": "Perfect texture for sketching, holds color well.",
+          "comment": "Perfect texture for sketching; holds color well.",
           "userName": "Anna Robinson"
         },
         {
@@ -166,15 +166,15 @@
       "type": "art",
       "name": "Goldfaber Aqua",
       "company": "Copic",
-      "price": 1200,
-      "trendRating": 9.5,
+      "price": 1150,
+      "trendRating": 9.6,
       "featuredIndex": 10,
       "numberOfPurchased": 195,
       "imgSrc": "../assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.png",
       "reviews": [
         {
           "star": 5,
-          "comment": "Top-notch markers, worth every penny for professional work.",
+          "comment": "Top-notch markers; worth every penny for professional work.",
           "userName": "Victoria Hall"
         },
         {
@@ -189,15 +189,15 @@
       "type": "art",
       "name": "Fountain Pen",
       "company": "Unknown",
-      "price": 400,
-      "trendRating": 7.6,
-      "featuredIndex": 7,
+      "price": 380,
+      "trendRating": 7.8,
+      "featuredIndex": 6,
       "numberOfPurchased": 225,
       "imgSrc": "../assets/image/Art_Supplies/tools/fountainPen.png",
       "reviews": [
         {
           "star": 5,
-          "comment": "Smooth writing experience, beautiful ink flow.",
+          "comment": "Smooth writing experience with beautiful ink flow.",
           "userName": "Patricia Wright"
         },
         {
@@ -212,15 +212,15 @@
       "type": "art",
       "name": "Shading Stump",
       "company": "Prismacolor",
-      "price": 650,
-      "trendRating": 8.4,
-      "featuredIndex": 6,
+      "price": 700,
+      "trendRating": 8.7,
+      "featuredIndex": 8,
       "numberOfPurchased": 190,
       "imgSrc": "../assets/image/Art_Supplies/tools/stumper.png",
       "reviews": [
         {
           "star": 5,
-          "comment": "Best shading tool I've used, creates smooth blends.",
+          "comment": "Best shading tool I've used; creates smooth blends.",
           "userName": "Samantha Green"
         },
         {
@@ -235,9 +235,9 @@
       "type": "art",
       "name": "Flat Brushset",
       "company": "Unknown",
-      "price": 650,
-      "trendRating": 8.5,
-      "featuredIndex": 9,
+      "price": 720,
+      "trendRating": 9.2,
+      "featuredIndex": 10,
       "numberOfPurchased": 756,
       "imgSrc": "../assets/image/Art_Supplies/tools/brushsetFlat-unsplash.jpg",
       "reviews": [
@@ -258,15 +258,15 @@
       "type": "art",
       "name": "Oil Pastels",
       "company": "Unknown",
-      "price": 650,
-      "trendRating": 8.2,
-      "featuredIndex": 5,
+      "price": 680,
+      "trendRating": 9.4,
+      "featuredIndex": 10,
       "numberOfPurchased": 3856,
       "imgSrc": "../assets/image/Art_Supplies/colors/oilPastel-unsplash.jpg",
       "reviews": [
         {
           "star": 5,
-          "comment": "Vibrant and smooth, blends beautifully.",
+          "comment": "Vibrant and smooth; blends beautifully.",
           "userName": "Elizabeth Clark"
         },
         {
@@ -281,9 +281,9 @@
       "type": "art",
       "name": "Brush Holder",
       "company": "Unknown",
-      "price": 450,
-      "trendRating": 7.8,
-      "featuredIndex": 3,
+      "price": 480,
+      "trendRating": 8.5,
+      "featuredIndex": 9,
       "numberOfPurchased": 875,
       "imgSrc": "../assets/image/Art_Supplies/tools/brushsetHolder-unsplash.jpg",
       "reviews": [
@@ -304,15 +304,15 @@
       "type": "art",
       "name": "Watercolor Pallet",
       "company": "Unknown",
-      "price": 650,
-      "trendRating": 8.3,
-      "featuredIndex": 5,
+      "price": 720,
+      "trendRating": 9.0,
+      "featuredIndex": 9,
       "numberOfPurchased": 1642,
       "imgSrc": "../assets/image/Art_Supplies/tools/watercolorPallet-unsplash.jpg",
       "reviews": [
         {
           "star": 4,
-          "comment": "Good value for money, but could use more colors.",
+          "comment": "Good value for money; could use more colors.",
           "userName": "Lisa Johnson"
         },
         {
@@ -327,9 +327,9 @@
       "type": "art",
       "name": "Acrylic Paints",
       "company": "Unknown",
-      "price": 650,
-      "trendRating": 8.1,
-      "featuredIndex": 7,
+      "price": 700,
+      "trendRating": 8.9,
+      "featuredIndex": 9,
       "numberOfPurchased": 1869,
       "imgSrc": "../assets/image/Art_Supplies/colors/acrylicPaints-winsorAndNewton.jpg",
       "reviews": [
@@ -342,6 +342,98 @@
           "star": 4,
           "comment": "Good quality, but a bit pricey.",
           "userName": "David Smith"
+        }
+      ]
+    },
+    {
+      "id": "16art",
+      "type": "art",
+      "name": "The Art Of Lois",
+      "company": "Unknown",
+      "price": 3400,
+      "trendRating": 9.3,
+      "featuredIndex": 10,
+      "numberOfPurchased": 3869,
+      "imgSrc": "../assets/image/Art_Supplies/artBooks/theArtOfLoish.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "An inspiring art book with stunning illustrations.",
+          "userName": "Anna Roberts"
+        },
+        {
+          "star": 4,
+          "comment": "Beautiful art book, though it's on the expensive side.",
+          "userName": "David Martinez"
+        }
+      ]
+    },
+    {
+      "id": "17art",
+      "type": "art",
+      "name": "Figured Out by Rembert Montald",
+      "company": "Unknown",
+      "price": 2100,
+      "trendRating": 9.4,
+      "featuredIndex": 10,
+      "numberOfPurchased": 3869,
+      "imgSrc": "../assets/image/Art_Supplies/artBooks/figuredOut.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "A comprehensive guide with excellent illustrations.",
+          "userName": "Lisa Green"
+        },
+        {
+          "star": 4,
+          "comment": "Very detailed book; pricey but worth it for serious artists.",
+          "userName": "Michael Brown"
+        }
+      ]
+    },
+    {
+      "id": "18art",
+      "type": "art",
+      "name": "Imaginative Realism by James Gurney",
+      "company": "Unknown",
+      "price": 3500,
+      "trendRating": 9.2,
+      "featuredIndex": 10,
+      "numberOfPurchased": 3869,
+      "imgSrc": "../assets/image/Art_Supplies/artBooks/imaginativeRealism.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "A fantastic book with imaginative and realistic art techniques.",
+          "userName": "Emily Harris"
+        },
+        {
+          "star": 4,
+          "comment": "Great content and illustrations; on the higher end price-wise.",
+          "userName": "David Clark"
+        }
+      ]
+    },
+    {
+      "id": "19art",
+      "type": "art",
+      "name": "Design Your Character by Tb Choi",
+      "company": "Unknown",
+      "price": 1900,
+      "trendRating": 9.1,
+      "featuredIndex": 10,
+      "numberOfPurchased": 3869,
+      "imgSrc": "../assets/image/Art_Supplies/artBooks/tbChoiBook.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Invaluable resource for character design enthusiasts.",
+          "userName": "Samantha Jones"
+        },
+        {
+          "star": 4,
+          "comment": "Well-designed book; useful but expensive.",
+          "userName": "Christopher Lee"
         }
       ]
     }
