@@ -101,7 +101,7 @@ function createTile(product, container) {
 function generateFeatured(product) {
   const featuredContainer = document.getElementById("featured");
   // creating tiles that are to be inserted in the featured section
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < product.length; i++) {
     createTile(product[i], featuredContainer);
   }
 }
