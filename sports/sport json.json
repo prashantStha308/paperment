@@ -1,0 +1,349 @@
+{
+  "artProduct": [
+    {
+      "id": "1art",
+      "type": "art",
+      "name": "Water Color Set (Small)",
+      "company": "Camel",
+      "price": 450,
+      "trendRating": 7.9,
+      "featuredIndex": 4,
+      "numberOfPurchased": 2345,
+      "imgSrc": "../assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Excellent quality and smooth application, great for detailed work.",
+          "userName": "Emily Smith"
+        },
+        {
+          "star": 4,
+          "comment": "Good product but a bit pricey for beginners.",
+          "userName": "Michael Johnson"
+        }
+      ]
+    },
+    {
+      "id": "2art",
+      "type": "art",
+      "name": "Brush Set",
+      "company": "Camel",
+      "price": 350,
+      "trendRating": 6.8,
+      "featuredIndex": 3,
+      "numberOfPurchased": 314,
+      "imgSrc": "../assets/image/Art_Supplies/tools/brushSet.jpg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Vibrant brush set, but the bristles wear out quickly.",
+          "userName": "Sarah Lee"
+        },
+        {
+          "star": 5,
+          "comment": "Great for both watercolors and acrylics.",
+          "userName": "David Brown"
+        }
+      ]
+    },
+    {
+      "id": "3art",
+      "type": "art",
+      "name": "Brush Pen",
+      "company": "Doms",
+      "price": 500,
+      "trendRating": 8.2,
+      "featuredIndex": 7,
+      "numberOfPurchased": 1920,
+      "imgSrc": "../assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "High-quality pen with smooth ink flow, perfect for fine details.",
+          "userName": "Jessica Williams"
+        },
+        {
+          "star": 4,
+          "comment": "A bit expensive, but the quality justifies the price.",
+          "userName": "James Taylor"
+        }
+      ]
+    },
+    {
+      "id": "4art",
+      "type": "art",
+      "name": "Colored Pencils",
+      "company": "Doms",
+      "price": 700,
+      "trendRating": 6.5,
+      "featuredIndex": 2,
+      "numberOfPurchased": 298,
+      "imgSrc": "../assets/image/Art_Supplies/Doms/colorPencil24-Doms.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Rich pigments and easy to blend, a must-have for any artist.",
+          "userName": "Laura Davis"
+        },
+        {
+          "star": 3,
+          "comment": "Good pencils, but they dry out too quickly.",
+          "userName": "John Martinez"
+        }
+      ]
+    },
+    {
+      "id": "5art",
+      "type": "art",
+      "name": "Metallic Fluid",
+      "company": "Doms",
+      "price": 300,
+      "trendRating": 7.8,
+      "featuredIndex": 6,
+      "numberOfPurchased": 850,
+      "imgSrc": "../assets/image/Art_Supplies/Doms/metallicFluid-Doms.png",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Great metallic finish, perfect for adding highlights to sketches.",
+          "userName": "Sophia Wilson"
+        },
+        {
+          "star": 5,
+          "comment": "The best metallic fluid I've used; it really makes my artwork pop.",
+          "userName": "Daniel Anderson"
+        }
+      ]
+    },
+    {
+      "id": "6art",
+      "type": "art",
+      "name": "Neon Fluid",
+      "company": "Doms",
+      "price": 200,
+      "trendRating": 8.3,
+      "featuredIndex": 5,
+      "numberOfPurchased": 460,
+      "imgSrc": "../assets/image/Art_Supplies/Doms/neonFluid-Doms.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Bright and vibrant colors, easy to blend for stunning effects.",
+          "userName": "Emily Harris"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality, but the fluid could be a bit softer.",
+          "userName": "Matthew Clark"
+        }
+      ]
+    },
+    {
+      "id": "7art",
+      "type": "art",
+      "name": "Color Grip",
+      "company": "Strathmore",
+      "price": 250,
+      "trendRating": 8.9,
+      "featuredIndex": 8,
+      "numberOfPurchased": 312,
+      "imgSrc": "../assets/image/Art_Supplies/Faber-Castell/colorGrip-faberCastell.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Perfect texture for sketching, holds color well.",
+          "userName": "Anna Robinson"
+        },
+        {
+          "star": 4,
+          "comment": "A little pricey, but the quality is top-notch.",
+          "userName": "Christopher Walker"
+        }
+      ]
+    },
+    {
+      "id": "8art",
+      "type": "art",
+      "name": "Goldfaber Aqua",
+      "company": "Copic",
+      "price": 1200,
+      "trendRating": 9.5,
+      "featuredIndex": 10,
+      "numberOfPurchased": 195,
+      "imgSrc": "../assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Top-notch markers, worth every penny for professional work.",
+          "userName": "Victoria Hall"
+        },
+        {
+          "star": 4,
+          "comment": "Great for detailed work, but very expensive.",
+          "userName": "Anthony King"
+        }
+      ]
+    },
+    {
+      "id": "9art",
+      "type": "art",
+      "name": "Fountain Pen",
+      "company": "Unknown",
+      "price": 400,
+      "trendRating": 7.6,
+      "featuredIndex": 7,
+      "numberOfPurchased": 225,
+      "imgSrc": "../assets/image/Art_Supplies/tools/fountainPen.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Smooth writing experience, beautiful ink flow.",
+          "userName": "Patricia Wright"
+        },
+        {
+          "star": 4,
+          "comment": "Great pen, but the ink runs out a bit fast.",
+          "userName": "Joshua Lopez"
+        }
+      ]
+    },
+    {
+      "id": "10art",
+      "type": "art",
+      "name": "Shading Stump",
+      "company": "Prismacolor",
+      "price": 650,
+      "trendRating": 8.4,
+      "featuredIndex": 6,
+      "numberOfPurchased": 190,
+      "imgSrc": "../assets/image/Art_Supplies/tools/stumper.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Best shading tool I've used, creates smooth blends.",
+          "userName": "Samantha Green"
+        },
+        {
+          "star": 4,
+          "comment": "Excellent for shading, but it breaks easily.",
+          "userName": "Alexander Scott"
+        }
+      ]
+    },
+    {
+      "id": "11art",
+      "type": "art",
+      "name": "Flat Brushset",
+      "company": "Unknown",
+      "price": 650,
+      "trendRating": 8.5,
+      "featuredIndex": 9,
+      "numberOfPurchased": 756,
+      "imgSrc": "../assets/image/Art_Supplies/tools/brushsetFlat-unsplash.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "The flat brushes are perfect for large washes and fine details.",
+          "userName": "Michelle Lewis"
+        },
+        {
+          "star": 4,
+          "comment": "Good set, but the brushes could be a bit sturdier.",
+          "userName": "Benjamin Martinez"
+        }
+      ]
+    },
+    {
+      "id": "12art",
+      "type": "art",
+      "name": "Oil Pastels",
+      "company": "Unknown",
+      "price": 650,
+      "trendRating": 8.2,
+      "featuredIndex": 5,
+      "numberOfPurchased": 3856,
+      "imgSrc": "../assets/image/Art_Supplies/colors/oilPastel-unsplash.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Vibrant and smooth, blends beautifully.",
+          "userName": "Elizabeth Clark"
+        },
+        {
+          "star": 4,
+          "comment": "Great pastels, but they break easily if not handled carefully.",
+          "userName": "Charles Perez"
+        }
+      ]
+    },
+    {
+      "id": "13art",
+      "type": "art",
+      "name": "Brush Holder",
+      "company": "Unknown",
+      "price": 450,
+      "trendRating": 7.8,
+      "featuredIndex": 3,
+      "numberOfPurchased": 875,
+      "imgSrc": "../assets/image/Art_Supplies/tools/brushsetHolder-unsplash.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Keeps my brushes organized and easy to access.",
+          "userName": "Mary White"
+        },
+        {
+          "star": 4,
+          "comment": "Functional and sturdy, but a bit bulky.",
+          "userName": "Christopher Hernandez"
+        }
+      ]
+    },
+    {
+      "id": "14art",
+      "type": "art",
+      "name": "Watercolor Pallet",
+      "company": "Unknown",
+      "price": 650,
+      "trendRating": 8.3,
+      "featuredIndex": 5,
+      "numberOfPurchased": 1642,
+      "imgSrc": "../assets/image/Art_Supplies/tools/watercolorPallet-unsplash.jpg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Good value for money, but could use more colors.",
+          "userName": "Lisa Johnson"
+        },
+        {
+          "star": 5,
+          "comment": "Great quality and vibrant colors.",
+          "userName": "Michael Brown"
+        }
+      ]
+    },
+    {
+      "id": "15art",
+      "type": "art",
+      "name": "Acrylic Paints",
+      "company": "Unknown",
+      "price": 650,
+      "trendRating": 8.1,
+      "featuredIndex": 7,
+      "numberOfPurchased": 1869,
+      "imgSrc": "../assets/image/Art_Supplies/colors/acrylicPaints-winsorAndNewton.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Excellent pigmentation and consistency.",
+          "userName": "Emily Davis"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality, but a bit pricey.",
+          "userName": "David Smith"
+        }
+      ]
+    }
+  ]
+}
