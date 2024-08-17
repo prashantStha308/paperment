@@ -1,0 +1,350 @@
+
+{
+  "sportProduct": [
+    {
+      "id": "1sport",
+      "type": "sport",
+      "name": "Football",
+      "company": "Nike",
+      "price": 450,
+      "trendRating": 7.9,
+      "featuredIndex": 4,
+      "numberOfPurchased": 2345,
+      "imgSrc": "../assets/image/sports/Football/)Oa6bc775aO.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "A high-quality football with excellent durability. Ideal for both training and matches, although it might be a bit pricey for those just starting out.",
+          "userName": "Alejandro Martinez"
+        },
+        {
+          "star": 4,
+          "comment": "Good product but a bit pricey for begineers.",
+          "userName": "Ingrid Svensson"
+        }
+      ]
+    },
+    {
+      "id": "2sport",
+      "type": "sport",
+      "name": "Football",
+      "company": "Adidas",
+      "price": 350,
+      "trendRating": 6.8,
+      "featuredIndex": 3,
+      "numberOfPurchased": 314,
+      "imgSrc": "../assets/image/sports/Football/168ace6b4169.jpg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Good value for the price. This football performs well and is durable, but it could benefit from improved grip",
+          "userName": "Hiroshi Tanaka"
+        },
+        {
+          "star": 5,
+          "comment": "Great value for money, very durable and performs well on various surfaces.",
+          "userName": "Fatima Al-Hassan"
+        }
+      ]
+    },
+    {
+      "id": "3sport",
+      "type": "sport",
+      "name": "Cricket Bat",
+      "company": "SG",
+      "price": 500,
+      "trendRating": 8.2,
+      "featuredIndex": 7,
+      "numberOfPurchased": 1920,
+      "imgSrc": "../assets/image/sports/Cricket/Bat-2-768x768.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "High-quality bat with excellent balance and power. Perfect for serious cricketers.",
+          "userName": "Dimitri Iranov"
+        },
+        {
+          "star": 4,
+          "comment": "A bit expensive, but the quality justifies the price.",
+          "userName": "Amina Osel"
+        }
+      ]
+    },
+    {
+      "id": "4sport",
+      "type": "sport",
+      "name": "Cricket Ball",
+      "company": "Stanford",
+      "price": 700,
+      "trendRating": 6.5,
+      "featuredIndex": 2,
+      "numberOfPurchased": 298,
+      "imgSrc": "../assets/image/sports/Cricket/SF-Synthetic-Cricket-Ball-768x768.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Excellent ball for both practice and matches. Consistent performance and durable",
+          "userName": "John Hanks"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality but wears out faster than expected",
+          "userName": "Ali Khan"
+        }
+      ]
+    },
+    {
+      "id": "5sport",
+      "type": "sport",
+      "name": "Badminton",
+      "company": "apacs",
+      "price": 300,
+      "trendRating": 7.8,
+      "featuredIndex": 6,
+      "numberOfPurchased": 850,
+      "imgSrc": "../assets/image/sports/Badminton/apacsBatmintonBatSet.jpg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Great value for money. The racket feels solid and performs well in both casual and competitive games.",
+          "userName": "Luca Rossi"
+        },
+        {
+          "star": 5,
+          "comment": "Excellent racket, offers great control and power. A must-have for any badminton enthusiast.",
+          "userName": "Fernando Gonzalez"
+        }
+      ]
+    },
+    {
+      "id": "6sport",
+      "type": "sport",
+      "name": "Basketball",
+      "company": "COSCO",
+      "price": 200,
+      "trendRating": 8.3,
+      "featuredIndex": 5,
+      "numberOfPurchased": 460,
+      "imgSrc": "../assets/image/sports/Basketball/cc_bk_00025_large.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Great basketball with a good grip and durability. Ideal for both indoor and outdoor play.",
+          "userName": "Mei Ling"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality and value for money. The ball could be a bit softer for better handling",
+          "userName": "Hans Miller"
+        }
+      ]
+    },
+    {
+      "id": "7sport",
+      "type": "sport",
+      "name": "Basketball",
+      "company": "NIVIA",
+      "price": 250,
+      "trendRating": 8.9,
+      "featuredIndex": 8,
+      "numberOfPurchased": 312,
+      "imgSrc": "../assets/image/sports/Basketball/ni_bk_00036_large.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Perfect texture and grip. Ideal for serious plyers who need a reliable basketball.",
+          "userName": "David Ross"
+        },
+        {
+          "star": 4,
+          "comment": "A bit expensive, but the quality justifies the price.",
+          "userName": "Kai Fernandez"
+        }
+      ]
+    },
+    {
+      "id": "8sport",
+      "type": "sport",
+      "name": "Volleyball",
+      "company": "Gulf Shores",
+      "price": 1200,
+      "trendRating": 9.5,
+      "featuredIndex": 10,
+      "numberOfPurchased": 195,
+      "imgSrc": "../assets/image/sports/Volleyball/11730-S000059214-2.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Top-notch volleyball, excellent for professional matches. Worth every penny.",
+          "userName": "Ben Ferguson"
+        },
+        {
+          "star": 4,
+          "comment": "Great quality and design. A bit expensive, but you get what you paid for.",
+          "userName": "Jenny Morrison"
+        }
+      ]
+    },
+    {
+      "id": "9sport",
+      "type": "sport",
+      "name": "Volleyball",
+      "company": "Wilson",
+      "price": 400,
+      "trendRating": 7.6,
+      "featuredIndex": 7,
+      "numberOfPurchased": 225,
+      "imgSrc": "../assets/image/sports/Volleyball/11735-S000315989-1.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Smooth handling and excellent bounce. Ideal for competitive play.",
+          "userName": "Shane Marinez"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality but wears out faster than expected",
+          "userName": "Nicholas Williams"
+        }
+      ]
+    },
+    {
+      "id": "10sport",
+      "type": "sport",
+      "name": "Table Tennis",
+      "company": "JOOLA",
+      "price": 650,
+      "trendRating": 8.4,
+      "featuredIndex": 6,
+      "numberOfPurchased": 190,
+      "imgSrc": "../assets/image/sports/TableTennis/zoom_j-colorato-racket-set.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "High quality racket set with great control and speed. Perfect for serious players.",
+          "userName": "Samantha Green"
+        },
+        {
+          "star": 4,
+          "comment": "Excellent for competitive play. The handle could be a bit more comfortable.",
+          "userName": "Fabrizio Stones"
+        }
+      ]
+    },
+    {
+      "id": "11sport",
+      "type": "sport",
+      "name": "Table Tennis",
+      "company": "JOOLA",
+      "price": 650,
+      "trendRating": 8.5,
+      "featuredIndex": 9,
+      "numberOfPurchased": 756,
+      "imgSrc": "../assets/image/sports/TableTennis/zoom_j-essential-duel.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "The best racket set I have used. Great for both begineers and advanced players.",
+          "userName": "Joe Maxwell"
+        },
+        {
+          "star": 4,
+          "comment": "Solid performance, but the durability of the rockets could be improved.",
+          "userName": "Pedro Poroo"
+        }
+      ]
+    },
+    {
+      "id": "12sport",
+      "type": "sport",
+      "name": "Milan Jersy",
+      "company": "Nike",
+      "price": 650,
+      "trendRating": 8.2,
+      "featuredIndex": 5,
+      "numberOfPurchased": 3856,
+      "imgSrc": "../assets/image/sports/FootballJersys/inter-milan-nike-academy-pro-pre-match-top-blue-kids_ss5_p-13386556+u-yltihmsxzsvoswcuf4mi+v-5q5blswcdzraslx8ep8j.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "The quality is superv and design looks fantastic. Worth every penny.",
+          "userName": "Aitana Gomez"
+        },
+        {
+          "star": 3,
+          "comment": "It seems downgrade than previous season.",
+          "userName": "Alexia Fernandez"
+        }
+      ]
+    },
+    {
+      "id": "13sport",
+      "type": "sport",
+      "name": "Barca jersy",
+      "company": "Nike",
+      "price": 450,
+      "trendRating": 7.8,
+      "featuredIndex": 3,
+      "numberOfPurchased": 875,
+      "imgSrc": "../assets/image/sports/FootballJersys/barcelona-nike-home-dri-fit-adv-match-shirt-2024-25_ss5_p-200889581+u-edbeajh1biq4sma7lq1p+v-35p0fbx8wxxe3zolteeb.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "The jersy is of excellent quality and feels great to wear. A must-have for any fan",
+          "userName": "Kane Williams"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality and design, though it's a bit bulky for everyday wear.",
+          "userName": "Jamie Halls"
+        }
+      ]
+    },
+    {
+      "id": "14sport",
+      "type": "sport",
+      "name": "Argentina Jersy",
+      "company": "Adidas",
+      "price": 650,
+      "trendRating": 8.3,
+      "featuredIndex": 5,
+      "numberOfPurchased": 1642,
+      "imgSrc": "../assets/image/sports/FootballJersys/argentina-adidas-home-shirt-2024-with-messi-10-printing_ss5_p-201398952+u-fufux0wkpuwzalts0pxq+v-bx3le68oso0rqfamjzwj.jpg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Great value for money and high-quality material. Could use a few more color options.",
+          "userName": "Andrez Maret"
+        },
+        {
+          "star": 5,
+          "comment": "Fantastic quality and vibrant colors. Perfect for showing support",
+          "userName": "Alex Fernandez"
+        }
+      ]
+    },
+    {
+      "id": "15sport",
+      "type": "sport",
+      "name": "Manchester City Jersy",
+      "company": "Puma",
+      "price": 650,
+      "trendRating": 8.1,
+      "featuredIndex": 7,
+      "numberOfPurchased": 1869,
+      "imgSrc": "../assets/image/sports/FootballJersys/manchester-city-puma-home-shirt-2024-25-kids_ss5_p-201036677+u-imvwyztacimhy0romzyb+v-8oy05jwmlc2vnqysqx7e.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Excellent quality and design. The jersey is comfortabe and looks great.",
+          "userName": "Dane Steph"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality and fit, but the price is a bit steep.",
+          "userName": "Alicia Hernandez"
+        }
+      ]
+    }
+  ]
+}
