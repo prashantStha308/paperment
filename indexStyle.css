@@ -249,14 +249,14 @@ nav{
     border-radius: 20px;
     height: 100%;
     width: 100%;
-    opacity: 1;
+    opacity: 0;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.638) , transparent );
     z-index: 10;
     transition: all 0.5s ease;
 }
 
 .shopElements:hover .fade{
-    opacity: 0;
+    opacity: 1;
     visibility: hidden;
 }
 
