@@ -1,3 +1,18 @@
+let imageSource = [
+    
+];
+
+function applyImage(){
+const sliderImage = document.getElementsByClassName( "sliderImg" );
+for( let i = 0; i < sliderImage.length; i++ ){
+    sliderImage[i].style.backgroundImage = `url( ${ imageSource[i] } )`;
+}
+}
+applyImage();
+
+
+
+
 
 // Fetching the data from ./childrenProduct.json
 function fetchChildrenProduct(callback) {

@@ -1,350 +1,349 @@
 {
-    "academicProduct": [
-      {
-        "id": "1art",
-        "type": "art",
-        "name": "Water Color Set (Small)",
-        "company": "Camel",
-        "price": 450,
-        "trendRating": 7.9,
-        "featuredIndex": 4,
-        "numberOfPurchased": 2345,
-        "imgSrc": "../assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Excellent quality and smooth application, great for detailed work.",
-            "userName": "Emily Smith"
-          },
-          {
-            "star": 4,
-            "comment": "Good product but a bit pricey for beginners.",
-            "userName": "Michael Johnson"
-          }
-        ]
-      },
-      {
-        "id": "2art",
-        "type": "art",
-        "name": "Brush Set",
-        "company": "Camel",
-        "price": 350,
-        "trendRating": 6.8,
-        "featuredIndex": 3,
-        "numberOfPurchased": 314,
-        "imgSrc": "../assets/image/Art_Supplies/tools/brushSet.jpg",
-        "reviews": [
-          {
-            "star": 4,
-            "comment": "Vibrant brush set, but the bristles wear out quickly.",
-            "userName": "Sarah Lee"
-          },
-          {
-            "star": 5,
-            "comment": "Great for both watercolors and acrylics.",
-            "userName": "David Brown"
-          }
-        ]
-      },
-      {
-        "id": "3art",
-        "type": "art",
-        "name": "Brush Pen",
-        "company": "Doms",
-        "price": 500,
-        "trendRating": 8.2,
-        "featuredIndex": 7,
-        "numberOfPurchased": 1920,
-        "imgSrc": "../assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "High-quality pen with smooth ink flow, perfect for fine details.",
-            "userName": "Jessica Williams"
-          },
-          {
-            "star": 4,
-            "comment": "A bit expensive, but the quality justifies the price.",
-            "userName": "James Taylor"
-          }
-        ]
-      },
-      {
-        "id": "4art",
-        "type": "art",
-        "name": "Colored Pencils",
-        "company": "Doms",
-        "price": 700,
-        "trendRating": 6.5,
-        "featuredIndex": 2,
-        "numberOfPurchased": 298,
-        "imgSrc": "../assets/image/Art_Supplies/Doms/colorPencil24-Doms.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Rich pigments and easy to blend, a must-have for any artist.",
-            "userName": "Laura Davis"
-          },
-          {
-            "star": 3,
-            "comment": "Good pencils, but they dry out too quickly.",
-            "userName": "John Martinez"
-          }
-        ]
-      },
-      {
-        "id": "5art",
-        "type": "art",
-        "name": "Metallic Fluid",
-        "company": "Doms",
-        "price": 300,
-        "trendRating": 7.8,
-        "featuredIndex": 6,
-        "numberOfPurchased": 850,
-        "imgSrc": "../assets/image/Art_Supplies/Doms/metallicFluid-Doms.png",
-        "reviews": [
-          {
-            "star": 4,
-            "comment": "Great metallic finish, perfect for adding highlights to sketches.",
-            "userName": "Sophia Wilson"
-          },
-          {
-            "star": 5,
-            "comment": "The best metallic fluid I've used; it really makes my artwork pop.",
-            "userName": "Daniel Anderson"
-          }
-        ]
-      },
-      {
-        "id": "6art",
-        "type": "art",
-        "name": "Neon Fluid",
-        "company": "Doms",
-        "price": 200,
-        "trendRating": 8.3,
-        "featuredIndex": 5,
-        "numberOfPurchased": 460,
-        "imgSrc": "../assets/image/Art_Supplies/Doms/neonFluid-Doms.png",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Bright and vibrant colors, easy to blend for stunning effects.",
-            "userName": "Emily Harris"
-          },
-          {
-            "star": 4,
-            "comment": "Good quality, but the fluid could be a bit softer.",
-            "userName": "Matthew Clark"
-          }
-        ]
-      },
-      {
-        "id": "7art",
-        "type": "art",
-        "name": "Color Grip",
-        "company": "Strathmore",
-        "price": 250,
-        "trendRating": 8.9,
-        "featuredIndex": 8,
-        "numberOfPurchased": 312,
-        "imgSrc": "../assets/image/Art_Supplies/Faber-Castell/colorGrip-faberCastell.png",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Perfect texture for sketching, holds color well.",
-            "userName": "Anna Robinson"
-          },
-          {
-            "star": 4,
-            "comment": "A little pricey, but the quality is top-notch.",
-            "userName": "Christopher Walker"
-          }
-        ]
-      },
-      {
-        "id": "8art",
-        "type": "art",
-        "name": "Goldfaber Aqua",
-        "company": "Copic",
-        "price": 1200,
-        "trendRating": 9.5,
-        "featuredIndex": 10,
-        "numberOfPurchased": 195,
-        "imgSrc": "../assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.png",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Top-notch markers, worth every penny for professional work.",
-            "userName": "Victoria Hall"
-          },
-          {
-            "star": 4,
-            "comment": "Great for detailed work, but very expensive.",
-            "userName": "Anthony King"
-          }
-        ]
-      },
-      {
-        "id": "9art",
-        "type": "art",
-        "name": "Fountain Pen",
-        "company": "Unknown",
-        "price": 400,
-        "trendRating": 7.6,
-        "featuredIndex": 7,
-        "numberOfPurchased": 225,
-        "imgSrc": "../assets/image/Art_Supplies/tools/fountainPen.png",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Smooth writing experience, beautiful ink flow.",
-            "userName": "Patricia Wright"
-          },
-          {
-            "star": 4,
-            "comment": "Great pen, but the ink runs out a bit fast.",
-            "userName": "Joshua Lopez"
-          }
-        ]
-      },
-      {
-        "id": "10art",
-        "type": "art",
-        "name": "Shading Stump",
-        "company": "Prismacolor",
-        "price": 650,
-        "trendRating": 8.4,
-        "featuredIndex": 6,
-        "numberOfPurchased": 190,
-        "imgSrc": "../assets/image/Art_Supplies/tools/stumper.png",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Best shading tool I've used, creates smooth blends.",
-            "userName": "Samantha Green"
-          },
-          {
-            "star": 4,
-            "comment": "Excellent for shading, but it breaks easily.",
-            "userName": "Alexander Scott"
-          }
-        ]
-      },
-      {
-        "id": "11art",
-        "type": "art",
-        "name": "Flat Brushset",
-        "company": "Unknown",
-        "price": 650,
-        "trendRating": 8.5,
-        "featuredIndex": 9,
-        "numberOfPurchased": 756,
-        "imgSrc": "../assets/image/Art_Supplies/tools/brushsetFlat-unsplash.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "The flat brushes are perfect for large washes and fine details.",
-            "userName": "Michelle Lewis"
-          },
-          {
-            "star": 4,
-            "comment": "Good set, but the brushes could be a bit sturdier.",
-            "userName": "Benjamin Martinez"
-          }
-        ]
-      },
-      {
-        "id": "12art",
-        "type": "art",
-        "name": "Oil Pastels",
-        "company": "Unknown",
-        "price": 650,
-        "trendRating": 8.2,
-        "featuredIndex": 5,
-        "numberOfPurchased": 3856,
-        "imgSrc": "../assets/image/Art_Supplies/colors/oilPastel-unsplash.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Vibrant and smooth, blends beautifully.",
-            "userName": "Elizabeth Clark"
-          },
-          {
-            "star": 4,
-            "comment": "Great pastels, but they break easily if not handled carefully.",
-            "userName": "Charles Perez"
-          }
-        ]
-      },
-      {
-        "id": "13art",
-        "type": "art",
-        "name": "Brush Holder",
-        "company": "Unknown",
-        "price": 450,
-        "trendRating": 7.8,
-        "featuredIndex": 3,
-        "numberOfPurchased": 875,
-        "imgSrc": "../assets/image/Art_Supplies/tools/brushsetHolder-unsplash.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Keeps my brushes organized and easy to access.",
-            "userName": "Mary White"
-          },
-          {
-            "star": 4,
-            "comment": "Functional and sturdy, but a bit bulky.",
-            "userName": "Christopher Hernandez"
-          }
-        ]
-      },
-      {
-        "id": "14art",
-        "type": "art",
-        "name": "Watercolor Pallet",
-        "company": "Unknown",
-        "price": 650,
-        "trendRating": 8.3,
-        "featuredIndex": 5,
-        "numberOfPurchased": 1642,
-        "imgSrc": "../assets/image/Art_Supplies/tools/watercolorPallet-unsplash.jpg",
-        "reviews": [
-          {
-            "star": 4,
-            "comment": "Good value for money, but could use more colors.",
-            "userName": "Lisa Johnson"
-          },
-          {
-            "star": 5,
-            "comment": "Great quality and vibrant colors.",
-            "userName": "Michael Brown"
-          }
-        ]
-      },
-      {
-        "id": "15art",
-        "type": "art",
-        "name": "Acrylic Paints",
-        "company": "Unknown",
-        "price": 650,
-        "trendRating": 8.1,
-        "featuredIndex": 7,
-        "numberOfPurchased": 1869,
-        "imgSrc": "../assets/image/Art_Supplies/colors/acrylicPaints-winsorAndNewton.jpg",
-        "reviews": [
-          {
-            "star": 5,
-            "comment": "Excellent pigmentation and consistency.",
-            "userName": "Emily Davis"
-          },
-          {
-            "star": 4,
-            "comment": "Good quality, but a bit pricey.",
-            "userName": "David Smith"
-          }
-        ]
-      }
-    ]
-  }
-  
+  "academicProduct": [
+    {
+      "id": "1academic",
+      "type": "academic",
+      "name": "Eloquent JavaScript",
+      "company": "Paperment",
+      "price": 500,
+      "trendRating": 8.4,
+      "featuredIndex": 5,
+      "numberOfPurchased": 1750,
+      "imgSrc": "../assets/image/academics/CodingBook/eloquentJavaScript.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "A comprehensive guide for anyone wanting to master JavaScript.",
+          "userName": "Emily Smith"
+        },
+        {
+          "star": 4,
+          "comment": "Excellent content, but could have been more beginner-friendly.",
+          "userName": "Michael Johnson"
+        }
+      ]
+    },
+    {
+      "id": "2academic",
+      "type": "academic",
+      "name": "JavaScript for Beginners",
+      "company": "Paperment",
+      "price": 300,
+      "trendRating": 7.2,
+      "featuredIndex": 2,
+      "numberOfPurchased": 650,
+      "imgSrc": "../assets/image/academics/CodingBook/javaScriptForBeginners.jpeg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Good for starters, but lacks depth for advanced learners.",
+          "userName": "Sarah Lee"
+        },
+        {
+          "star": 5,
+          "comment": "Clear and concise, perfect for getting started with JavaScript.",
+          "userName": "David Brown"
+        }
+      ]
+    },
+    {
+      "id": "3academic",
+      "type": "academic",
+      "name": "Kotlin Textbook",
+      "company": "Paperment",
+      "price": 450,
+      "trendRating": 8.1,
+      "featuredIndex": 3,
+      "numberOfPurchased": 1025,
+      "imgSrc": "../assets/image/academics/CodingBook/kotlinTextBook.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Great for both beginners and seasoned developers.",
+          "userName": "Jessica Williams"
+        },
+        {
+          "star": 4,
+          "comment": "Comprehensive but a bit dry in some parts.",
+          "userName": "James Taylor"
+        }
+      ]
+    },
+    {
+      "id": "4academic",
+      "type": "academic",
+      "name": "The C++ Language",
+      "company": "Paperment",
+      "price": 600,
+      "trendRating": 7.0,
+      "featuredIndex": 4,
+      "numberOfPurchased": 550,
+      "imgSrc": "../assets/image/academics/CodingBook/theC++ProgrammingLanguage.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "A must-have for anyone serious about C++.",
+          "userName": "Laura Davis"
+        },
+        {
+          "star": 3,
+          "comment": "Dense material, but covers all the essentials.",
+          "userName": "John Martinez"
+        }
+      ]
+    },
+    {
+      "id": "5academic",
+      "type": "academic",
+      "name": "Python Programming",
+      "company": "Paperment",
+      "price": 350,
+      "trendRating": 7.5,
+      "featuredIndex": 6,
+      "numberOfPurchased": 1200,
+      "imgSrc": "../assets/image/academics/CodingBook/pythonProgramming.jpg",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Great introduction to Python with clear examples.",
+          "userName": "Sophia Wilson"
+        },
+        {
+          "star": 5,
+          "comment": "Perfect for anyone new to programming.",
+          "userName": "Daniel Anderson"
+        }
+      ]
+    },
+    {
+      "id": "6academic",
+      "type": "academic",
+      "name": "Learn Kotlin",
+      "company": "Paperment",
+      "price": 400,
+      "trendRating": 8.3,
+      "featuredIndex": 7,
+      "numberOfPurchased": 760,
+      "imgSrc": "../assets/image/academics/CodingBook/learnKotlinProgramming.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Well-structured and easy to follow.",
+          "userName": "Emily Harris"
+        },
+        {
+          "star": 4,
+          "comment": "Great for quick learning, but could use more examples.",
+          "userName": "Matthew Clark"
+        }
+      ]
+    },
+    {
+      "id": "7academic",
+      "type": "academic",
+      "name": "O'Reilly JavaScript",
+      "company": "Paperment",
+      "price": 550,
+      "trendRating": 8.7,
+      "featuredIndex": 8,
+      "numberOfPurchased": 950,
+      "imgSrc": "../assets/image/academics/CodingBook/OREILLYJavaScript.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "In-depth and up-to-date, a great reference book.",
+          "userName": "Anna Robinson"
+        },
+        {
+          "star": 4,
+          "comment": "Excellent content, but the layout could be improved.",
+          "userName": "Christopher Walker"
+        }
+      ]
+    },
+    {
+      "id": "8academic",
+      "type": "academic",
+      "name": "Basic Mathematics",
+      "company": "Paperment",
+      "price": 850,
+      "trendRating": 9.1,
+      "featuredIndex": 10,
+      "numberOfPurchased": 425,
+      "imgSrc": "../assets/image/academics/SchoolBooks/basicMathematicsForClass12.jpeg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Comprehensive coverage of all essential math concepts.",
+          "userName": "Victoria Hall"
+        },
+        {
+          "star": 4,
+          "comment": "Well-written but very detailed, might overwhelm beginners.",
+          "userName": "Anthony King"
+        }
+      ]
+    },
+    {
+      "id": "9academic",
+      "type": "academic",
+      "name": "Fountain Pen",
+      "company": "Paperment",
+      "price": 300,
+      "trendRating": 7.3,
+      "featuredIndex": 3,
+      "numberOfPurchased": 625,
+      "imgSrc": "../assets/image/Art_Supplies/tools/fountainPen.png",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Elegant design and smooth writing, great for everyday use.",
+          "userName": "Patricia Wright"
+        },
+        {
+          "star": 4,
+          "comment": "Beautiful pen, but needs frequent refilling.",
+          "userName": "Joshua Lopez"
+        }
+      ]
+    },
+    {
+      "id": "10academic",
+      "type": "academic",
+      "name": "Basic Mathematics",
+      "company": "Paperment",
+      "price": 150,
+      "trendRating": 8.2,
+      "featuredIndex": 4,
+      "numberOfPurchased": 400,
+      "imgSrc": "../assets/image/academics/SchoolBooks/basicMathematicsForGrade11.jpeg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Perfect for smooth shading and blending, highly recommend.",
+          "userName": "Samantha Green"
+        },
+        {
+          "star": 4,
+          "comment": "Excellent for shading, but a bit fragile.",
+          "userName": "Alexander Scott"
+        }
+      ]
+    },
+    {
+      "id": "11academic",
+      "type": "academic",
+      "name": "Chemistry",
+      "company": "Paperment",
+      "price": 700,
+      "trendRating": 8.5,
+      "featuredIndex": 9,
+      "numberOfPurchased": 650,
+      "imgSrc": "../assets/image/academics/SchoolBooks/chemistryForGrade11.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Clear explanations and well-organized content, very useful.",
+          "userName": "Michelle Lewis"
+        },
+        {
+          "star": 4,
+          "comment": "Good book, but some concepts could be explained better.",
+          "userName": "Benjamin Martinez"
+        }
+      ]
+    },
+    {
+      "id": "12academic",
+      "type": "academic",
+      "name": "Principles of Biology",
+      "company": "Paperment",
+      "price": 500,
+      "trendRating": 8.0,
+      "featuredIndex": 6,
+      "numberOfPurchased": 1850,
+      "imgSrc": "../assets/image/academics/SchoolBooks/principlesOfBiologyForGrade11.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Great for both high school and early college students.",
+          "userName": "Elizabeth Clark"
+        },
+        {
+          "star": 4,
+          "comment": "Covers all the basics, but could be more engaging.",
+          "userName": "Charles Perez"
+        }
+      ]
+    },
+    {
+      "id": "13academic",
+      "type": "academic",
+      "name": "Principles of Physics",
+      "company": "Paperment",
+      "price": 600,
+      "trendRating": 7.6,
+      "featuredIndex": 5,
+      "numberOfPurchased": 1150,
+      "imgSrc": "../assets/image/academics/SchoolBooks/principlesOfPhysicsForGrade12.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Comprehensive and clear, a great resource for students.",
+          "userName": "Mary White"
+        },
+        {
+          "star": 4,
+          "comment": "Good explanations, but the examples could be better.",
+          "userName": "Christopher Hernandez"
+        }
+      ]
+    },
+    {
+      "id": "14academic",
+      "type": "academic",
+      "name": "Mechanical Pencil",
+      "company": "Paperment",
+      "price": 350,
+      "trendRating": 9.0,
+      "featuredIndex": 7,
+      "numberOfPurchased": 950,
+      "imgSrc": "../assets/image/academics/tools/sakuraMechanicalPencil.png",
+      "reviews": [
+        {
+          "star": 4,
+          "comment": "Smooth writing and comfortable grip, perfect for sketching.",
+          "userName": "Lisa Johnson"
+        },
+        {
+          "star": 5,
+          "comment": "Great quality and lasts a long time.",
+          "userName": "Michael Brown"
+        }
+      ]
+    },
+    {
+      "id": "15academic",
+      "type": "academic",
+      "name": "Gelly Roll",
+      "company": "Paperment",
+      "price": 250,
+      "trendRating": 9.6,
+      "featuredIndex": 8,
+      "numberOfPurchased": 1700,
+      "imgSrc": "../assets/image/academics/tools/sakuraGellyRoll.jpg",
+      "reviews": [
+        {
+          "star": 5,
+          "comment": "Excellent for detailed work, bright and vibrant colors.",
+          "userName": "Emily Davis"
+        },
+        {
+          "star": 4,
+          "comment": "Good quality, but dries out quickly if not capped properly.",
+          "userName": "David Smith"
+        }
+      ]
+    }
+  ]
+}

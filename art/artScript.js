@@ -1,3 +1,20 @@
+let imageSource = [
+  "../assets/image/Art_Supplies/Camel/watercolor-camel-large.jpg",
+  "../assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg",
+  "../assets/image/Art_Supplies/Doms/colorPencil-Doms-Small.jpg",
+  "../assets/image/Art_Supplies/Doms/colorPencil24-Doms.jpg"
+];
+
+function applyImage(){
+  const sliderImage = document.getElementsByClassName( "sliderImg" );
+  for( let i = 0; i < sliderImage.length; i++ ){
+      sliderImage[i].style.backgroundImage = `url( ${ imageSource[i] } )`;
+  }
+}
+applyImage();
+
+
+
 // Fetching the data from ./artProduction.json
 function fetchArtProduct(callback) {
   fetch("./artProduct.json")

@@ -141,7 +141,7 @@ function showArt(id) {
 function showAcademics(id) {
   
   const productImage = document.getElementById("mainProductImg");
-  fetchArtProduct((academicProduct) => {
+  fetchAcademicProduct((academicProduct) => {
     for (let i = 0; i < academicProduct.academicProduct.length; i++) {
       if (academicProduct.academicProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${academicProduct.academicProduct[i].imgSrc} )`;
@@ -153,7 +153,7 @@ function showAcademics(id) {
 function showChildren(id) {
   
   const productImage = document.getElementById("mainProductImg");
-  fetchArtProduct((childrenProduct) => {
+  fetchChildrenProduct((childrenProduct) => {
     for (let i = 0; i < childrenProduct.childrenProduct.length; i++) {
       if (childrenProduct.childrenProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${childrenProduct.childrenProduct[i].imgSrc} )`;
@@ -165,7 +165,7 @@ function showChildren(id) {
 function showSports(id) {
   
   const productImage = document.getElementById("mainProductImg");
-  fetchArtProduct((sportsProduct) => {
+  fetchSportsProduct((sportsProduct) => {
     for (let i = 0; i < sportsProduct.sportsProduct.length; i++) {
       if (sportsProduct.sportsProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${sportsProduct.sportsProduct[i].imgSrc} )`;
@@ -180,7 +180,7 @@ function showProduct(type, id) {
       showArt(id);
       console.log("saudg");
       break;
-    case "academics":
+    case "academic":
       showAcademics(id);
       break;
     case "children":
@@ -200,7 +200,10 @@ const productBody = document.getElementById("productBody");
 const footer = document.getElementsByTagName( "footer" )[1];
 
 function displayProduct(type, id) {
+
   clearInterval(slideShow);
+
+  console.log(imageSlide)
 
   imageSlide.classList.add("revokeDisplay");
   mainBody.classList.add("revokeDisplay");

@@ -1,4 +1,20 @@
 
+let imageSource = [ "../assets/image/academics/CodingBook/kotlinTextBook.png",
+    "../assets/image/academics/CodingBook/eloquentJavaScript.jpg",
+    "../assets/image/academics/tools/sakuraGellyRoll.jpg",
+    "../assets/image/academics/tools/sakuraMechanicalPencil.png"
+ ];
+
+ function applyImage(){
+    const sliderImage = document.getElementsByClassName( "sliderImg" );
+    for( let i = 0; i < sliderImage.length; i++ ){
+        sliderImage[i].style.backgroundImage = `url( ${ imageSource[i] } )`;
+    }
+ }
+ applyImage();
+
+
+
 // Fetching the data from ./academicProduction.json
 function fetchAcademicProduct(callback) {
     fetch('./academicProduct.json').then(response => {
@@ -45,6 +61,7 @@ function createTile( product , container ){
             "onclick",
             `displayProduct('${product.type}' , '${product.id}')`
           ); //copy this line to every other script
+          console.log(product.type);
 
         // creating tile image
         const tileImage = document.createElement("div");
@@ -150,7 +167,7 @@ function generateTile( sortedArray , section ){
 fetchAcademicProduct(academicProduct => {
     // Perform operations on academicProduct here
 
-    console.log( academicProduct.academicProduct.imgSrc )
+    console.log( academicProduct )
 
     const sortedOnTrend = sortArray( academicProduct.academicProduct , 'trendRating' );
     const sortedOnfeatured = sortArray( academicProduct.academicProduct , 'featuredIndex' );

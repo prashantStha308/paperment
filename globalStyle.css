@@ -231,8 +231,8 @@ nav {
   width: 1750px;
   height: 300px;
   background-repeat: no-repeat;
-  background-size: 1750px 300px;
-  object-position: 50% 40%;
+  background-size: 400px;
+  background-position: center top;
   object-fit: cover;
   border-radius: 20px;
 }
