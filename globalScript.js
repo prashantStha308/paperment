@@ -189,6 +189,8 @@ function displayProduct(type, id) {
   showProduct(type, id);
 }
 
+
+// function to return to normal page from product page
 function goBack(){
 
   imageSlide.classList.remove("revokeDisplay");

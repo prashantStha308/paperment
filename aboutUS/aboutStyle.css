@@ -44,7 +44,9 @@ section{
     position: absolute;
     width: 380px;
     height: 380px;
-    background-color: red;
+    background-image: url(../assets/image/aboutPage/Ellipse86.png);
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 100%;
     top: 0;
     left: 0;
@@ -70,12 +72,13 @@ section{
     position: absolute;
     width: 380px;
     height: 380px;
-    background-color: red;
     border-radius: 100%;
     top: 0;
     right: 30px;
-    background-image: url(../assets/image/aboutPage/Frame\ 7.png);
+    background-image: url(../assets/image/aboutPage/Frame7.png);
     background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .founderTextContainer{
@@ -111,21 +114,21 @@ section{
 .branchImg{
     width: 300px;
     height: 300px;
-    background-color: red;
     border-radius: 100%;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .branchImg:nth-child(1){
-    background-image: url(../assets/image/aboutPage/Ellipse\ 83.png);
+    background-image: url(../assets/image/aboutPage/Ellipse83.png);
 }
 
 .branchImg:nth-child(2){
-    background-image: url(../assets/image/aboutPage/Ellipse\ 84.png);
+    background-image: url(../assets/image/aboutPage/Ellipse84.png);
 }
 
 .branchImg:nth-child(3){
-    background-image: url(../assets/image/aboutPage/Ellipse\ 85.png);
+    background-image: url(../assets/image/aboutPage/Ellipse85.png);
 }
 
 .branchTextContainer{
