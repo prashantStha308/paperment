@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paperment | Product</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- The globalStyle file contains/will contain scripts used by all the pages of this website -->
+    <link rel="stylesheet" href="../globalStyle.css" />
+    <link rel="stylesheet" href="./productStyle.css" />
+  </head>
+  <body>
+    <!-- Got to Top button -->
+    <button id="getToTop" onclick="goToTop()"></button>
+
+    <!-- Header Section -->
+    <header id="header">
+      <div id="headerLeft">
+        <a href="../index.html"
+          ><img
+            src="../assets/logos/papermentLogo.png"
+            alt=""
+            class="logo"
+            id="headerLogo"
+        /></a>
+        <div id="searchBarContainer">
+          <img src="../assets/icons/searchIcon.svg" alt="" class="searchIcon" />
+          <input type="text" id="searchBar" placeholder="Search" />
+        </div>
+      </div>
+      <nav id="navBar">
+        <ul id="headerListContainer">
+          <a href="../art/index.html">
+            <li class="headerList">Art Supplies</li> </a
+          ><a href="../academic/index.html">
+            <li class="headerList">Academics</li> </a
+          ><a href="../childernBook/index.html">
+            <li class="headerList">Children's Books</li> </a
+          ><a href="../sports/index.html">
+            <li class="headerList">
+              Sports
+              <sup style="font-size: 0.76rem; color: var(--redText)">New</sup>
+            </li>
+          </a>
+        </ul>
+      </nav>
+      <div id="iconContainer">
+        <button class="heartButton">
+          <div class="hoverHeart"></div>
+        </button>
+        <img
+          src="../assets/icons/shoppingCart.svg"
+          alt="shoppingCart"
+          class="icon"
+        />
+        <div id="userProfilePicture" class="icon"></div>
+      </div>
+    </header>
+
+    <main id="productBody">
+      <hr />
+      <section id="bodyTop">
+        <div id="leftContainer">
+            <div class="container">
+                <div class="variations">
+                  <h2>VARIATIONS</h2>
+                    <div class="userOption">
+                        <h4>Colours</h4>
+                        <form action="/action_page.php" method="get">
+                          <input class="colorChoice" onclick="checkColor('red')" type="checkbox" id="red" name="fav_language" value="red">
+                          <label for="red">Red</label><br>
+                          <input class="colorChoice" onclick="checkColor('green')" type="checkbox" id="green" name="fav_language" value="green">
+                          <label for="green">Green</label><br>
+                          <input class="colorChoice" onclick="checkColor('purple')" type="checkbox" id="purple" name="fav_language" value="purple">
+                          <label for="purple">Purple</label><br>
+                          <input class="colorChoice" onclick="checkColor('orange')" type="checkbox" id="orange" name="fav_language" value="orange">
+                          <label for="orange">Orange</label><br>
+                        </form>
+                    </div>
+                    <br />
+                    <div class="userOption">
+                        <h4>Dimentions</h4>
+                        <form action="/action_page.php" method="get">
+                            <input class="dimentionChoice" onclick="checkDimension('18021')" type="checkbox" id="18021" name="fav_language" value="18021">
+                            <label for="18021">18*21</label><br>
+                            <input class="dimentionChoice" onclick="checkDimension('25027')" type="checkbox" id="25027" name="fav_language" value="25027">
+                            <label for="25027">25*27</label><br>
+                            <input class="dimentionChoice" onclick="checkDimension('30036')" type="checkbox" id="30036" name="fav_language" value="30036">
+                            <label for="30036">30*36</label><br><br>
+                          </form>
+                      </form>
+                    </div>
+                </div>
+              </div>
+              <div id="reviews">
+                <h2>REVIEWS</h2>
+                <div id="reviewList">
+                  <!-- User reviews will be appended here -->
+                </div>
+                <form id="reviewForm">
+                    <div id="userReview">
+                        <div id="userIcon"></div>
+                        <textarea
+                        id="userReviewText"
+                        name="reviewText"
+                        rows="4"
+                        cols="50"
+                        placeholder="Add your review..."
+                      ></textarea>
+                      <div id="userRating">
+                        <button class="star" id="star1" ></button>
+                        <button class="star" id="star2" ></button>
+                        <button class="star" id="star3" ></button>
+                        <button class="star" id="star4" ></button>
+                        <button class="star" id="star5" ></button>
+                      </div>
+                    </div>
+                </form>
+              </div>
+        </div>
+
+        <div id="rightContainer">
+
+            <div id="mainProductImg"></div>
+            <div id="rightBottomContainer">
+                <div id="bottomTopContainer">
+                    <h2 id="productName"> Product Description </h2>
+                    <button class="addToCart">
+                        <p>Add To Cart</p>
+                        <img src="../assets/icons/shoppingCart.svg" class="icon" alt="">
+                    </button>
+                </div>
+
+                <div id="productDescription"></div>
+            </div>
+        </div>
+      </section>
+
+      <section id="bodyBottom">
+
+        <div id="QNA">
+            <h2> Q&A Section </h2>
+
+            <p class="questions"> How long does the ink last?  <img src="" alt="nextArrow" class="nextArrow"> </p>
+            <p class="questions"> Is it possible to deliver it in the the west region/ Are there facilities for delivery in remote areas? <img src="" alt="nextArrow" class="nextArrow"> </p>
+            <p class="questions"> How long does the ink last? <img src="" alt="nextArrow" class="nextArrow"> </p>
+            <p class="questions"> How long does the ink last? <img src="" alt="nextArrow" class="nextArrow"> </p>
+        </div>
+
+        <div id="similarProducts">
+            <h2> Similar Products/ Recommended </h2>
+
+            <div id="productContainer" class="tileContainer">
+                <!-- products will be dynamically produced through js -->
+            </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- The footer section is supposed to be at the end. Don't build anything below this section -->
+    <hr />
+    <footer id="footer">
+      <div class="about-section">
+        <h1>Find Us</h1>
+        <div class="logo-section">
+          <img src="../assets/logos/papermentLogo.png" alt="" />
+          <p class="footerCompanyName">Paperment</p>
+        </div>
+        <div class="desc">
+          We are everywhere for your convenience! <br />
+          Join us at facebook,twitter,and now <br />
+          exclusively on instagram.
+        </div>
+        <div class="icon-section">
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="../assets/icons/instagram.webp" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../assets/icons/twitter.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="../assets/icons/facebook.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="policies-section">
+        <h4>Our Policies</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Track orders</a></li>
+          <li><a href="#">shipping</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- The globalScript.js file contains/will contain scripts used by all the pages of this website -->
+    <script src="../globalScript.js"></script>
+    <script src="./productScript.js"></script>
+  </body>
+</html>

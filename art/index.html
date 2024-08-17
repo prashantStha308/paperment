@@ -45,7 +45,119 @@
         </div>
     </header>
 
-    <section id="imageSlider">
+
+
+    <!-- Start of Product Section -->
+
+
+    <main id="productBody" class="revokeDisplay">
+        <hr />
+        <section id="bodyTop">
+          <div id="leftContainer">
+              <div class="container">
+                  <div class="variations">
+                    <h2>VARIATIONS</h2>
+                      <div class="userOption">
+                          <h4>Colours</h4>
+                          <form action="/action_page.php" method="get">
+                            <input class="colorChoice" onclick="checkColor('red')" type="checkbox" id="red" name="fav_language" value="red">
+                            <label for="red">Red</label><br>
+                            <input class="colorChoice" onclick="checkColor('green')" type="checkbox" id="green" name="fav_language" value="green">
+                            <label for="green">Green</label><br>
+                            <input class="colorChoice" onclick="checkColor('purple')" type="checkbox" id="purple" name="fav_language" value="purple">
+                            <label for="purple">Purple</label><br>
+                            <input class="colorChoice" onclick="checkColor('orange')" type="checkbox" id="orange" name="fav_language" value="orange">
+                            <label for="orange">Orange</label><br>
+                          </form>
+                      </div>
+                      <br />
+                      <div class="userOption">
+                          <h4>Dimentions</h4>
+                          <form action="/action_page.php" method="get">
+                              <input class="dimentionChoice" onclick="checkDimension('18021')" type="checkbox" id="18021" name="fav_language" value="18021">
+                              <label for="18021">18*21</label><br>
+                              <input class="dimentionChoice" onclick="checkDimension('25027')" type="checkbox" id="25027" name="fav_language" value="25027">
+                              <label for="25027">25*27</label><br>
+                              <input class="dimentionChoice" onclick="checkDimension('30036')" type="checkbox" id="30036" name="fav_language" value="30036">
+                              <label for="30036">30*36</label><br><br>
+                            </form>
+                        </form>
+                      </div>
+                  </div>
+                </div>
+                <div id="reviews">
+                  <h2>REVIEWS</h2>
+                  <div id="reviewList">
+                    <!-- User reviews will be appended here -->
+                  </div>
+                  <form id="reviewForm">
+                      <div id="userReview">
+                          <div id="userIcon"></div>
+                          <textarea
+                          id="userReviewText"
+                          name="reviewText"
+                          rows="4"
+                          cols="50"
+                          placeholder="Add your review..."
+                        ></textarea>
+                        <div id="userRating">
+                          <button class="star" id="star1" ></button>
+                          <button class="star" id="star2" ></button>
+                          <button class="star" id="star3" ></button>
+                          <button class="star" id="star4" ></button>
+                          <button class="star" id="star5" ></button>
+                        </div>
+                      </div>
+                  </form>
+                </div>
+          </div>
+  
+          <div id="rightContainer">
+  
+              <div id="mainProductImg"></div>
+              <div id="rightBottomContainer">
+                  <div id="bottomTopContainer">
+                      <h2 id="productName"> Product Description </h2>
+                      <button class="addToCart">
+                          <p>Add To Cart</p>
+                          <img src="../assets/icons/shoppingCart.svg" class="icon" alt="">
+                      </button>
+                  </div>
+  
+                  <div id="productDescription"></div>
+              </div>
+          </div>
+        </section>
+  
+        <section id="bodyBottom">
+  
+          <div id="QNA">
+              <h2> Q&A Section </h2>
+  
+              <p class="questions"> How long does the ink last?  <img src="" alt="nextArrow" class="nextArrow"> </p>
+              <p class="questions"> Is it possible to deliver it in the the west region/ Are there facilities for delivery in remote areas? <img src="" alt="nextArrow" class="nextArrow"> </p>
+              <p class="questions"> How long does the ink last? <img src="" alt="nextArrow" class="nextArrow"> </p>
+              <p class="questions"> How long does the ink last? <img src="" alt="nextArrow" class="nextArrow"> </p>
+          </div>
+  
+          <div id="similarProducts">
+              <h2> Similar Products/ Recommended </h2>
+  
+              <div id="productContainer" class="tileContainer">
+                  <!-- products will be dynamically produced through js -->
+              </div>
+          </div>
+  
+        </section>
+  
+      </main>
+
+
+    <!-- End of Product Section -->
+
+
+
+    <section id="imageSlider" class="mainImageSlider">
 
         <div id="slidingSection">
             <div class="sliderElements" id="slide1">
@@ -95,7 +207,7 @@
 
     </section>
 
-    <main>
+    <main id="mainBody">
        <section id="shop">
         <section id="featured" class="tileContainer">
             <p class="sectionHeader"> Featured </p>

@@ -3,7 +3,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Itim&family=Rochester&display=swap"); /* Rochester and Itim fonts */
 /*@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Itim&family=Rochester&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Itim&family=Rochester&display=swap");
 
 /* Using the root pseudo class to organize the fonts and colors inside the root directory */
 :root {
@@ -15,30 +15,34 @@
   --companyNameColor: #130101;
   --textColorLight: #5a595f;
   --textColorDark: #073459;
-  --redText: #FF0505;
+  --redText: #ff0505;
 
   --buttonBackground: #ece0a1;
+  --addToCartButton: #d0af5a;
   --buttonText: #2d3f4f;
 
   --borderLight: #5a595f;
-  --borderDark: #2d2a3b; 
+  --borderDark: #2d2a3b;
 
   --shopBackgroundLight: #ece0a1;
   --shopElementBackgroundLight: #d9d9d9;
 
-  --dot: #D9D9D9;
-  --darkerDot: #9D9C9C;
+  --dot: #d9d9d9;
+  --darkerDot: #9d9c9c;
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-
 *::selection {
   background-color: var(--highlightBackground);
   color: var(--highlightText);
+}
+
+.revokeDisplay {
+  display: none;
 }
 
 body {
@@ -51,7 +55,7 @@ body {
   scroll-behavior: smooth;
 }
 
-#getToTop{
+#getToTop {
   background-image: url(./assets/icons/backToTop.svg);
   background-color: transparent;
   border: none;
@@ -66,7 +70,6 @@ body {
   right: 30px;
   z-index: 90;
 }
-
 
 /* Start of header section */
 header {
@@ -154,7 +157,7 @@ nav {
   transition: all 0.3s ease;
 }
 
-.headerList:hover{
+.headerList:hover {
   color: var(--highlightText);
 }
 
@@ -174,7 +177,6 @@ nav {
   stroke: var(--highlightBackground);
 }
 
-
 #userProfilePicture {
   min-width: 25px;
   min-height: 25px;
@@ -185,10 +187,9 @@ nav {
 
 /* End of header section */
 
-
 /* Image Slider Section */
 
-#imageSlider{
+#imageSlider {
   display: grid;
   gap: 30px;
   height: auto;
@@ -198,33 +199,32 @@ nav {
   padding: 0;
 }
 
-#slidingSection{
+#slidingSection {
   /* position: relative; */
   height: 20rem;
   width: 100%;
   margin: 40px 0 20px 0;
-
 }
 
-.slide{
+.slide {
   display: flex;
   margin: 60px 0 20px 0;
   width: 90%;
   justify-content: space-between;
 }
 
-.sliderElements{
+.sliderElements {
   /* position: absolute; */
   display: none;
   width: 100svw;
 }
 
-.sliderActive{
+.sliderActive {
   display: flex;
   justify-content: center;
 }
 
-.sliderImg{
+.sliderImg {
   width: 1750px;
   height: 300px;
   background-repeat: no-repeat;
@@ -234,7 +234,7 @@ nav {
   border-radius: 20px;
 }
 
-#dotsContainer{
+#dotsContainer {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -242,7 +242,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.dots{
+.dots {
   background-color: var(--dot);
   padding: 7px;
   margin: 5px;
@@ -251,15 +251,15 @@ nav {
   transition: all 0.3s ease;
 }
 
-.dotActive{
+.dotActive {
   background-color: var(--darkerDot);
 }
 
-.dots:hover{
+.dots:hover {
   background-color: var(--darkerDot);
 }
 
-.sliderTextContainer{
+.sliderTextContainer {
   display: flex;
   border-top: 1px solid #868585;
   border-bottom: 1px solid #868585;
@@ -267,10 +267,10 @@ nav {
   align-items: center;
   height: auto;
   width: 50%;
-  font-family: Istok Web,sans-serif;
+  font-family: Istok Web, sans-serif;
 }
 
-.discountText{
+.discountText {
   font-size: 2.5rem;
   box-sizing: border-box;
   height: 100%;
@@ -278,13 +278,13 @@ nav {
   padding: 20px 10px;
 }
 
-.redText{
+.redText {
   font-size: 1rem;
-  font-family: Inria Sans,sans-serif;
+  font-family: Inria Sans, sans-serif;
   color: var(--redText);
 }
 
-.dashainText{
+.dashainText {
   text-align: center;
   display: flex;
   align-items: center;
@@ -292,7 +292,7 @@ nav {
   width: 250px;
   height: 90px;
   font-size: 2rem;
-  font-family: Inria Sans,sans-serif;
+  font-family: Inria Sans, sans-serif;
   rotate: -90deg;
   color: var(--textColorLight);
 }
@@ -301,14 +301,14 @@ nav {
 
 /* Start of main section */
 
-main{
+main {
   width: 100%;
   box-sizing: border-box;
   height: auto;
   margin-top: 20px;
 }
 
-#shop{
+#shop {
   padding: 20px 20px;
   margin: 20px 0;
   display: grid;
@@ -316,7 +316,7 @@ main{
   gap: 50px;
 }
 
-.tileContainer{
+.tileContainer {
   width: 100%;
   padding: 0 10px;
   height: 30%;
@@ -326,8 +326,7 @@ main{
   justify-content: space-around;
 }
 
-
-.elementContainer{
+.elementContainer {
   height: 450px;
   width: 300px;
   border-radius: 5px;
@@ -336,14 +335,14 @@ main{
   justify-content: center;
 }
 
-.sectionHeader{
+.sectionHeader {
   font-size: 2.4rem;
   font-family: "Istok Web", sans-serif;
   width: 100%;
   margin-left: 20px;
 }
 
-.elementImg{
+.elementImg {
   border-radius: 2px;
   /* background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms-small.jpg); */
   filter: brightness(0.95);
@@ -355,7 +354,7 @@ main{
   object-fit: cover;
 }
 
-.elementTextContainer{
+.elementTextContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -363,22 +362,21 @@ main{
   padding: 0 5px;
 }
 
-.elementText{
-  
-  font-family: itim,sans-serif;
+.elementText {
+  font-family: itim, sans-serif;
   padding: 5px;
   line-height: 40px;
 }
 
-.elementName{
+.elementName {
   font-size: 1.8rem;
 }
 
-.elemntPrice{
+.elemntPrice {
   font-size: 1.2rem;
 }
 
-.heartButton{
+.heartButton {
   position: relative;
   margin-left: -10px;
   min-width: 23px;
@@ -390,7 +388,7 @@ main{
   border: none;
 }
 
-.hoverHeart{
+.hoverHeart {
   position: absolute;
   opacity: 0;
   top: 0;
@@ -405,12 +403,200 @@ main{
   transition: all 0.3s ease;
 }
 
-.heartButton:hover .hoverHeart{
+.heartButton:hover .hoverHeart {
   opacity: 1;
 }
 
 /* End of main section */
 
+/* start of product section */
+
+#productBody {
+  margin-top: 5rem;
+  margin-bottom: 7rem;
+  height: 100svh;
+  width: 100svw;
+  height: auto;
+  font-family: Itim, sans-serif;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 100000;
+  background-color: var(--bodyColor);
+  position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#bodyTop {
+  display: flex;
+}
+
+#leftContainer {
+  display: grid;
+  min-width: 30%;
+  height: 100%;
+  border-right: 1px solid var(--shopElementBackgroundLight);
+}
+
+.variations {
+  font-family: Itim, sans-serif;
+  box-sizing: border-box;
+  margin: 0 0 30px 0;
+}
+
+.variations > h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid var(--shopElementBackgroundLight);
+  padding: 10px 0 10px 50px;
+}
+
+.userOption {
+  padding: 0 0 0 50px;
+}
+
+.userOption > h4 {
+  font-size: 1.5rem;
+  margin: 25px 0 20px 0;
+}
+
+#reviews {
+  font-family: Itim, sans-serif;
+}
+
+#reviews > h2 {
+  font-size: 2rem;
+  border-top: 1px solid var(--shopElementBackgroundLight);
+  border-bottom: 1px solid var(--shopElementBackgroundLight);
+  padding: 0 0 0 50px;
+}
+
+#reviewList {
+  padding: 0 0 0 20px;
+  min-height: 30rem;
+}
+
+#userReview {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 10px;
+  border-top: 1px solid var(--shopElementBackgroundLight);
+  border-bottom: 1px solid var(--shopElementBackgroundLight);
+}
+
+#userIcon {
+  width: 45px;
+  height: 45px;
+  background-color: var(--shopElementBackgroundLight);
+  border-radius: 100%;
+}
+
+#userReviewText {
+  width: 70%;
+  height: 45px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 1rem;
+}
+
+#userRating {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  width: 15px;
+  height: 15px;
+  border: 1px solid red;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* End of left container */
+
+/* Start of right container */
+
+#rightContainer {
+  width: 70%;
+  border-bottom: 1px solid var(--shopElementBackgroundLight);
+}
+
+#mainProductImg {
+  background-color: var(--shopElementBackgroundLight);
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+
+#rightBottomContainer {
+  display: grid;
+}
+
+#bottomTopContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.addToCart {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: var(--addToCartButton);
+  border: none;
+  border-radius: 15px;
+  font-family: Itim, sans-serif;
+  font-size: 1rem;
+}
+
+#bodyBottom {
+  display: grid;
+  /* border: 1px solid red; */
+}
+
+#QNA > h2 {
+  padding: 15px 40px;
+  font-size: 2rem;
+  font-weight: 400;
+  border-bottom: 1px solid var(--shopElementBackgroundLight);
+}
+
+.questions {
+  border-bottom: 1px solid var(--shopElementBackgroundLight);
+  border-top: 1px solid var(--shopElementBackgroundLight);
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 35px 0;
+}
+
+#productContainer {
+  width: 100%;
+  padding: 0 10px;
+  height: auto;
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#similarProducts {
+  display: grid;
+}
+
+#similarProducts > h2 {
+  padding: 15px 40px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* End of product section */
 
 /* Start of footer sections */
 
@@ -421,37 +607,36 @@ main{
   flex-wrap: wrap;
   padding: 3rem;
 }
-.policies-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.policies-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.policies-section ul li a{
-    color: var(--textColorLight);
+.policies-section ul li a {
+  color: var(--textColorLight);
 }
-.logo-section{
-    margin-bottom: 2rem;
-    display: flex;
-    align-items: center;
-
+.logo-section {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
 }
-.logo-section img{
-width: 50px;
-height: 50px;
+.logo-section img {
+  width: 50px;
+  height: 50px;
 }
-.footerCompanyName{
-    font-family: Rochester,Arial, Helvetica, sans-serif;
-    font-size: 1.95rem;
-    color: var(--companyNameColor);
-    margin-left: 1rem;
+.footerCompanyName {
+  font-family: Rochester, Arial, Helvetica, sans-serif;
+  font-size: 1.95rem;
+  color: var(--companyNameColor);
+  margin-left: 1rem;
 }
-.icon-section ul{
-    margin-top: 2rem;
-    display: flex;
-    gap: 10px;
+.icon-section ul {
+  margin-top: 2rem;
+  display: flex;
+  gap: 10px;
 }
-.icon-section img{
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
+.icon-section img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
