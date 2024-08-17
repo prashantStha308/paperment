@@ -1,4 +1,8 @@
 let imageSource = [
+    "../assets/image/sports/FootballJersys/barcelona-nike-home-dri-fit-adv-match-shirt-2024-25_ss5_p-200889581+u-edbeajh1biq4sma7lq1p+v-35p0fbx8wxxe3zolteeb.jpg",
+    "../assets/image/sports/Football/0a6bc2a775a0.jpg",
+    "../assets/image/sports/TableTennis/zoom_j-colorato-racket-set.jpg",
+    "../assets/image/sports/Cricket/ew-bat-pellara-4-copy__09758.1656395161.600.600.jpg"
     
 ];
 

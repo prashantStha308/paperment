@@ -1,0 +1,235 @@
+{
+    "sportsProduct": [
+      {
+        "id": "1sports",
+        "type": "sports",
+        "name": "Badminton Set Yonex",
+        "company": "Camel",
+        "price": 1161,
+        "trendRating": 9.0,
+        "featuredIndex": 7,
+        "numberOfPurchased": 1806,
+        "imgSrc": "../assets/image/sports/Badminton/yonexBatmintonBatSet.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Top-notch performance and durability. A must-have!",
+            "userName": "Emily Smith"
+          },
+          {
+            "star": 4,
+            "comment": "Great quality but slightly overpriced for beginners.",
+            "userName": "Michael Johnson"
+          }
+        ]
+      },
+      {
+        "id": "2sports",
+        "type": "sports",
+        "name": "Cricket Bat Set of 4",
+        "company": "Camel",
+        "price": 653,
+        "trendRating": 7.2,
+        "featuredIndex": 9,
+        "numberOfPurchased": 2038,
+        "imgSrc": "../assets/image/sports/Cricket/ew-bat-pellara-4-copy__09758.1656395161.600.600.jpg",
+        "reviews": [
+          {
+            "star": 4,
+            "comment": "Solid build, good value for money.",
+            "userName": "Sarah Lee"
+          },
+          {
+            "star": 5,
+            "comment": "Perfect balance and grip. Ideal for any player.",
+            "userName": "David Brown"
+          }
+        ]
+      },
+      {
+        "id": "3sports",
+        "type": "sports",
+        "name": "Cricket Helmet",
+        "company": "Doms",
+        "price": 780,
+        "trendRating": 7.8,
+        "featuredIndex": 6,
+        "numberOfPurchased": 1975,
+        "imgSrc": "../assets/image/sports/tools/cricketHelmet.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Excellent protection and comfort.",
+            "userName": "Jessica Williams"
+          },
+          {
+            "star": 4,
+            "comment": "A bit expensive but worth it for the quality.",
+            "userName": "James Taylor"
+          }
+        ]
+      },
+      {
+        "id": "4sports",
+        "type": "sports",
+        "name": "Compression Wear Men",
+        "company": "Doms",
+        "price": 826,
+        "trendRating": 6.3,
+        "featuredIndex": 1,
+        "numberOfPurchased": 3011,
+        "imgSrc": "../assets/image/sports/tools/compressionWearMen.png",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Great fit and comfort for workouts.",
+            "userName": "Laura Davis"
+          },
+          {
+            "star": 3,
+            "comment": "Good quality but runs small.",
+            "userName": "John Martinez"
+          }
+        ]
+      },
+      {
+        "id": "5sports",
+        "type": "sports",
+        "name": "Compression Wear Women",
+        "company": "Doms",
+        "price": 307,
+        "trendRating": 9.0,
+        "featuredIndex": 4,
+        "numberOfPurchased": 1860,
+        "imgSrc": "../assets/image/sports/tools/compressionWearWomen.jpeg",
+        "reviews": [
+          {
+            "star": 4,
+            "comment": "Great quality and fit for active women.",
+            "userName": "Sophia Wilson"
+          },
+          {
+            "star": 5,
+            "comment": "Perfect for intense workouts and very comfortable.",
+            "userName": "Daniel Anderson"
+          }
+        ]
+      },
+      {
+        "id": "6sports",
+        "type": "sports",
+        "name": "Joola Racket Set",
+        "company": "Doms",
+        "price": 249,
+        "trendRating": 8.3,
+        "featuredIndex": 7,
+        "numberOfPurchased": 1697,
+        "imgSrc": "../assets/image/sports/TableTennis/zoom_j-essential-duel.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Fantastic set for table tennis enthusiasts.",
+            "userName": "Emily Harris"
+          },
+          {
+            "star": 4,
+            "comment": "Good quality but slightly heavy.",
+            "userName": "Matthew Clark"
+          }
+        ]
+      },
+      {
+        "id": "7sports",
+        "type": "sports",
+        "name": "Racket Set",
+        "company": "Strathmore",
+        "price": 889,
+        "trendRating": 8.7,
+        "featuredIndex": 2,
+        "numberOfPurchased": 1532,
+        "imgSrc": "../assets/image/sports/TableTennis/zoom_j-colorato-racket-set.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Excellent quality, ideal for competitive play.",
+            "userName": "Anna Robinson"
+          },
+          {
+            "star": 4,
+            "comment": "Great but a bit pricey.",
+            "userName": "Christopher Walker"
+          }
+        ]
+      },
+      {
+        "id": "8sports",
+        "type": "sports",
+        "name": "Zoom Sunflex Pong TT Set",
+        "company": "Copic",
+        "price": 309,
+        "trendRating": 9.2,
+        "featuredIndex": 8,
+        "numberOfPurchased": 2013,
+        "imgSrc": "../assets/image/sports/TableTennis/zoom_sunflex-pong-tt-set.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "High-end set for serious players.",
+            "userName": "Victoria Hall"
+          },
+          {
+            "star": 4,
+            "comment": "Very good but quite expensive.",
+            "userName": "Anthony King"
+          }
+        ]
+      },
+      {
+        "id": "9sports",
+        "type": "sports",
+        "name": "Argentina Jersey",
+        "company": "Unknown",
+        "price": 299,
+        "trendRating": 6.2,
+        "featuredIndex": 3,
+        "numberOfPurchased": 2997,
+        "imgSrc": "../assets/image/sports/FootballJersys/argentina-adidas-home-shirt-2024-with-messi-10-printing_ss5_p-201398952+u-fufux0wkpuwzalts0pxq+v-bx3le68oso0rqfamjzwj.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Great quality and perfect fit.",
+            "userName": "Patricia Wright"
+          },
+          {
+            "star": 4,
+            "comment": "Comfortable but colors fade quickly.",
+            "userName": "Joshua Lopez"
+          }
+        ]
+      },
+      {
+        "id": "10sports",
+        "type": "sports",
+        "name": "Barcelona Jersey",
+        "company": "Prismacolor",
+        "price": 1173,
+        "trendRating": 6.9,
+        "featuredIndex": 9,
+        "numberOfPurchased": 2520,
+        "imgSrc": "../assets/image/sports/FootballJersys/barcelona-nike-home-dri-fit-adv-match-shirt-2024-25_ss5_p-200889581+u-edbeajh1biq4sma7lq1p+v-35p0fbx8wxxe3zolteeb.jpg",
+        "reviews": [
+          {
+            "star": 5,
+            "comment": "Excellent jersey for fans. High quality.",
+            "userName": "Samantha Green"
+          },
+          {
+            "star": 4,
+            "comment": "Good fit but the material could be better.",
+            "userName": "Alexander Scott"
+          }
+        ]
+      }
+    ]
+  }
+  
