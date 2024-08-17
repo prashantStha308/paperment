@@ -326,28 +326,28 @@ nav{
 /* For section 2 */
 
 #section2Element1{
-    background-image: url(./assets/image/academics/CodingBook/Eloquent\ JavaScript.jpg);
+    background-image: url(./assets/image/academics/CodingBook/eloquentJavaScript.jpg);
     background-position: 50% 10%;
     background-size: 30rem;
     height: 28rem;
 }
 
 #section2Element2{
-    background-image: url(./assets/image/academics/SchoolBooks/Principles\ of\ Biology\ for\ Grade\ 11.jpg);
+    background-image: url(./assets/image/academics/SchoolBooks/principlesOfBiologyForGrade11.jpg);
     background-position: 50% 10%;
     background-size: 35rem;
     height: 14rem;
 }
 
 #section2Element3{
-    background-image: url(./assets/image/academics/CodingBook/JavaScript\ for\ Beginners.jpeg);
+    background-image: url(./assets/image/academics/CodingBook/javaScriptForBeginners.jpeg);
     background-position: 50% 30%;
     background-size: 30rem;
     height: 14rem;
 }
 
 #section2Element4{
-    background-image: url(./assets/image/academics/CodingBook/Learn\ Kotlin\ Programming.jpg);
+    background-image: url(./assets/image/academics/CodingBook/kotlinTextBook.png);
     background-position: 50% 20%;
     background-size: 30rem;
     height: 28rem;
