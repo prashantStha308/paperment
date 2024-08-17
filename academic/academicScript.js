@@ -1,6 +1,6 @@
 
 // Fetching the data from ./academicProduction.json
-function fetchArtProduct(callback) {
+function fetchAcademicProduct(callback) {
     fetch('./academicProduct.json').then(response => {
         if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
@@ -147,14 +147,14 @@ function generateTile( sortedArray , section ){
 
 
 // Use the function with a callback
-fetchArtProduct(artProduct => {
-    // Perform operations on artProduct here
+fetchAcademicProduct(academicProduct => {
+    // Perform operations on academicProduct here
 
-    console.log( artProduct.artProduct.imgSrc )
+    console.log( academicProduct.academicProduct.imgSrc )
 
-    const sortedOnTrend = sortArray( artProduct.artProduct , 'trendRating' );
-    const sortedOnfeatured = sortArray( artProduct.artProduct , 'featuredIndex' );
-    const sortedOnPurchased = sortArray( artProduct.artProduct , 'numberOfPurchased' );
+    const sortedOnTrend = sortArray( academicProduct.academicProduct , 'trendRating' );
+    const sortedOnfeatured = sortArray( academicProduct.academicProduct , 'featuredIndex' );
+    const sortedOnPurchased = sortArray( academicProduct.academicProduct , 'numberOfPurchased' );
 
     generateTile( sortedOnfeatured , 'featured' );
     generateTile( sortedOnPurchased , 'topPurchased' );
