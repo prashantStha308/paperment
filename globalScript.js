@@ -33,7 +33,6 @@ let slideShow; //A variable to store the unique ID sent by the setInterval funct
 
 // startSlideShow() function makes the image slider move automatically
 function startSlideShow() {
-
   // The setInterval function increments the index of current slide and passes it to the showSlides function every 2 seconds/2000 mili seconds
   slideShow = setInterval(() => {
     currentSlideIndex++;
@@ -53,14 +52,12 @@ startSlideShow(); // Start the automatic slideshow
 // Go To Top Section
 
 function goToTop() {
-
   // The offsetTop returns the value top position of the element
   let scrollDiv = document.getElementById("header").offsetTop;
 
   // The windows.scrollTo() method moves the page to a destination element, in this case, the scrollDiv which has the offsetTop value of the header element
   window.scrollTo({ top: scrollDiv, behavior: "smooth" });
 }
-
 
 // For product page section
 
@@ -98,14 +95,83 @@ function fetchChildrenProduct(callback) {
 function fetchSportsProduct(callback) {
   fetchProductData("./sports/sportsProduct.json", callback);
 }
+// End of fetching json files
+
+let currentPrices = {};
+
+function calculateArt(id, increment) {
+  fetchArtProduct((product) => {
+    let productFound = false;
+
+    for (let i = 0; i < product.artProduct.length; i++) {
+      if (product.artProduct[i].id === id) {
+        productFound = true;
+        let productPrice = product.artProduct[i].price;
+
+        if (!currentPrices[id]) {
+          currentPrices[id] = 0;
+        }
+
+        currentPrices[id] += productPrice * increment;
+        console.log(currentPrices[id]);
+        break;
+      }
+    }
+
+    if (!productFound) {
+      console.error("Product Not Found");
+    }
+
+    const totalPrice = document.getElementById("total");
+    totalPrice.textContent = currentPrices[id];
+  });
+}
+
+const incrementButton = document.getElementById("incrementButton");
+const decrementButton = document.getElementById("decrementButton");
+
+function productQuantity(id, type, increment) {
+  console.log("runing");
+  console.log(type);
+  console.log(id);
+  switch (type) {
+    case "art":
+      calculateArt(id, increment);
+      break;
+    case "academic":
+      calculateAcademics(id, increment);
+      break;
+    case "children":
+      calculateChildren(id, increment);
+      break;
+    case "sports":
+      calculateSports(id, increment);
+      break;
+    default:
+      console.log("error");
+  }
+}
 
 // Shows the product image in the product page
 function showArt(id) {
-  
   const productImage = document.getElementById("mainProductImg");
   fetchArtProduct((artProduct) => {
     for (let i = 0; i < artProduct.artProduct.length; i++) {
+      let productId = artProduct.artProduct[i].id;
+      let productType = artProduct.artProduct[i].type;
+
+      incrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}' , 1)`
+      );
+
+      decrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', -1)`
+      );
+
       if (artProduct.artProduct[i].id == id) {
+        console.log("imageSource" + artProduct.artProduct[i].id);
         productImage.style.backgroundImage = `url( ${artProduct.artProduct[i].imgSrc} )`;
       }
     }
@@ -113,10 +179,21 @@ function showArt(id) {
 }
 
 function showAcademics(id) {
-  
   const productImage = document.getElementById("mainProductImg");
   fetchAcademicProduct((academicProduct) => {
     for (let i = 0; i < academicProduct.academicProduct.length; i++) {
+      let productId = academicProduct.academicProduct[i].id;
+      let productType = academicProduct.academicProduct[i].type;
+
+      incrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', 1)`
+      );
+      decrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', -1)`
+      );
+
       if (academicProduct.academicProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${academicProduct.academicProduct[i].imgSrc} )`;
       }
@@ -125,10 +202,21 @@ function showAcademics(id) {
 }
 
 function showChildren(id) {
-  
   const productImage = document.getElementById("mainProductImg");
   fetchChildrenProduct((childrenProduct) => {
     for (let i = 0; i < childrenProduct.childrenProduct.length; i++) {
+      let productId = childrenProduct.childrenProduct[i].id;
+      let productType = childrenProduct.childrenProduct[i].type;
+
+      incrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', 1)`
+      );
+      decrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', -1)`
+      );
+
       if (childrenProduct.childrenProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${childrenProduct.childrenProduct[i].imgSrc} )`;
       }
@@ -137,10 +225,21 @@ function showChildren(id) {
 }
 
 function showSports(id) {
-  
   const productImage = document.getElementById("mainProductImg");
   fetchSportsProduct((sportsProduct) => {
     for (let i = 0; i < sportsProduct.sportsProduct.length; i++) {
+      let productId = sportsProduct.sportsProduct[i].id;
+      let productType = sportsProduct.sportsProduct[i].type;
+
+      incrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', 1)`
+      );
+      decrementButton.setAttribute(
+        "onclick",
+        `productQuantity('${productId}', '${productType}', -1)`
+      );
+
       if (sportsProduct.sportsProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${sportsProduct.sportsProduct[i].imgSrc} )`;
       }
@@ -172,13 +271,10 @@ function showProduct(type, id) {
 const imageSlide = document.getElementsByClassName("mainImageSlider")[0];
 const mainBody = document.getElementById("mainBody");
 const productBody = document.getElementById("productBody");
-const footer = document.getElementsByTagName( "footer" )[1];
+const footer = document.getElementsByTagName("footer")[1];
 
 function displayProduct(type, id) {
-
   clearInterval(slideShow);
-
-  console.log(imageSlide)
 
   imageSlide.classList.add("revokeDisplay");
   mainBody.classList.add("revokeDisplay");
@@ -189,17 +285,13 @@ function displayProduct(type, id) {
   showProduct(type, id);
 }
 
-
 // function to return to normal page from product page
-function goBack(){
-
+function goBack() {
   imageSlide.classList.remove("revokeDisplay");
   mainBody.classList.remove("revokeDisplay");
   footer.classList.remove("revokeDisplay");
   productBody.classList.add("revokeDisplay");
-
 }
-
 
 // Functions for checkboxes
 // For color checkbox
@@ -223,10 +315,9 @@ function checkColor(color) {
 
 const dimensionCheckboxes = document.getElementsByClassName("dimentionChoice");
 
-Array.from(dimensionCheckboxes).forEach(element => {
-  
+Array.from(dimensionCheckboxes).forEach((element) => {
   element.addEventListener("click", function () {
-    checkDimension(element.id); 
+    checkDimension(element.id);
   });
 });
 

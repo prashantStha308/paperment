@@ -1,202 +1,206 @@
-@import url('https://fonts.cdnfonts.com/css/merge-one'); /* merge one font */
+@import url("https://fonts.cdnfonts.com/css/merge-one"); /* merge one font */
 
-p{
-    margin: 0;
-    padding: 0;
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#mainBody {
+  margin: 0;
 }
 
 /* Start of heading sections */
-#headerContainer{
-    position: absolute;
-    /* border: 1px solid red; */
-    height: 10%;
-    width: 100%;
-    background-color: transparent;
-    transition: all 0.3s ease;
-    z-index: 1000;
+#headerContainer {
+  position: absolute;
+  /* border: 1px solid red; */
+  height: 10%;
+  width: 100%;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  z-index: 1000;
 }
 
-.beActive{
-    background-color: var(--bodyColor);
+.beActive {
+  background-color: var(--bodyColor);
 }
 
-header{
-    display: flex;
-    width: 100%;
-    position: fixed;
-    background-color: transparent; 
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: transparent;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.companyName{
-    position: absolute;
-    margin: 10px 0 0 30px;
-    padding: 0;
-    font-family: Rochester,Arial, Helvetica, sans-serif;
-    font-size: 1.95rem;
-    color: var(--companyNameColor);
-    cursor: default;
+.companyName {
+  position: absolute;
+  margin: 10px 0 0 30px;
+  padding: 0;
+  font-family: Rochester, Arial, Helvetica, sans-serif;
+  font-size: 1.95rem;
+  color: var(--companyNameColor);
+  cursor: default;
 }
 
-nav{
-    width: 70%;
-    margin-left: 40%;
-    height: 10%;
+nav {
+  width: 70%;
+  margin-left: 40%;
+  height: 10%;
 }
 
-#headerListContainer{
-    display: flex;
-    width: 100%;
-    padding: 0;
-    justify-content: space-evenly;
+#headerListContainer {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  justify-content: space-evenly;
 }
 
-.headerList{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.2rem;
-    font-family: Itim,Arial, Helvetica, sans-serif;
-    color: var(--textColorLightGray);
-    transition: all 0.3s ease;
+.headerList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: Itim, Arial, Helvetica, sans-serif;
+  color: var(--textColorLightGray);
+  transition: all 0.3s ease;
 }
 
-.headerList:hover{
-    color: var(--highlightText)
+.headerList:hover {
+  color: var(--highlightText);
 }
 
-#iconContainer{
-    display: flex;
-    width: 12%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0 10px 0 0;
+#iconContainer {
+  display: flex;
+  width: 12%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 10px 0 0;
 }
 
-.icon{
-    width: 23px;
-    padding: 5px;
-    margin: 5px;
-    stroke: var(--highlightBackground);
+.icon {
+  width: 23px;
+  padding: 5px;
+  margin: 5px;
+  stroke: var(--highlightBackground);
 }
 
-#userProfilePicture{
-    min-width: 25px;
-    min-height: 25px;
-    border: 1px solid var(--borderLight);
-    border-radius: 100%;
-    background-color: rgba(255, 255, 255, 0.419);
+#userProfilePicture {
+  min-width: 25px;
+  min-height: 25px;
+  border: 1px solid var(--borderLight);
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.419);
 }
 /* End of header section */
 /* -------------------------- */
 /* Start of Hero Section */
 
-#heroNumbers{
-    box-sizing: border-box;
-    margin: 80px 0 30px 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    background-position: center;
-    padding: 5px 10px;
-    color: var(--textColorLight);
-    font-family: Itim,Arial, Helvetica, sans-serif;
+#heroNumbers {
+  box-sizing: border-box;
+  margin: 80px 0 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-position: center;
+  padding: 5px 10px;
+  color: var(--textColorLight);
+  font-family: Itim, Arial, Helvetica, sans-serif;
 }
 
-#heroImage{
-    width: 100vw;
-    height: 41.962rem;
-    object-fit: cover;
-    margin: 0px 0 5px 0;
-    border: none;
-    border-radius: 10px;
+#heroImage {
+  width: 100vw;
+  height: 41.962rem;
+  object-fit: cover;
+  margin: 0px 0 5px 0;
+  border: none;
+  border-radius: 10px;
 }
 
-.heroNumberBig{
-    font-size: 4rem;
-    font-weight: bold;
-    line-height: 35px;
+.heroNumberBig {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 35px;
 }
 
-.heroNumberSmall{
-    font-size: 1.875rem;
-    font-weight: 400;
-    margin-right: 20px;
-    z-index: -1;
+.heroNumberSmall {
+  font-size: 1.875rem;
+  font-weight: 400;
+  margin-right: 20px;
+  z-index: -1;
 }
 
 /* End of Hero Section */
 
 /* Start of search section */
 
-#searchBarSection{
-    box-sizing: border-box;
-    width: 100%;
-    height: 4rem;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 60px 10px 20px;
-    margin: 0 0 30px 0;
+#searchBarSection {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 60px 10px 20px;
+  margin: 0 0 30px 0;
 }
 
-#searchButtonContainer{
-    width: 37%;
-    height: 100%;
+#searchButtonContainer {
+  width: 37%;
+  height: 100%;
 }
 
-#searchButton{
-    width: 100%;
-    height: 100%;
-    padding: 7px 10px;
-    font-size: 1.15rem;
-    font-family: 'Merge One', sans-serif;
-    border-radius: 15px;
-    border: 1.5px solid var(--borderLight);
-    background-color: var(--buttonBackground);
-    color: var(--buttonText);
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.271);
-    transition: all 0.3s ease-out;
+#searchButton {
+  width: 100%;
+  height: 100%;
+  padding: 7px 10px;
+  font-size: 1.15rem;
+  font-family: "Merge One", sans-serif;
+  border-radius: 15px;
+  border: 1.5px solid var(--borderLight);
+  background-color: var(--buttonBackground);
+  color: var(--buttonText);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.271);
+  transition: all 0.3s ease-out;
 }
 
-#searchButton:hover{
-    border: 1px solid var(--borderDark);
-    background-color: var(--buttonText);
-    color: var(--buttonBackground);
+#searchButton:hover {
+  border: 1px solid var(--borderDark);
+  background-color: var(--buttonText);
+  color: var(--buttonBackground);
 }
 
-#searchBarContainerHome{
-    width: 57%;
-    height: 100%;
-    border-radius: 10px;
-    padding: 0 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--searchBarBackground);
-    border: 1px solid var(--borderDark);
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.271);
+#searchBarContainerHome {
+  width: 57%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--searchBarBackground);
+  border: 1px solid var(--borderDark);
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.271);
 }
 
-#searchIconHome{
-    width: 30px;
+#searchIconHome {
+  width: 30px;
 }
 
-#searchedItems{
-    width: 90%;
-    height: 60%;
-    /* padding: 7px 10px; */
-    border: none;
-    outline: none;
-    font-size: 1.15rem;
-    font-family: 'Merge One', sans-serif;
-    background-color: var(--searchBarBackground);
-    color: var(--textColorLight);
+#searchedItems {
+  width: 90%;
+  height: 60%;
+  /* padding: 7px 10px; */
+  border: none;
+  outline: none;
+  font-size: 1.15rem;
+  font-family: "Merge One", sans-serif;
+  background-color: var(--searchBarBackground);
+  color: var(--textColorLight);
 }
 
 /* End of search section */
@@ -204,274 +208,268 @@ nav{
 /* Start of Shop Section */
 
 #shop {
-    margin: 80px 0 0 0;
-    display: grid;
-    width: 100%;
-    height:auto;
-    grid-template-rows: auto auto auto auto auto;
-    align-items: start; /* Aligns the items to the start of the grid container */
-    justify-items: center;
-    gap: 30px; /* Adds space between the sections */
+  margin: 80px 0 0 0;
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-rows: auto auto auto auto auto;
+  align-items: start; /* Aligns the items to the start of the grid container */
+  justify-items: center;
+  gap: 30px; /* Adds space between the sections */
 }
 
 .shopSectionContainer {
-    width: 87%;
-    height: auto; 
-    margin: 20px 0 20px 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    align-items: center;
-    align-content: center;
-    background-color: var(--shopBackgroundLight);
-    padding: 30px;
-    border-radius: 20px;
-    /* border: 1px solid red; */
+  width: 87%;
+  height: auto;
+  margin: 20px 0 20px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  background-color: var(--shopBackgroundLight);
+  padding: 30px;
+  border-radius: 20px;
+  /* border: 1px solid red; */
 }
 
 .shopElements {
-    position: relative;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: 20px;
-    background-color: var(--shopElementBackgroundLight);
-    filter: brightness(0.9);
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--shopElementBackgroundLight);
+  filter: brightness(0.9);
 
-    background-repeat: no-repeat;
-    object-fit: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
 }
 
-.fade{
-    position: absolute;
-    top: 0;
-    border-radius: 20px;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.638) , transparent );
-    z-index: 10;
-    transition: all 0.5s ease;
+.fade {
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.638), transparent);
+  z-index: 10;
+  transition: all 0.5s ease;
 }
 
-.shopElements:hover .fade{
-    opacity: 1;
+.shopElements:hover .fade {
+  opacity: 1;
 }
 
-.sectionHeading{
-    font-size: 1.2rem;
-    font-family: 'Merge One', sans-serif;
+.sectionHeading {
+  font-size: 1.2rem;
+  font-family: "Merge One", sans-serif;
 }
 
 #shopSection1 {
-    grid-template-areas: 
-        "shopHeading1 shopHeading1 shopHeading1"
-        "sectionElement1 sectionElement2 sectionElement4"
-        "sectionElement1 sectionElement2 sectionElement4"
-        "sectionElement1 sectionElement3 sectionElement3"
-        "sectionElement1 sectionElement3 sectionElement3";
+  grid-template-areas:
+    "shopHeading1 shopHeading1 shopHeading1"
+    "sectionElement1 sectionElement2 sectionElement4"
+    "sectionElement1 sectionElement2 sectionElement4"
+    "sectionElement1 sectionElement3 sectionElement3"
+    "sectionElement1 sectionElement3 sectionElement3";
 }
 
 #shopSection2 {
-
-    grid-template-areas: 
-        "shopHeading2 shopHeading2 shopHeading2"
-        "sectionElement5 sectionElement6 sectionElement8"
-        "sectionElement5 sectionElement6 sectionElement8"
-        "sectionElement5 sectionElement7 sectionElement8";
+  grid-template-areas:
+    "shopHeading2 shopHeading2 shopHeading2"
+    "sectionElement5 sectionElement6 sectionElement8"
+    "sectionElement5 sectionElement6 sectionElement8"
+    "sectionElement5 sectionElement7 sectionElement8";
 }
 
-
 #shopSection3 {
-
-    grid-template-areas: 
+  grid-template-areas:
     "shopHeading2 shopHeading2 shopHeading2"
-        "sectionElement9 sectionElement10 sectionElement12"
-        "sectionElement9 sectionElement10 sectionElement12"
-        "sectionElement9 sectionElement11 sectionElement12"
-        "sectionElement9 sectionElement11 sectionElement12";
+    "sectionElement9 sectionElement10 sectionElement12"
+    "sectionElement9 sectionElement10 sectionElement12"
+    "sectionElement9 sectionElement11 sectionElement12"
+    "sectionElement9 sectionElement11 sectionElement12";
 }
 
 /* Adding images to the divs */
-#section1Element1{
-    background-image: url(./assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.png);
-    background-position: top;
-    height: 28rem;
-
+#section1Element1 {
+  background-image: url(./assets/image/Art_Supplies/Faber-Castell/goldFaberAqua-faberCastell.png);
+  background-position: top;
+  height: 28rem;
 }
 
-#section1Element2{
-    background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms.jpg);
-    background-position: top;
-    background-size: 97%;
-    height: 14rem;
+#section1Element2 {
+  background-image: url(./assets/image/Art_Supplies/Doms/brushPen-Doms.jpg);
+  background-position: top;
+  background-size: 97%;
+  height: 14rem;
 }
 
-#section1Element3{
-    background-image: url(./assets/image/Art_Supplies/tools/brushSet.jpg);
-    background-position: 50% 65%;
-    background-size: 97%;
-    height: 14rem;
+#section1Element3 {
+  background-image: url(./assets/image/Art_Supplies/tools/brushSet.jpg);
+  background-position: 50% 65%;
+  background-size: 97%;
+  height: 14rem;
 }
 
-#section1Element4{
-    background-image: url(./assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg);
-    background-position: 50% 50%;
-    background-size: 97%;
-    height: 14rem;
+#section1Element4 {
+  background-image: url(./assets/image/Art_Supplies/Camel/watercolor-camel-small.jpg);
+  background-position: 50% 50%;
+  background-size: 97%;
+  height: 14rem;
 }
 
 /* For section 2 */
 
-#section2Element1{
-    background-image: url(./assets/image/academics/CodingBook/eloquentJavaScript.jpg);
-    background-position: 50% 10%;
-    background-size: 30rem;
-    height: 28rem;
+#section2Element1 {
+  background-image: url(./assets/image/academics/CodingBook/eloquentJavaScript.jpg);
+  background-position: 50% 10%;
+  background-size: 30rem;
+  height: 28rem;
 }
 
-#section2Element2{
-    background-image: url(./assets/image/academics/SchoolBooks/principlesOfBiologyForGrade11.jpg);
-    background-position: 50% 10%;
-    background-size: 35rem;
-    height: 14rem;
+#section2Element2 {
+  background-image: url(./assets/image/academics/SchoolBooks/principlesOfBiologyForGrade11.jpg);
+  background-position: 50% 10%;
+  background-size: 35rem;
+  height: 14rem;
 }
 
-#section2Element3{
-    background-image: url(./assets/image/academics/CodingBook/javaScriptForBeginners.jpeg);
-    background-position: 50% 30%;
-    background-size: 30rem;
-    height: 14rem;
+#section2Element3 {
+  background-image: url(./assets/image/academics/CodingBook/javaScriptForBeginners.jpeg);
+  background-position: 50% 30%;
+  background-size: 30rem;
+  height: 14rem;
 }
 
-#section2Element4{
-    background-image: url(./assets/image/academics/CodingBook/kotlinTextBook.png);
-    background-position: 50% 20%;
-    background-size: 30rem;
-    height: 28rem;
+#section2Element4 {
+  background-image: url(./assets/image/academics/CodingBook/kotlinTextBook.png);
+  background-position: 50% 20%;
+  background-size: 30rem;
+  height: 28rem;
 }
 
 /* For Section 3 */
 
-#section3Element1{
-    background-image: url(./assets/image/sports/Football/168ace6b4169.jpg);
-    background-position: 50% 40%;
-    background-size: 30rem;
-    height: 28rem;
+#section3Element1 {
+  background-image: url(./assets/image/sports/Football/168ace6b4169.jpg);
+  background-position: 50% 40%;
+  background-size: 30rem;
+  height: 28rem;
 }
 
-#section3Element2{
-    background-image: url(./assets/image/sports/Cricket/SF-Synthetic-Cricket-Ball-768x768.jpg);
-    background-position: 50% 30%;
-    background-size: 30rem;
-    height: 14rem;
+#section3Element2 {
+  background-image: url(./assets/image/sports/Cricket/SF-Synthetic-Cricket-Ball-768x768.jpg);
+  background-position: 50% 30%;
+  background-size: 30rem;
+  height: 14rem;
 }
 
-#section3Element3{
-    background-image: url(./assets/image/sports/Basketball/ni_bk_00036_large.jpg);
-    background-position: 50% 40%;
-    background-size: 30rem;
-    height: 14rem;
+#section3Element3 {
+  background-image: url(./assets/image/sports/Basketball/ni_bk_00036_large.jpg);
+  background-position: 50% 40%;
+  background-size: 30rem;
+  height: 14rem;
 }
 
-#section3Element4{
-    background-image: url(./assets/image/sports/TableTennis/zoom_j-essential-duel.jpg);
-    background-position: 50% 20%;
-    background-size: 97%;
-    height: 28rem;
+#section3Element4 {
+  background-image: url(./assets/image/sports/TableTennis/zoom_j-essential-duel.jpg);
+  background-position: 50% 20%;
+  background-size: 97%;
+  height: 28rem;
 }
 
 /* For section 4 */
 
-#shopSection4{
-    display: grid;
-    align-items: start;
-    width: 87%;
-    height: auto; 
-    margin: 20px 0 20px 0;
-    background-color: var(--shopBackgroundLight);
-    padding: 30px;
-    border-radius: 20px;
-    font-family: Istok Web,sans-serif;
+#shopSection4 {
+  display: grid;
+  align-items: start;
+  width: 87%;
+  height: auto;
+  margin: 20px 0 20px 0;
+  background-color: var(--shopBackgroundLight);
+  padding: 30px;
+  border-radius: 20px;
+  font-family: Istok Web, sans-serif;
 }
 
-#salesMainShop{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+#salesMainShop {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
-#salesHeading{
-    width: 100%;
-    margin: 0 0 20px 0;
+#salesHeading {
+  width: 100%;
+  margin: 0 0 20px 0;
 }
 
-#section4Element1{
-    width: 65%;
-    height: 15rem;
-    display: flex;
-    padding: 15px;
-    justify-content: flex-start;
-    background-color: transparent;
+#section4Element1 {
+  width: 65%;
+  height: 15rem;
+  display: flex;
+  padding: 15px;
+  justify-content: flex-start;
+  background-color: transparent;
 }
 
-#salesBigImg{
-    background-image: url(./assets/image/sports/Cricket/ew-bat-pellara-4-copy__09758.1656395161.600.600.jpg);
-    width: 25rem;
-    height: 14rem;
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    filter: brightness(0.8);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+#salesBigImg {
+  background-image: url(./assets/image/sports/Cricket/ew-bat-pellara-4-copy__09758.1656395161.600.600.jpg);
+  width: 25rem;
+  height: 14rem;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  filter: brightness(0.8);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-#salesLeftTextArea{
-    padding: 0 20px;
-    width: 27rem;
-    height: 13.75rem;
-    font-size: 1.4rem;
-    line-height: 50px;
-    background-color: white;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+#salesLeftTextArea {
+  padding: 0 20px;
+  width: 27rem;
+  height: 13.75rem;
+  font-size: 1.4rem;
+  line-height: 50px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-#section4Element2{
-    width: 19rem;
-    height: 16.8rem;
-    display: grid;
-    align-content: center;
-    background-color: transparent;
+#section4Element2 {
+  width: 19rem;
+  height: 16.8rem;
+  display: grid;
+  align-content: center;
+  background-color: transparent;
 }
 
-#salesSmallImg{
-    background-image: url(./assets/image/sports/Badminton/yonexBatmintonBatSet.jpg);
-    height: 9rem;
-    width: 15rem;
-    background-position: center;
-    background-size: 15rem;
-    background-repeat: no-repeat;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    filter: brightness(0.8);
+#salesSmallImg {
+  background-image: url(./assets/image/sports/Badminton/yonexBatmintonBatSet.jpg);
+  height: 9rem;
+  width: 15rem;
+  background-position: center;
+  background-size: 15rem;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  filter: brightness(0.8);
 }
 
-#salesRightTextArea{
-    box-sizing: border-box;
-    width: 15rem;
-    height: 5rem;
-    font-size: 1.2rem;
-    line-height: 25px;
-    background-color: white;
-    padding: 0 5px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#salesRightTextArea {
+  box-sizing: border-box;
+  width: 15rem;
+  height: 5rem;
+  font-size: 1.2rem;
+  line-height: 25px;
+  background-color: white;
+  padding: 0 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
-
 
 /* End of Shop section */

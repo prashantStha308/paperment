@@ -121,10 +121,20 @@
               <div id="rightBottomContainer">
                   <div id="bottomTopContainer">
                       <h2 id="productName"> Product Description </h2>
-                      <button class="addToCart">
-                          <p>Add To Cart</p>
-                          <img src="../assets/icons/shoppingCart.svg" class="icon" alt="">
-                      </button>
+                    <div id="productQuantityContainer" >
+                        <div id="productQuantity">
+                            <button class="quantityButton" id="decrementButton" > &minus; </button>
+                            <textarea name="userQuantity" id="userQuantity"></textarea>
+                            <button class="quantityButton" id="incrementButton" > &plus; </button>
+                        </div>
+
+                        <p id="totalPrice"> Price : <span id="total"></span> </p>
+
+                        <button class="addToCart">
+                            Add To Cart
+                              <img src="../assets/icons/shoppingCart.svg" class="icon" alt="">
+                          </button>
+                    </div>
                   </div>
   
                   <div id="productDescriptionContainer">
