@@ -33,12 +33,10 @@ function fetchArtProduct(callback) {
     });
 }
 
-// copy from here
 // The sortArray function uses insertion sort to sort the array
 function sortArray(array, property) {
   // Create a copy of the array to avoid mutating the original
   const arr = array.slice();
-
   for (let i = 1; i < arr.length; i++) {
     let key = arr[i];
     let j = i - 1;
@@ -49,12 +47,9 @@ function sortArray(array, property) {
     }
     arr[j + 1] = key;
   }
-
   return arr;
 }
-
 // Tile generator
-
 function createTile(product, container) {
   let type = product.type;
   // creating tile
@@ -63,7 +58,7 @@ function createTile(product, container) {
   tile.setAttribute(
     "onclick",
     `displayProduct('${product.type}' , '${product.id}')`
-  ); //copy this line to every other script
+  ); 
 
   // creating tile image
   const tileImage = document.createElement("div");

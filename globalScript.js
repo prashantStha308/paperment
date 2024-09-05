@@ -80,56 +80,70 @@ function fetchProductData(url, callback) {
 }
 
 // functions to evoke the main fetch functions
+// Fetches data from artProduct.json
 function fetchArtProduct(callback) {
   fetchProductData("./art/artProduct.json", callback);
 }
 
+// Fetches data from academicProduct.json
 function fetchAcademicProduct(callback) {
   fetchProductData("./academic/academicProduct.json", callback);
 }
 
+// Fetches data from childrenProduct.json
 function fetchChildrenProduct(callback) {
   fetchProductData("./childrenBook/childrenProduct.json", callback);
 }
 
+// Fetches data from sportsProduct.json
 function fetchSportsProduct(callback) {
   fetchProductData("./sports/sportsProduct.json", callback);
 }
 // End of fetching json files
 
+// An object to hold datas of price details of product according to the user
 let currentPrices = {};
 
+// Function to calculate the price of art products
 function calculateArt(id, increment) {
   fetchArtProduct((product) => {
+
+    const totalPrice = document.getElementById("total");
+
+    totalPrice.textContent = '';
     let productFound = false;
 
+    // Searching for the product with the received ID
     for (let i = 0; i < product.artProduct.length; i++) {
-      if (product.artProduct[i].id === id) {
+      if (product.artProduct[i].id == id) {
         productFound = true;
+        // storing the value of the found product
         let productPrice = product.artProduct[i].price;
+        console.log(productPrice);
+        console.log(product.artProduct[i].name);
 
         if (!currentPrices[id]) {
           currentPrices[id] = 0;
         }
-
+        // Calculating the total price based on how many product does the user needs
         currentPrices[id] += productPrice * increment;
-        console.log(currentPrices[id]);
         break;
       }
     }
-
+    // In case the product wasn't found in the database, print error
     if (!productFound) {
       console.error("Product Not Found");
     }
-
-    const totalPrice = document.getElementById("total");
+    // Updating the DOM
     totalPrice.textContent = currentPrices[id];
   });
 }
-
+// Capturing the increment and decrement buttons
 const incrementButton = document.getElementById("incrementButton");
 const decrementButton = document.getElementById("decrementButton");
 
+// The productQuantity() function is triggered when the user presses any of the increment
+// or decrement button. This function calls other function based on the received 'type'
 function productQuantity(id, type, increment) {
   console.log("runing");
   console.log(type);
@@ -152,39 +166,47 @@ function productQuantity(id, type, increment) {
   }
 }
 
-// Shows the product image in the product page
+// Shows the product image in the product page, as well as add increment and decrement button while
+// assigning the required parameters
 function showArt(id) {
   const productImage = document.getElementById("mainProductImg");
   fetchArtProduct((artProduct) => {
+    // searching for the matching ID
     for (let i = 0; i < artProduct.artProduct.length; i++) {
-      let productId = artProduct.artProduct[i].id;
-      let productType = artProduct.artProduct[i].type;
-
-      incrementButton.setAttribute(
-        "onclick",
-        `productQuantity('${productId}', '${productType}' , 1)`
-      );
-
-      decrementButton.setAttribute(
-        "onclick",
-        `productQuantity('${productId}', '${productType}', -1)`
-      );
-
+      // If product found
       if (artProduct.artProduct[i].id == id) {
         console.log("imageSource" + artProduct.artProduct[i].id);
         productImage.style.backgroundImage = `url( ${artProduct.artProduct[i].imgSrc} )`;
+
+        let productId = artProduct.artProduct[i].id;
+        let productType = artProduct.artProduct[i].type;
+  
+        // adding onClick event listeners
+        incrementButton.setAttribute(
+          "onclick",
+          `productQuantity('${productId}', '${productType}' , 1)`
+        );
+  
+        decrementButton.setAttribute(
+          "onclick",
+          `productQuantity('${productId}', '${productType}', -1)`
+        );
       }
     }
   });
 }
 
+// Shows the product image in the product page, as well as add increment and decrement button while
+// assigning the required parameters
 function showAcademics(id) {
   const productImage = document.getElementById("mainProductImg");
   fetchAcademicProduct((academicProduct) => {
+    // searching for the matching ID
     for (let i = 0; i < academicProduct.academicProduct.length; i++) {
       let productId = academicProduct.academicProduct[i].id;
       let productType = academicProduct.academicProduct[i].type;
 
+      // adding onClick event listeners
       incrementButton.setAttribute(
         "onclick",
         `productQuantity('${productId}', '${productType}', 1)`
@@ -193,7 +215,7 @@ function showAcademics(id) {
         "onclick",
         `productQuantity('${productId}', '${productType}', -1)`
       );
-
+      // If product found
       if (academicProduct.academicProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${academicProduct.academicProduct[i].imgSrc} )`;
       }
@@ -201,13 +223,17 @@ function showAcademics(id) {
   });
 }
 
+// Shows the product image in the product page, as well as add increment and decrement button while
+// assigning the required parameters
 function showChildren(id) {
   const productImage = document.getElementById("mainProductImg");
   fetchChildrenProduct((childrenProduct) => {
+    // searching for the matching ID
     for (let i = 0; i < childrenProduct.childrenProduct.length; i++) {
       let productId = childrenProduct.childrenProduct[i].id;
       let productType = childrenProduct.childrenProduct[i].type;
 
+      // adding onClick event listeners
       incrementButton.setAttribute(
         "onclick",
         `productQuantity('${productId}', '${productType}', 1)`
@@ -216,7 +242,7 @@ function showChildren(id) {
         "onclick",
         `productQuantity('${productId}', '${productType}', -1)`
       );
-
+      // If product found
       if (childrenProduct.childrenProduct[i].id == id) {
         productImage.style.backgroundImage = `url( ${childrenProduct.childrenProduct[i].imgSrc} )`;
       }
@@ -224,29 +250,34 @@ function showChildren(id) {
   });
 }
 
+// Shows the product image in the product page, as well as add increment and decrement button while
+// assigning the required parameters
 function showSports(id) {
   const productImage = document.getElementById("mainProductImg");
   fetchSportsProduct((sportsProduct) => {
     for (let i = 0; i < sportsProduct.sportsProduct.length; i++) {
-      let productId = sportsProduct.sportsProduct[i].id;
-      let productType = sportsProduct.sportsProduct[i].type;
-
-      incrementButton.setAttribute(
-        "onclick",
-        `productQuantity('${productId}', '${productType}', 1)`
-      );
-      decrementButton.setAttribute(
-        "onclick",
-        `productQuantity('${productId}', '${productType}', -1)`
-      );
-
-      if (sportsProduct.sportsProduct[i].id == id) {
+      if (String(sportsProduct.sportsProduct[i].id) === String(id)) {
         productImage.style.backgroundImage = `url( ${sportsProduct.sportsProduct[i].imgSrc} )`;
+
+        let productId = sportsProduct.sportsProduct[i].id;
+        let productType = sportsProduct.sportsProduct[i].type;
+        console.log(` productId : ${productId}\n productType: ${productType} `)
+
+        incrementButton.setAttribute(
+          "onclick",
+          `productQuantity('${productId}', '${productType}', 1)`
+        );
+        decrementButton.setAttribute(
+          "onclick",
+          `productQuantity('${productId}', '${productType}', -1)`
+        );
       }
     }
   });
 }
 
+// The showProduct() function is triggered when the user presses any product tiles. It then
+// calls other function based on the received "type".
 function showProduct(type, id) {
   switch (type) {
     case "art":
@@ -273,6 +304,8 @@ const mainBody = document.getElementById("mainBody");
 const productBody = document.getElementById("productBody");
 const footer = document.getElementsByTagName("footer")[1];
 
+// The displayProduct() function is triggered when the user presses any product tiles.
+// This function displays the product page showcasing the details about the product pressed
 function displayProduct(type, id) {
   clearInterval(slideShow);
 
@@ -287,6 +320,7 @@ function displayProduct(type, id) {
 
 // function to return to normal page from product page
 function goBack() {
+  currentPrices = {};
   imageSlide.classList.remove("revokeDisplay");
   mainBody.classList.remove("revokeDisplay");
   footer.classList.remove("revokeDisplay");
