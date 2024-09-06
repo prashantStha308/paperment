@@ -307,7 +307,6 @@ const footer = document.getElementsByTagName("footer")[1];
 // The displayProduct() function is triggered when the user presses any product tiles.
 // This function displays the product page showcasing the details about the product pressed
 function displayProduct(type, id) {
-  clearInterval(slideShow);
 
   imageSlide.classList.add("revokeDisplay");
   mainBody.classList.add("revokeDisplay");

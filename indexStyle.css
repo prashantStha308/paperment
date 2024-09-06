@@ -215,6 +215,7 @@ nav {
   grid-template-rows: auto auto auto auto auto;
   align-items: start; /* Aligns the items to the start of the grid container */
   justify-items: center;
+  justify-content: space-between;
   gap: 30px; /* Adds space between the sections */
 }
 
